@@ -14,7 +14,7 @@ http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d
 https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w499524774_b5160000_sleng.m3u8
 
 #EXTINF:-1 tvg-id="belarus1" group-title="Эфирные", Беларусь 1 HD
-http://127.0.0.1:6878/ace/getstream?infohash=2f9f6c93a68ae414d1290495d63d4e2e14d33383
+https://edge50.dc.beltelecom.by/ngtrk/smil:belarus1.smil/chunklist_b5160000_sleng.m3u8
 
 #EXTINF:-1 tvg-id="prnk-tv" group-title="Эфирные", Первый Российский Национальный канал
 https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8
@@ -119,7 +119,7 @@ http://127.0.0.1:6878/ace/getstream?infohash=04375f75f2875d1946155c44aaa13ad0ee8
 http://127.0.0.1:6878/ace/getstream?infohash=a3ce65ae74d25cffc12c4d62fbc3eaba89a6ef72
 
 #EXTINF:-1 tvg-id="ОБЩЕСТВЕННАЯ СЛУЖБА НОВОСТЕЙ" group-title="Новости", ОСН ТВ
-http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
+http://127.0.0.1:6878/ace/getstream?id=4f9a5bb3eb348289dec3272538531acddd41501c&.mp4
 
 #EXTINF:-1 group-title="Новости",Беларусь 24
 http://127.0.0.1:6878/ace/getstream?infohash=c95ab47e2275753ce6ab648c6ac5b12947d71f1d
@@ -244,6 +244,12 @@ http://127.0.0.1:6878/ace/getstream?infohash=3fee4ce1dbc079ff3f302535070d9547988
 #EXTINF:-1 tvg-logo="https://iconape.com/wp-content/png_logo_vector/eurosport-hd-live-logo.png" tvg-id="no_epg_sport" group-title="Спортивные", live Eurosport GOLD
 http://iptv-hls.idc.md:8200/hls/260/live1.m3u8
 
+#EXTINF:-1 group-title="Спортивные", Fast&Funbox HD
+http://127.0.0.1:6878/ace/getstream?id=c811cde690d467a2e45d3c263c4f0960a3933d18&.mp4
+
+#EXTINF:-1 group-title="Спортивные", FightBox HD
+http://127.0.0.1:6878/ace/getstream?id=49b734a5a3365674480089264be00ae28fabb640&.mp4
+
 #EXTINF:-1 tvg-id="start" group-title="Спортивные",Старт HD
 http://127.0.0.1:6878/ace/getstream?infohash=fc5c69847a489f2e0984926534205627989f1896
 
@@ -272,7 +278,7 @@ http://127.0.0.1:6878/ace/getstream?infohash=20be180e057ac43660627ca9fe66eaa6bd6
 http://127.0.0.1:6878/ace/getstream?infohash=8a8f6a325daa9b61370ea7800359b11392219f3c
 
 #EXTINF:-1 tvg-id="match-planeta" group-title="Спортивные", Матч! Планета
-acestream://106c8656fca0ca91a696110467788d202d7111af
+http://127.0.0.1:6878/ace/getstream?id=106c8656fca0ca91a696110467788d202d7111af
 
 #EXTINF:-1 tvg-id="match-premier" group-title="Спортивные", Матч! Премьер HD
 http://127.0.0.1:6878/ace/getstream?infohash=88c482d9e57b1a031c032344f9c00cf7b36da8d9
@@ -296,15 +302,18 @@ http://127.0.0.1:6878/ace/getstream?infohash=fded295edff9d57adb77cf02a08c5f2fcb9
 http://127.0.0.1:6878/ace/getstream?infohash=2d53211689c67c59f91f4d854db97ea2219161ec
 
 #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные",Viju+ Sport
-http://127.0.0.1:6878/ace/getstream?infohash=f6b7553df66ac4bffd4b3ead443b647322d1a7e0
+http://127.0.0.1:6878/ace/getstream?id=dec96c86080c26ddf667ea90adfb513a40007a0b&.mp4
 
 #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные", Футбол
 http://127.0.0.1:6878/ace/getstream?infohash=9d4b38b7218803e1d877b01b3a6c6db1a494bb6a
 
+#EXTINF:-1 tvg-id="myach" group-title="Спортивные", Мяч
+http://127.0.0.1:6878/ace/getstream?id=91dbefa490386529fe80b6a444e08746a735b427&.mp4
+
 #EXTINF:-1 tvg-id="nba-tv" group-title="Спортивные", NBA TV
 http://127.0.0.1:6878/ace/getstream?infohash=42832fbf9a1d3bdcca043e09951d6769fbbe04e7
 
-#EXTINF:-1 tvg-id="kxl-hd" group-title="Спортивные",КХЛ HD
+#EXTINF:-1 tvg-id="kxl-hd" group-title="Спортивные", КХЛ HD
 http://127.0.0.1:6878/ace/getstream?infohash=38c98858c0fc5e670820d2e1d308c71efcaa2ddc
 
 #EXTINF:-1 tvg-id="kxl-hd" group-title="Спортивные", KHL Prime
@@ -337,6 +346,24 @@ http://109.200.130.123:7537/play/a02l
 #EXTINF:-1 tvg-id="mir-basketbola" group-title="Спортивные", Мир баскетбола
 http://127.0.0.1:6878/ace/getstream?infohash=f6fe32f9f31a7b72693a2ede8e5ad039b9ff1677
 
+#EXTINF:-1 group-title="Спортивные" tvg-name="M._Deportes_HD" tvg-logo="M. Deportes HD.png",M. Deportes HD
+http://127.0.0.1:6878/ace/getstream?id=acb510858f34c3c6fd5f79395b031abd6885c2b3&.mp4
+
+#EXTINF:-1 group-title="Спортивные" tvg-name="M._Golf_HD" tvg-logo="M. Golf HD.png",M. Golf HD
+http://127.0.0.1:6878/ace/getstream?id=872608e734992db636eb79426802cd08f4029afb&.mp4
+
+#EXTINF:-1 group-title="Спортивные" tvg-name="M._LaLiga" tvg-logo="M. LaLiga.png",M. LaLiga
+http://127.0.0.1:6878/ace/getstream?id=cc9b7f5fe416069a2110da0909b0f915043c468b&.mp4
+
+#EXTINF:-1 group-title="Спортивные" tvg-name="M._Liga_de_Campeones" tvg-logo="M. Liga de Campeones.png",M. Liga de Campeones
+http://127.0.0.1:6878/ace/getstream?id=e572a5178ff72eed7d1d751a18b4b3419699f370&.mp4
+
+#EXTINF:-1 group-title="Спортивные" tvg-name="Premier_Sports_1_[UK]" tvg-logo="Premier Sports 1 [UK].png",Premier Sports 1 [UK]
+http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565&.mp4
+
+#EXTINF:-1 group-title="Спортивные" tvg-name="Premier_Sports_2_[UK]" tvg-logo="Premier Sports 2 [UK].png",Premier Sports 2 [UK]
+http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537&.mp4
+
 #EXTINF:-1 tvg-id="trace-sport-stars" group-title="Спортивные", Trace Sport Stars
 http://87.120.142.11:18000/Rossiya1
 
@@ -345,6 +372,21 @@ https://top2new.koskoros.ru/top2/premium400/mono.m3u8
 
 #EXTINF:-1 tvg-id="sky-sport-f1-de" group-title="Спортивные", Sky Sport F1 [DE]
 http://127.0.0.1:6878/ace/getstream?infohash=b0999d6facfbae2944b9c7bba442eeea9cd9d4b2
+
+#EXTINF:-1 group-title="Спортивные" tvg-name="Sky_Sports_Arena_[UK]" tvg-logo="Sky Sports Arena [UK].png",Sky Sports Arena [UK]
+http://127.0.0.1:6878/ace/getstream?id=d317a003e8047da2c36a2a2bb2289578c9a3b79c&.mp4
+
+#EXTINF:-1 group-title="Спортивные" tvg-name="Sky_Sports_Cricket_[UK]" tvg-logo="Sky Sports Cricket [UK].png",Sky Sports Cricket [UK]
+http://127.0.0.1:6878/ace/getstream?id=6d95e4b0893e155cc674b84e0763150c445d3ddd&.mp4
+
+#EXTINF:-1 group-title="Спортивные" tvg-name="Sky_Sports_Football_[UK]" tvg-logo="Sky Sports Football [UK].png",Sky Sports Football [UK]
+http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d&.mp4
+
+#EXTINF:-1 group-title="Спортивные" tvg-name="Sky_Sports_Main_Event_[UK]" tvg-logo="Sky Sports Main Event [UK].png",Sky Sports Main Event [UK]
+http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e&.mp4
+
+#EXTINF:-1 group-title="Спортивные" tvg-name="SkySP_PL_[UK]" tvg-logo="SkySP PL [UK].png",SkySP PL [UK]
+http://127.0.0.1:6878/ace/getstream?id=ec5eabe0144ccfffc337e1d6708e2afb81d0638e&.mp4
 
 #EXTINF:-1 tvg-id="fox-sports1-us" group-title="Спортивные", Fox Sports [US]
 http://127.0.0.1:6878/ace/getstream?infohash=df23d9ca9275b354e23156d59b8bc1122441fa47
@@ -682,6 +724,9 @@ http://127.0.0.1:6878/ace/getstream?infohash=6477d56108d979adf1a069b26c820e749b9
 #EXTINF:-1 tvg-id="history" group-title="Познавательные", History HD
 http://127.0.0.1:6878/ace/getstream?infohash=4f7be698925e8df0bc338170a81c390d3cb391ae
 
+#EXTINF:-1 tvg-id="h2" group-title="Познавательные", H2 HD [RU]
+http://127.0.0.1:6878/ace/getstream?id=88e804faf482b3caa0a680c931bdd1578c4bfbee&.mp4
+
 #EXTINF:-1 tvg-id="hgtv" group-title="Познавательные", HGTV Home & Garden HD
 http://127.0.0.1:6878/ace/getstream?infohash=bd367a42e1ff24df65ab5a225974322e043333f2
 
@@ -700,7 +745,7 @@ http://127.0.0.1:6878/ace/getstream?infohash=7f68905586e70b6d2684f6ded8e63673659
 #EXTINF:-1 tvg-id="tlc" group-title="Познавательные",TLC Россия HD
 http://91.146.94.234:10000/play/a05k
 
-#EXTINF:-1 group-title="Познавательные",Мир вокруг
+#EXTINF:-1 group-title="Познавательные", Мир вокруг
 http://127.0.0.1:6878/ace/getstream?infohash=b36ca2884ed1cedd173e96e53337588ed9784437
 
 #EXTINF:-1 tvg-logo="https://bewelltv.org/wp-content/uploads/2021/06/Be-Well-TV-Logo-e1622682652947.png" tvg-id="no_epg" group-title="Познавательные", Wellbeing TV
@@ -823,6 +868,9 @@ http://127.0.0.1:6878/ace/getstream?infohash=2d78749e85f8b62e00b3203709b1de944e3
 #EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные", Travel+Adventure
 http://127.0.0.1:6878/ace/getstream?infohash=6e96ec55341e3bf654d0c9335fffb43f0a7e46a2
 
+#EXTINF:-1 tvg-id="travel-channel" group-title="Познавательные", Travel Channel
+http://127.0.0.1:6878/ace/getstream?id=48566a80593d54be5543583173fd520ce675d5b2&.mp4
+
 #EXTINF:-1 tvg-id="hd-life" group-title="Познавательные",HD Life
 http://127.0.0.1:6878/ace/getstream?infohash=44ffb1bd04a4aa2df86bbca0f29a714772a7abe1
 
@@ -865,7 +913,7 @@ http://127.0.0.1:6878/ace/getstream?infohash=67bfee5e59d305255ce44358f5b6cd487b7
 #EXTINF:-1 group-title="Кино и сериалы", VIJU+ PREMIERE HD
 http://127.0.0.1:6878/ace/getstream?infohash=9808c355077d9f9a8fd937732fe1141a7cbd54db
 
-#EXTINF:-1 group-title="Кино и сериалы",VIJU+ MEGAHIT HD
+#EXTINF:-1 group-title="Кино и сериалы", VIJU+ MEGAHIT HD
 http://127.0.0.1:6878/ace/getstream?infohash=2946debcde707ac6dff8c35f56a02ebefc5e094d
 
 #EXTINF:-1 group-title="Кино и сериалы", VIJU+ COMEDY HD
@@ -877,31 +925,31 @@ http://127.0.0.1:6878/ace/getstream?infohash=0f12577008461ddbdef03d974a23e7f2236
 #EXTINF:-1 tvg-id="ultra-hd-cinema" group-title="Кино и сериалы", UltraHD Cinema 4K
 http://127.0.0.1:6878/ace/getstream?infohash=4447d0a31556f25b0ebce1bac9c8f60c669bc68d
 
-#EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы",Феникс+Кино HD
+#EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы", Феникс+Кино HD
 http://127.0.0.1:6878/ace/getstream?infohash=ac1af534d9413abee090607cd87954d964d2fd91
 
-#EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы",Кинеко HD
+#EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы", Кинеко HD
 http://127.0.0.1:6878/ace/getstream?id=6c6849a17243f967d0c6f04323af9dfde161c3f2
 
-#EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы",Viju TV1000 Русское HD
+#EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы", Viju TV1000 Русское HD
 http://127.0.0.1:6878/ace/getstream?infohash=579f9693b8084c1b8349c4108ab7a69d2953e72f
 
 #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы", Viju TV1000 HD
 http://127.0.0.1:6878/ace/getstream?infohash=b2937e666b87952e13f299d9ee52bd77117f5ccb
 
-#EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы",Viju TV1000 Action HD
+#EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы", Viju TV1000 Action HD
 http://127.0.0.1:6878/ace/getstream?infohash=647c31eee02705588b3d84e6f4359d4c8123585b
 
-#EXTINF:-1 tvg-id="viju-tv1000-novella" group-title="Кино и сериалы",viju TV1000 Новелла
+#EXTINF:-1 tvg-id="viju-tv1000-novella" group-title="Кино и сериалы", viju TV1000 Новелла
 https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Novella_HD.smil/tracks-v1a1/mono.m3u8?filter.tracks=v1v2v3a1&md5=2ZgxAXejNwn3VpWugDjOYA&e=1742618293&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/97/Viju_TV1000_Romantica.svg/revision/latest/scale-to-width-down/284?cb=20240928200507" tvg-id="viju-tv1000-romantica" group-title="Кино и сериалы",viju TV1000 romantica
 https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.m3u8?filter.tracks=v1v2v3a1&md5=dGl6AFJnDNX9roNQ_jM59g&e=1743018185&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 
-#EXTINF:-1 tvg-id="kinowood" group-title="Кино и сериалы",Kinowood HD
+#EXTINF:-1 tvg-id="kinowood" group-title="Кино и сериалы", Kinowood HD
 http://ott.server-iptv.live/1610/video.m3u8?token=S793FB1732
 
-#EXTINF:-1 tvg-id="cinema" group-title="Кино и сериалы",Cinema Космос ТВ
+#EXTINF:-1 tvg-id="cinema" group-title="Кино и сериалы", Cinema Космос ТВ
 http://127.0.0.1:6878/ace/getstream?infohash=4b9aab6ea7a9143085d887918f990d82189d700f
 
 #EXTINF:-1 tvg-id="tv1000-worldkino" group-title="Кино и сериалы", Viasat Kino World
@@ -955,6 +1003,9 @@ http://127.0.0.1:6878/ace/getstream?infohash=04e2902b79a6597748bb0e1d2f047b3bd22
 #EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы", Блокбастер HD
 http://127.0.0.1:6878/ace/getstream?id=6019512392cd7316a5362e275966779bf9011fee
 
+#EXTINF:-1 group-title="Кино и сериалы", О!Кино
+http://127.0.0.1:6878/ace/getstream?id=79fc325adef8b1977b790c8435ff868cb6f75794&.mp4
+
 #EXTINF:-1 group-title="Кино и сериалы", Остросюжетное HD
 http://127.0.0.1:6878/ace/getstream?infohash=da7e8d2f8d00e935946fb17a88d6eab62e7212ef
 
@@ -1004,7 +1055,7 @@ http://127.0.0.1:6878/ace/getstream?infohash=156283f58f21399fb21145d36fd43419da5
 http://127.0.0.1:6878/ace/getstream?infohash=7a19cd742fba7d89ffa491776c38b3008154df36
 
 #EXTINF:-1 tvg-id="rus-hualiang-tv" group-title="Кино и сериалы", Китай ТВ
-https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
+http://127.0.0.1:6878/ace/getstream?id=3d51cd3b8643a0e9af6378b24bbc7eeeb56f0b44&.mp4
 
 #EXTINF:-1 tvg-id="kino-tv" tvg-logo"https://epgx.site/p/kino-tv.png" group-title="Кино и сериалы", Кино ТВ HD
 http://127.0.0.1:6878/ace/getstream?infohash=23446bc0b284950a536eab7592bc1918e2fa667f
@@ -1029,6 +1080,9 @@ http://127.0.0.1:6878/ace/getstream?infohash=10a542b3a32352ddacdcffe47bf13bae53a
 
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы", FOX
 http://127.0.0.1:6878/ace/getstream?infohash=5e40d94899925654ba5baf7f9ede7db5e0c10ad7
+
+#EXTINF:-1 tvg-id="fox-life" group-title="Кино и сериалы", FOX Life
+http://127.0.0.1:6878/ace/getstream?id=36bd5c1fdf09e5e92aa68cc642ae2d4db6694526&.mp4
 
 #EXTINF:-1 tvg-id="lubimoe-kino" group-title="Кино и сериалы", Любимое кино
 http://127.0.0.1:6878/ace/getstream?infohash=2d5d33c8c011603172bf9d778d6d77dcce6e0aca
@@ -1063,16 +1117,19 @@ http://127.0.0.1:6878/ace/getstream?infohash=5254ec612b0bded26299560b4e51bd491bf
 #EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы", Индийское кино HD
 http://127.0.0.1:6878/ace/getstream?infohash=c62affbc37a7b013f7e47d72e11e09e5879a053b
 
-#EXTINF:-1 tvg-id="rodnoe-kino" group-title="Кино и сериалы",Родное кино
+#EXTINF:-1 tvg-id="rodnoe-kino" group-title="Кино и сериалы", Родное кино
 http://127.0.0.1:6878/ace/getstream?infohash=2f681a20a31e7e7a351702823d50c50dcf96fc0c
 
-#EXTINF:-1 group-title="Кино и сериалы",Мужское Кино
+#EXTINF:-1 group-title="Кино и сериалы", Мужское Кино
 http://127.0.0.1:6878/ace/getstream?infohash=7d60b1179bac6fa3a63c7b80dd02b4bd33c9079e
 
-#EXTINF:-1 group-title="Кино и сериалы",Настоящее страшное ТВ
+#EXTINF:-1 group-title="Кино и сериалы", Настоящее страшное ТВ
 http://127.0.0.1:6878/ace/getstream?infohash=2a996dbd7180fe0fa2c147b7ee1d532c220c2457
 
-#EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы",Победа
+#EXTINF:-1 group-title="Кино и сериалы", Страшное HD
+http://127.0.0.1:6878/ace/getstream?id=d47c7365f67b9b8169404e1c4d86fd698307fa15&.mp4
+
+#EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы", Победа
 http://127.0.0.1:6878/ace/getstream?infohash=314cbdf5e52e46df01de942101012b8f9c74cbf7
 
 #EXTINF:-1 tvg-id="paramount-comedy" group-title="Кино и сериалы", Comedy Central
@@ -2531,6 +2588,9 @@ https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/7/74/CARAC1_logo_2023.svg/320px-CARAC1_logo_2023.svg.png" group-title="Музыкальные", CARAC1
 http://event.vedge.infomaniak.com/livecast/event.stream/playlist.m3u8
 
+#EXTINF:-1 group-title="Музыкальные" tvg-name="Trace_Urban_HD" tvg-logo="Trace Urban HD.png",Trace Urban HD
+http://127.0.0.1:6878/ace/getstream?id=afcccdafb739a8d9988c921be8c8fb345c101516&.mp4
+
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tvplus/03232021/Loupe4K_190x190.png?raw=true" group-title="Музыкальные",Loupe 4k
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 
@@ -3720,76 +3780,76 @@ https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 http://127.0.0.1:6878/ace/getstream?infohash=28b3d07a64eb962d07aa504361a98c5be8f0feeb
 
 #EXTINF:-1 tvg-logo="https://radiomixer.net/images/2023/11/01/YWT3JC4mWYkfFUAzLthwQmfyrlfTdm3VgrvNmzFA.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Родных Дорог
-acestream://90b04f93d22b6e20392f12e3d87975769910fb3a
+http://127.0.0.1:6878/ace/getstream?id=90b04f93d22b6e20392f12e3d87975769910fb3a&.mp4
 
 #EXTINF:-1 tvg-logo="https://frocus.net/images/logotv/original/dorojnoe_radio_tiraspol.jpg" tvg-id="no_epg_radio" group-title="Радио", Дорожное FM
-acestream://8c2422795ac8507b7659a48a791fe9ecbadbb808
+http://127.0.0.1:6878/ace/getstream?id=8c2422795ac8507b7659a48a791fe9ecbadbb808
 
 #EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/radio-logo/radio-evropa-plyus-1659175383.jpg" tvg-id="no_epg_radio" group-title="Радио", Europe Plus
-acestream://83b793903599d1af95dfe78ad0c9b115f33ad167
+http://127.0.0.1:6878/ace/getstream?id=83b793903599d1af95dfe78ad0c9b115f33ad167
 
 #EXTINF:-1 tvg-logo="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-logotip-avtoradio-na-prozrachnom-fone-6.jpg" tvg-id="no_epg_radio" group-title="Радио", Авто Радио
-acestream://abf5adce9b65353ea128bc04efc3f99a80c5a314
+http://127.0.0.1:6878/ace/getstream?id=abf5adce9b65353ea128bc04efc3f99a80c5a314
 
 #EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/radio-logo/radio-radio-maximum-1660163074.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Maximum
-acestream://892e7c09635bc0b0f7c790670b853715a3c4dad2
+http://127.0.0.1:6878/ace/getstream?id=892e7c09635bc0b0f7c790670b853715a3c4dad2
 
 #EXTINF:-1 tvg-logo="https://ra-germes.ru/upload/iblock/3de/russkoe_radio_img.jpg" tvg-id="no_epg_radio" group-title="Радио", Русское Радио
-acestream://f4254657d4568de55d56b4746b5c59d72165b987
+http://127.0.0.1:6878/ace/getstream?id=f4254657d4568de55d56b4746b5c59d72165b987
 
 #EXTINF:-1 tvg-logo="https://software-expert.ru/wp-content/uploads/2021/09/umor_fm.jpg" tvg-id="no_epg_radio" group-title="Радио", Юмор FM
-acestream://b129d8be5caf1246626ce4b8d74a8b7a881c21e6
+http://127.0.0.1:6878/ace/getstream?id=b129d8be5caf1246626ce4b8d74a8b7a881c21e6
 
 #EXTINF:-1 tvg-logo="https://nerios.ru/roster/uploads/posts/2024-03/mibzo_nnejs-min.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Ваня
-acestream://269648e118e8fe87596d88c92a8a1bebc35b91f7
+http://127.0.0.1:6878/ace/getstream?id=269648e118e8fe87596d88c92a8a1bebc35b91f7
 
 #EXTINF:-1 tvg-logo="http://i115.fastpic.org/big/2021/0829/eb/4eecf3a0b670307e6947fdf2cd5f01eb.png" group-title="Радио", Comedy Radio
-acestream://b04db7089442748915edd454daeb0caece41b318
+http://127.0.0.1:6878/ace/getstream?id=b04db7089442748915edd454daeb0caece41b318
 
 #EXTINF:-1 tvg-logo="https://pvgstudio.ru/work/img/dfm3.jpg" tvg-id="no_epg_radio" group-title="Радио", Dance FM
-acestream://b860616c6a9d2b0c6dfce6a156fd1651ee43ee75
+http://127.0.0.1:6878/ace/getstream?id=b860616c6a9d2b0c6dfce6a156fd1651ee43ee75
 
 #EXTINF:-1 tvg-logo="https://vivareit.ru/wp-content/uploads/2015/10/retro99.jpg" tvg-id="no_epg_radio" group-title="Радио", Ретро FM
-acestream://e8697ce179c48aad25e9105760fbccc7d114ccd9
+http://127.0.0.1:6878/ace/getstream?id=e8697ce179c48aad25e9105760fbccc7d114ccd9
 
 #EXTINF:-1 tvg-logo="https://i.podster.fm/img/220577/crop/yes/size/default/220577-1.jpg" tvg-id="no_epg_radio" group-title="Радио", ХИТ FM
-acestream://939fa4032f5d8f2a4d0a73e551f61ece1295caba
+http://127.0.0.1:6878/ace/getstream?id=939fa4032f5d8f2a4d0a73e551f61ece1295caba
 
 #EXTINF:-1 tvg-logo="https://sun9-32.userapi.com/hvYm3QEIKaM895rZ2fgNkIh0P18i-Oe-FjwIMw/rL09pDNrMus.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио 7
-acestream://84239eda31ab6dba974829ee087742ae3119180f
+http://127.0.0.1:6878/ace/getstream?id=84239eda31ab6dba974829ee087742ae3119180f
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3463-6266-4664-a637-333161383337/3c484c65a2d021a349aa.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Воскресение
-acestream://8b59dfd44738d23d6e1bf78de85673795a4dd127
+http://127.0.0.1:6878/ace/getstream?id=8b59dfd44738d23d6e1bf78de85673795a4dd127
 
 #EXTINF:-1 tvg-logo="https://maps.adpass.ru/wp-content/uploads/2023/06/132433557_zvezd_thumb_fed_photo.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Звезда
-acestream://b0badaae84171808f202715b2c8628d99001922a
+http://127.0.0.1:6878/ace/getstream?id=b0badaae84171808f202715b2c8628d99001922a
 
 #EXTINF:-1 tvg-logo="https://airpersonalities.ru/Foto/04April2016/radio_kp_bez_chastoty-7.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Комсомольская Правда
-acestream://a9f570045df01bd844b440188dff1549ab5ad481
+http://127.0.0.1:6878/ace/getstream?id=a9f570045df01bd844b440188dff1549ab5ad481
 
 #EXTINF:-1 tvg-logo="https://papik.pro/grafic/uploads/posts/2023-04/1681606753_papik-pro-p-logotipi-radiostantsii-vektor-38.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио ENERGY
-acestream://a796a142aa62cfc4e0426dd17e6820976832b470
+http://127.0.0.1:6878/ace/getstream?id=a796a142aa62cfc4e0426dd17e6820976832b470
 
 #EXTINF:-1 tvg-logo="https://media.a-russia.ru/wp-content/uploads/2017/06/hit-fm-romantika/HITFM_romantica.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Romantika
-acestream://4bf1e0656a74f65b2f413cff91d5334ef2970917
+http://127.0.0.1:6878/ace/getstream?id=4bf1e0656a74f65b2f413cff91d5334ef2970917
 
 #EXTINF:-1 tvg-logo="https://radiobitva.ru/images/artists/radio-dlya-dvoih.jpg" tvg-id="no_epg_radio" group-title="Радио", FM Радио для Дв❤️их
-acestream://9871db4dfe24e3fd4841b19f040ab5bf6d05d4d4
+http://127.0.0.1:6878/ace/getstream?id=9871db4dfe24e3fd4841b19f040ab5bf6d05d4d4
 
 #EXTINF:-1 tvg-logo="https://vashifinancy.ru/upload/iblock/68a/68ad11cd47ed14bc37103967fe800822.jpg" tvg-id="no_epg_radio" group-title="Радио", Детское Радио
-acestream://65a5d89028230c2b8c73a838769046e8f0903fb3
+http://127.0.0.1:6878/ace/getstream?id=65a5d89028230c2b8c73a838769046e8f0903fb3
 
 #EXTINF:-1 tvg-logo="https://твояволна.рф/TVOLNA_logo_TVolna_20201113.png" tvg-id="no_epg_radio" group-title="Радио", Радио ТВОЯ ВОЛНА
-acestream://e42a2fe5f473287bd4137aa39bcdba31294b7e6f
+http://127.0.0.1:6878/ace/getstream?id=e42a2fe5f473287bd4137aa39bcdba31294b7e6f
 
 #EXTINF:-1 tvg-logo="https://sun1-27.userapi.com/K00RzIbIRMgpmKk5gMyIlZ_XuwhfIeOk_ID50g/WKEk93tgVTQ.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Град Петров
-acestream://ef276085ae4380901afe102154b880a0befb52ce
+http://127.0.0.1:6878/ace/getstream?id=ef276085ae4380901afe102154b880a0befb52ce
 
 #EXTINF:-1 tvg-logo="https://semey.city/assets/templates/uikit/radio/images/novoe-msk-180.jpg" tvg-id="no_epg_radio" group-title="Радио", Новое Радио
-acestream://0051dcb7c9f39259fe775ba6c7d7302cf38800fb
+http://127.0.0.1:6878/ace/getstream?id=0051dcb7c9f39259fe775ba6c7d7302cf38800fb
 
 #EXTINF:-1 tvg-logo="https://www.radiogrom.com/paint_new/logo__rus_big/buryad_fm.jpg" tvg-id="no_epg_radio" group-title="Радио", Буряд FM
-acestream://5cf82b2a95eaca1304fca5faae1be52b20a1df2c
+http://127.0.0.1:6878/ace/getstream?id=5cf82b2a95eaca1304fca5faae1be52b20a1df2c
 
 #EXTINF:-1 tvg-logo="https://alimentaryrecipes.com/images/stations/russkiehiti.webp" tvg-id="no_epg_radio" group-title="Радио", EHR FM Русские Хиты
 http://stream.ehrhiti.lv:8000/khr.mp3
