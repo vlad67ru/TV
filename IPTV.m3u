@@ -38,21 +38,24 @@ http://live-3.otcnet.ru/congresstv/index.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
 
 #EXTINF:-1 tvg-id="ntv" group-title="Эфирные",НТВ HD
-http://127.0.0.1:6878/ace/getstream?id=3e0e6f6298a5bb36814bd7cdf17fe10d8a401383&.mp4
+#EXTVLCOPT:http-user-agent=SmartTV
+https://cdn.ntv.ru/ntv0_hd/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Эфирные", НТВ Право
-http://127.0.0.1:6878/ace/getstream?id=c4d20e29581e7b86ee06b2158d8b1f5c7adf8c19&.mp4
+#EXTVLCOPT:http-user-agent=SmartTV
+http://cdn.ntv.ru/th_pravo/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ntv-xit" group-title="Эфирные", НТВ Хит
 #EXTVLCOPT:http-user-agent=SmartTV
-http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
+http://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ntv-serial" group-title="Эфирные", НТВ Сериал
 #EXTVLCOPT:http-user-agent=SmartTV
 http://cdn.ntv.ru/th_serial/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ntv-style" group-title="Эфирные", НТВ Стиль
-http://127.0.0.1:6878/ace/getstream?id=c5298eca698d4b1bb7c6d50f0dffc44f3bc930d6&.mp4
+#EXTVLCOPT:http-user-agent=SmartTV
+http://cdn.ntv.ru/th_style/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ntv-mir" group-title="Эфирные", НТВ-Мир
 https://streaming.goodstream.cyou/live/213.m3u8
@@ -78,7 +81,7 @@ https://cdn2.skygo.mn/live/disk1/RenTV/HLS-FTA/RenTV.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
 
 #EXTINF:-1 tvg-id="mir" group-title="Эфирные",Мир HD
-http://127.0.0.1:6878/ace/getstream?infohash=eff480eb00a232202f1773bcdb3d79511d16ddc5
+https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 
 #EXTINF:-1 tvg-id="tvcentr" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ТВ Центр
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -105,12 +108,15 @@ http://178.124.152.238:8088/dom
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
 
+#EXTINF:-1 tvg-id="kultura" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_kultura.png" group-title="Эфирные", Россия Культура
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
+
 #EXTINF:-1 tvg-id="zvezda" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Звезда
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
 
 #EXTINF:-1 tvg-id="zvezda" group-title="Эфирные",Звезда HD
-http://127.0.0.1:6878/ace/getstream?id=f69b0c5d20a5be293e1ec1789b601926f245a058&.mp4
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 
 #EXTINF:-1 tvg-id="zvezda-plus" group-title="Эфирные",Звезда Плюс HD
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
@@ -136,7 +142,7 @@ http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMH
 http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/otr.png" tvg-id="otr" group-title="Эфирные", ОТР HD
-http://127.0.0.1:6878/ace/getstream?id=52cec35c868eb73f2e37e47372e08488b9efc254&.mp4
+https://bl.webcaster.pro/media/playlist/free_2f4de73e481861de8764d1ffc0cb91df/5_2972636396/720p/828760fda43bbcf5b4ac223d2a1b2469/1743165476.m3u8
 
 #EXTINF:-1 catchup="append" tvg-logo="http://only4.tv/ch/417.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Москва. Доверие
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -332,7 +338,7 @@ https://edge3.1internet.tv/dash-live2/streams/sport-1/sport-1.mpd
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
 
 #EXTINF:-1 tvg-id="match-tv" group-title="Спортивные",Матч! HD
-http://127.0.0.1:6878/ace/getstream?id=a203f6b935a8ad8659c4c76c1d9c13afa6368ef2&.mp4
+https://m3u8.video.matchtv.ru/media/playlist/ch_74042a4c300f67761956e8b47813fec6/17_86669241/1080p50fps/3704588cdd65e0e0f7232f846491d1cc/1743165600.m3u8
 
 #EXTINF:-1tvg-id="match-arena" group-title="Спортивные", Матч! Арена
 http://tv.streams.baikal-telecom.net:8080/MatchArena/mpegts
@@ -347,7 +353,7 @@ http://127.0.0.1:6878/ace/getstream?id=822654b2c0db24d1de149cb21fdd44a3b968fbfa&
 http://127.0.0.1:6878/ace/getstream?id=762e1d11f7d07029f316c6f61b8ef73289c6673c&.mp4
 
 #EXTINF:-1 tvg-id="match-nash-sport" group-title="Спортивные", Матч! Страна
-http://127.0.0.1:6878/ace/getstream?id=ef9c77bd94783448b8edb552109f5f15b2bd82d1&.mp4
+https://bl.video.matchtv.ru/media/playlist/ch_51c0f34981b2c3e8365005ad7bac75b2/17_72477605/1080/432441243b7d917bd9677e9f93d1880c/1743165600.m3u8
 
 #EXTINF:-1 tvg-id="match-planeta" group-title="Спортивные", Матч! Планета
 http://127.0.0.1:6878/ace/getstream?id=106c8656fca0ca91a696110467788d202d7111af&.mp4
@@ -825,7 +831,7 @@ https://stream-msk-11.ott.tricolor.tv:443/dtv/id878_MSKSG-PVR-1--Nash_sport29/03
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
 
 #EXTINF:-1 tvg-logo="https://i116.fastpic.org/big/2021/1107/d9/129dc2e5164bfcd303ad98fbde6e78d9.png" group-title="Развлекательные",Пятница!
-http://127.0.0.1:6878/ace/getstream?id=10d62d03d9fd2a9e84f639ed40a42e6a13940fce&.mp4
+https://live-s-105.uma.media/LIVE/LIVE:317843/HLS/live:friday/1743137624/gKuwbv40XRxoR0VPPLKsHg/live/317843_4/chunklist.m3u8
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",СТС
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -839,7 +845,7 @@ http://127.0.0.1:6878/ace/getstream?id=5e06a45d6939341fb7427189245380086c1d63c7&
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
 
 #EXTINF:-1 group-title="Развлекательные",ТНТ HD
-http://127.0.0.1:6878/ace/getstream?id=caa3dad746d80a887e8a259f1c7c2eead749094b&.mp4
+https://salam-mskm9-37.rutube.ru/dive/river-3-321.rutube.ru/XrUwZlTUgPfe1W7Ups-49g/stream/genetta-323.m9.rutube.ru/979Ig0gFb2h2xBRy4uREIQ/1743728091/546602986e6a424d74d594876ddb3f04/1080p_stream.m3u8
 
 #EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",СТС Love
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -864,7 +870,7 @@ http://127.0.0.1:6878/ace/getstream?id=da27959a3e9ee97647df5aadd056021099e2d845&
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
 
 #EXTINF:-1 tvg-id="tv3-ru" tvg-logo="http://only4.tv/ch/1008.png" group-title="Развлекательные",ТВ-3 HD
-http://127.0.0.1:6878/ace/getstream?id=3b878b202b26e2b15bf7304e21a7d5283ebf236b&.mp4
+https://salam-mskth-28.rutube.ru/dive/river-5-513.rutube.ru/qpoWw2cfw06P9iyTkNm2VQ/stream/musang-705.brz.rutube.ru/sdHeaQxPQvyjw6JCUmZoFA/1743727918/7bf12d9c050f9a7ef3728db5730432ae/1080p_stream.m3u8
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",Че
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -4095,8 +4101,9 @@ http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_M1/variant.m3u8
 
 #EXTINF:-1 tvg-logo="http://profi-rus.narod.ru/iptv/logo/1s.png" tvg-name="Союз" group-title="Религиозные",Союз
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="http://profi-rus.narod.ru/iptv/logo/2s.png" tvg-name="Спас ТВ" group-title="Религиозные",Спас
-http://spas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.m3u8
+https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
 
 #EXTINF:-1 tvg-id="tri-angela" tvg-logo="http://directostv.teleame.com/wp-content/uploads/2018/07/3ABN-Rusia-en-directo-Online.png" group-title="Религиозные",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
