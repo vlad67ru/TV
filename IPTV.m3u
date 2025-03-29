@@ -1797,76 +1797,76 @@ https://fl1001.bozztv.com/ushba44/index.m3u8
 #EXTINF:-1 tvg-id="Исторический HD" group-title="Кинозалы 2", ИСТОРИЧЕСКИЙ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_20_hd
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="Советские фильмы" group-title="Кинозалы 2", СОВЕТСКИЕ ФИЛЬМЫ
+#EXTINF:-1 tvg-id="Советские фильмы" group-title="Кинозалы 2", СОВЕТСКИЕ ФИЛЬМЫ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_23_sd
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="Детские песенки" group-title="Кинозалы 2", ДЕТСКИЕ ПЕСЕНКИ
+#EXTINF:-1 tvg-id="Детские песенки" group-title="Кинозалы 2", ДЕТСКИЕ ПЕСЕНКИ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_22_sd
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="Легенды Спарка" group-title="Кинозалы 2", ЛЕГЕНДЫ СПАРКА
+#EXTINF:-1 tvg-id="Легенды Спарка" group-title="Кинозалы 2", ЛЕГЕНДЫ СПАРКА
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_21_sd
 
 #EXTINF:-1 tvg-id="zal-12-tricolor" group-title="Кинозалы 2", КОМЕДИИ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_12
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="Боевики HD" group-title="Кинозалы 2", БОЕВИКИ HD
+#EXTINF:-1 tvg-id="Боевики HD" group-title="Кинозалы 2", БОЕВИКИ HD
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz_2
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="Ужасы HD" group-title="Кинозалы 2", УЖАСЫ HD
+#EXTINF:-1 tvg-id="Ужасы HD" group-title="Кинозалы 2", УЖАСЫ HD
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz_9
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", БОДО БОРОДО
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы 2", БОДО БОРОДО
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz_3
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="zal-01-tricolor" group-title="Кинозалы 2", ВЗВЕШЕННЫЕ ЛЮДИ
+#EXTINF:-1 tvg-id="zal-01-tricolor" group-title="Кинозалы 2", ВЗВЕШЕННЫЕ ЛЮДИ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_1
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="zal-02-tricolor" group-title="Кинозалы 2", СЛЕД
+#EXTINF:-1 tvg-id="zal-02-tricolor" group-title="Кинозалы 2", СЛЕД
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_2
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="zal-03-tricolor" group-title="Кинозалы 2", МЕНТОВСКИЕ ВОЙНЫ
+#EXTINF:-1 tvg-id="zal-03-tricolor" group-title="Кинозалы 2", МЕНТОВСКИЕ ВОЙНЫ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_3
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="zal-05-tricolor" group-title="Кинозалы 2", СОЛДАТЫ
+#EXTINF:-1 tvg-id="zal-05-tricolor" group-title="Кинозалы 2", СОЛДАТЫ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_5
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="zal-07-tricolor" group-title="Кинозалы 2", ТРИ КОТА
+#EXTINF:-1 tvg-id="zal-07-tricolor" group-title="Кинозалы 2", ТРИ КОТА
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_7
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="zal-08-tricolor" group-title="Кинозалы 2", ВНЕ ЗАКОНА
+#EXTINF:-1 tvg-id="zal-08-tricolor" group-title="Кинозалы 2", ВНЕ ЗАКОНА
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_8
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="zal-06-tricolor" group-title="Кинозалы 2", ТАКСИСТКА
+#EXTINF:-1 tvg-id="zal-06-tricolor" group-title="Кинозалы 2", ТАКСИСТКА
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_6
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="zal-09-tricolor" group-title="Кинозалы 2", АННА-ДЕТЕКТИВЪ
+#EXTINF:-1 tvg-id="zal-09-tricolor" group-title="Кинозалы 2", АННА-ДЕТЕКТИВЪ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_9
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="zal-10-tricolor" group-title="Кинозалы 2", СОВЕТСКИЕ МУЛЬТФИЛЬМЫ
+#EXTINF:-1 tvg-id="zal-10-tricolor" group-title="Кинозалы 2", СОВЕТСКИЕ МУЛЬТФИЛЬМЫ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_10
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="zal-11-tricolor" group-title="Кинозалы 2", СМЕШАРИКИ
+#EXTINF:-1 tvg-id="zal-11-tricolor" group-title="Кинозалы 2", СМЕШАРИКИ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_11
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="Глухарь" group-title="Кинозалы 2", ГЛУХАРЬ
+#EXTINF:-1 tvg-id="Глухарь" group-title="Кинозалы 2", ГЛУХАРЬ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal24_SD
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ПЯТНИЦКИЙ
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы 2", ПЯТНИЦКИЙ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal25_SD
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="Карпов" group-title="Кинозалы 2", КАРПОВ
+#EXTINF:-1 tvg-id="Карпов" group-title="Кинозалы 2", КАРПОВ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal26_SD
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="Улицы разбитых фонарей" group-title="Кинозалы 2", УЛИЦЫ РАЗБИТЫХ ФОНАРЕЙ
+#EXTINF:-1 tvg-id="Улицы разбитых фонарей" group-title="Кинозалы 2", УЛИЦЫ РАЗБИТЫХ ФОНАРЕЙ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal27_SD
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="6 кадров" group-title="Кинозалы 2", 6 КАДРОВ
+#EXTINF:-1 tvg-id="6 кадров" group-title="Кинозалы 2", 6 КАДРОВ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal28_SD
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ЖЕНСКИЙ ДЕТЕКТИВ
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы 2", ЖЕНСКИЙ ДЕТЕКТИВ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal29_SD
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="Мажор" group-title="Кинозалы 2", МАЖОР
+#EXTINF:-1 tvg-id="Мажор" group-title="Кинозалы 2", МАЖОР
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal30_HD
 
 #EXTINF:-1 tvg-id="no_epg" group-title="Кинозал Top Gear" tvg-logo="https://vectorseek.com/wp-content/uploads/2023/08/Top-Gear-Logo-Vector.svg-.png",1x1
