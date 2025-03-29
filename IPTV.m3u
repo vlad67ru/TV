@@ -70,6 +70,9 @@ http://rusbrics.mediacdn.ru/cdn/brics/russian/chunklist.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
 
+#EXTINF:-1 tvg-id="rentv" group-title="Эфирные",Рен ТВ HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=REN-TV_0_hd
+
 #EXTINF:-1 tvg-id="rentv-int" group-title="Эфирные", Рен ТВ International
 https://cdn2.skygo.mn/live/disk1/RenTV/HLS-FTA/RenTV.m3u8
 
@@ -83,6 +86,9 @@ https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="tvcentr" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ТВ Центр
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
+
+#EXTINF:-1 tvg-id="tvcentr" group-title="Эфирные",ТВ Центр HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=TV_Center_HD
 
 #EXTINF:-1 tvg-id="5kanal-ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Пятый канал
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -116,7 +122,7 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
 
 #EXTINF:-1 group-title="Эфирные",Зал суда
-http://95.156.76.230:33001/udp/230.4.34.6:1234
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Zal_suda
 
 #EXTINF:-1 group-title="Эфирные",Первый Крымский
 http://live1.trkcrimea.ru/1tvcrimea.m3u8
@@ -230,6 +236,9 @@ http://cdn-01.bonus-tv.ru:80/vmesterf/playlist.m3u8
 #EXTINF:-1 tvg-id="krik-tv" tvg-logo="http://i115.fastpic.org/big/2021/0927/96/9eeb7e709b0b078974851708d4a43296.png" group-title="Новости",Крик-ТВ
 http://hls-rictv.cdnvideo.ru/rictv/rictv-srt-stream/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="http://periscope-app.ru/netcat_files/393/606/moskva_24.jpg" group-title="Новости", Москва 24
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Moskva24
+
 #EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_24.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Новости",Россия 24
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
@@ -281,6 +290,15 @@ http://127.0.0.1:6878/ace/getstream?id=1acaf203502983cd2993c6835bf0cbde8d016c3d&
 
 #EXTINF:-1 tvg-id="m1global" group-title="Спортивные",M-1 Global
 http://127.0.0.1:6878/ace/getstream?id=a7e4499c869037073c97deb47a50d1e7090b1c04&.mp4
+
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="http://i121.fastpic.org/big/2023/0516/4d/521030ca4ff0c8d95a2e84d49555ff4d.png" group-title="Спортивные", Поединок
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Channel_LIVE2
+
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://arsenal-academy.ru/templates/img/part/part11.jpg" group-title="Спортивные", Спортмастер ТВ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Channel_LIVE1
+
+#EXTINF:-1 tvg-id="sila" group-title="Спортивные", Сила
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Channel_LIVE5
 
 #EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные", Eurosport 1 HD
 http://127.0.0.1:6878/ace/getstream?id=1b0bc4d4dcd609d3c092712e721392b199f50a62&.mp4
@@ -375,6 +393,15 @@ http://127.0.0.1:6878/ace/getstream?id=99f0646986e9266836dd79047dedecb04e243857&
 
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://bonus-betting.ru/wp-content/uploads/2021/10/nhl-logo.png" group-title="Спортивные", NHL (Интересные моменты)
 https://nhl-firetv.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="Спортивные",ТВ Спорт
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Sportivnii
+
+#EXTINF:-1 tvg-id="bolshoj-efir" group-title="Спортивные", Большой эфир
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=ChannelLIVE
+
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="http://i121.fastpic.org/big/2023/0516/77/db7c2f60962c13008e3f5e9d5a86ce77.png" group-title="Спортивные", Игра
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Channel_LIVE4
 
 #EXTINF:-1 group-title="Спортивные",Конный мир HD
 http://127.0.0.1:6878/ace/getstream?id=96951e5de62a3e7095a1ed8a191817c8935e7017&.mp4
@@ -802,6 +829,9 @@ https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="perec-int" group-title="Развлекательные",Перец
 https://cdn3.skygo.mn/live/disk1/Che/HLS-FTA/Che.m3u8
 
+#EXTINF:-1 tvg-id="gags-network" group-title="Развлекательные",Gags Network HD
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Gagsnetwork
+
 #EXTINF:-1 tvg-logo="http://i123.fastpic.org/big/2024/0515/a1/797a916f0ffdffe8d0f223ca76abbca1.png" tvg-id="STAR TV [MD]" group-title="Развлекательные",STAR TV [MD]
 http://62.233.57.226:8001/play/a008
 
@@ -835,6 +865,9 @@ http://127.0.0.1:6878/ace/getstream?id=a90a4172c6e146c87a92e32b5a8ed6af12ba0237&
 
 #EXTINF:-1 tvg-id="food-network" group-title="Развлекательные", Food Network
 rtmp://212.0.213.132//Joy_Cook
+
+#EXTINF:-1 group-title="Развлекательные",Анекдот ТВ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Anekdot_TV
 
 #EXTINF:-1 tvg-id="sarafan" group-title="Развлекательные", Сарафан
 http://127.0.0.1:6878/ace/getstream?infohash=18875e086412c2ed551e03a0b176f9b2861c5e6a
@@ -911,6 +944,9 @@ http://127.0.0.1:6878/ace/getstream?id=c5841f89c3ae2e6745948308be283a904bf96adb&
 #EXTINF:-1 tvg-id="tlc" group-title="Познавательные",TLC Россия HD
 http://91.146.94.234:10000/play/a05k
 
+#EXTINF:-1 tvg-id="bobior" group-title="Познавательные",Бобёр
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Bober
+
 #EXTINF:-1 tvg-id="pervy-vegetariansky" group-title="Познавательные", Первый вегетарианский
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Perviy_Vegetor
 
@@ -919,6 +955,9 @@ http://v4.proofix.ru/0mir/index.m3u8
 
 #EXTINF:-1 group-title="Познавательные",Мир вокруг
 http://127.0.0.1:6878/ace/getstream?id=d9ae276d2fd84dadc6e3a7ad70381f22cc8e1613&.mp4
+
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="http://i121.fastpic.org/big/2023/0516/82/abf0c600f233693a715cae61eefa2582.png" group-title="Познавательные", Эра
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Channel_LIVE3
 
 #EXTINF:-1 tvg-logo="https://bewelltv.org/wp-content/uploads/2021/06/Be-Well-TV-Logo-e1622682652947.png" tvg-id="no_epg" group-title="Познавательные", Wellbeing TV
 https://amg01492-secomsasmediart-myzen-fr-rakuten-spvgz.amagi.tv/hls/amagi_hls_data_rakutenAA-myzen-fr-rakuten/CDN/master.m3u8
@@ -1038,7 +1077,7 @@ http://127.0.0.1:6878/ace/getstream?id=0fbcd8f0b3a32f74fff28374947e2d0d4bb857ef&
 http://127.0.0.1:6878/ace/getstream?id=30ed25e99233ae63f7e10787c8806f74f52a437c&.mp4
 
 #EXTINF:-1 tvg-id="lapki-live" group-title="Познавательные",Лапки Live
-http://127.0.0.1:6878/ace/getstream?infohash=e4bdc707689c4863bc26bb0109c1d415e9027813
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=LapkiLive
 
 #EXTINF:-1 group-title="Познавательные",Телепутешествия
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Telepyt
@@ -1056,7 +1095,7 @@ http://127.0.0.1:6878/ace/getstream?id=74a1634a8fe44e5058c865d4de63cde90b14f107&
 http://127.0.0.1:6878/ace/getstream?id=b0ecbeeb8ce7bb65cd3ee911b44084976b259549&.mp4
 
 #EXTINF:-1 group-title="Познавательные",История
-http://109.200.130.123:7537/play/a025
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Istoriya
 
 #EXTINF:-1 tvg-id="tochka-otryva" group-title="Познавательные", Точка отрыва
 http://127.0.0.1:6878/ace/getstream?id=ee5cd7316e917f156bf8d176a11da98fe403b0b2&.mp4
@@ -1091,9 +1130,8 @@ https://retrtb.educom.ru/mosobrtv/tv2/index.m3u8
 #EXTINF:-1 tvg-id="nasha-sibir" group-title="Познавательные", Наша Сибирь HD
 https://livetv.mylifeisgood.net.ru/channels/nashasibirhd.m3u8
 
-#EXTINF:-1 tvg-id="nasha-sibir-4k" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Познавательные", Наша Сибирь 4K
-#EXTVLCOPT:http-user-agent=SmartTV
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
+#EXTINF:-1 tvg-id="nasha-sibir-4k" group-title="Познавательные", Наша Сибирь 4K
+http://127.0.0.1:6878/ace/getstream?id=4b7237f2e654d6c1e03ece1d2fffc249e0324ae6&.mp4
 
 #EXTINF:-1 group-title="Кино и сериалы", VIJU+ PREMIERE HD
 http://127.0.0.1:6878/ace/getstream?id=dc939e7815f47c5db59bd3e9fe4bb61ddecc45a5&.mp4
@@ -1175,11 +1213,20 @@ http://127.0.0.1:6878/ace/getstream?id=81f0887e26ba44b512ad12e8f126521aa358ccb9&
 #EXTINF:-1 tvg-id="retro-tv" group-title="Кино и сериалы", Ретро ТВ
 http://194.158.218.123:8880/Retrotv/index.m3u8
 
+#EXTINF:-1 tvg-id="kion-xit" group-title="Кино и сериалы", KION Хит
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=KIONHIT
+
+#EXTINF:-1 tvg-id="detectivejam" group-title="Кино и сериалы", DetectiveJam
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=DetectiveJam
+
 #EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы", Блокбастер HD
 http://127.0.0.1:6878/ace/getstream?id=6019512392cd7316a5362e275966779bf9011fee&.mp4
 
 #EXTINF:-1 group-title="Кино и сериалы", Остросюжетное HD
 http://127.0.0.1:6878/ace/getstream?id=6f294641e0d31c8c09e11a79bde0e2b2a28fb4f5&.mp4
+
+#EXTINF:-1 group-title="Кино и сериалы",Scream
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Scream
 
 #EXTINF:-1 group-title="Кино и сериалы", Камеди
 http://127.0.0.1:6878/ace/getstream?id=69f02544ef5a6029b4ac7b34a7af5616437c64e0&.mp4
@@ -1206,7 +1253,7 @@ http://127.0.0.1:6878/ace/getstream?id=4f40b12ad32618adf3262143db8cc80ae686a5f0&
 http://127.0.0.1:6878/ace/getstream?id=646e1bd5cccfef3d0926eee34eb3fd7e01430507&.mp4
 
 #EXTINF:-1 group-title="Кино и сериалы", Кинопоказ
-http://31.148.48.15/Kinopokaz/playlist.m3u8
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz
 
 #EXTINF:-1 group-title="Кино и сериалы", Кинопоказ HD
 http://127.0.0.1:6878/ace/getstream?id=682b445d50584498d63230dd10d05c793779ad9d&.mp4
@@ -1234,6 +1281,9 @@ http://127.0.0.1:6878/ace/getstream?id=aeb66589dcdbf45061b76eb52ed29ea8297e8e21&
 
 #EXTINF:-1 tvg-id="kinojam1" group-title="Кино и сериалы",Kinojam 1 HD
 http://127.0.0.1:6878/ace/getstream?id=6f59144864d644ee3f53fddef7db2c2f69255c2e&.mp4
+
+#EXTINF:-1 tvg-id="kinojam2" group-title="Кино и сериалы",Kinojam 2 HD
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinojam_2
 
 #EXTINF:-1 tvg-id="kinoliving" group-title="Кино и сериалы",KinoLiving HD
 http://109.200.130.123:7537/play/a02k
@@ -1314,6 +1364,9 @@ http://127.0.0.1:6878/ace/getstream?id=038d0b88c99d988b0b91af57ef142f563a90d200&
 #EXTINF:-1 group-title="Кино и сериалы", Страшное HD
 http://127.0.0.1:6878/ace/getstream?id=d47c7365f67b9b8169404e1c4d86fd698307fa15&.mp4
 
+#EXTINF:-1 group-title="Кино и сериалы", День Победы HD
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Den_Pobedy
+
 #EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы",Победа
 https://streaming101.goodstream.cyou/live/43-req_offset_28000000-req_window_0-1k_v5.m3u8
 
@@ -1345,7 +1398,7 @@ http://127.0.0.1:6878/ace/getstream?id=0028b93215ac25fb20fac7938a5697cf835a4a36&
 http://127.0.0.1:6878/ace/getstream?id=3b35986d4455f25cc8a28d666bb2ca8b638986de&.mp4
 
 #EXTINF:-1 tvg-id="russky-roman" group-title="Кино и сериалы",Русский роман
-http://130.193.73.10:8937/play/a03n
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Ruskiy_roman_HD
 
 #EXTINF:-1 group-title="Кино и сериалы",Русский Иллюзион
 http://127.0.0.1:6878/ace/getstream?id=9f476ff8038d54604d17b15e25e57a041372cde1&.mp4
@@ -1369,7 +1422,7 @@ https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/chunklist_b5160000_slen
 http://127.0.0.1:6878/ace/getstream?id=ac8cbc3f2dc210bb0a3e80a7e9eb65afb3ae40f0&.mp4
 
 #EXTINF:-1 group-title="Кино и сериалы", Время
-https://cdn2.skygo.mn/live/disk1/Vremya/HLS-FTA/Vremya.m3u8
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Vremya
 
 #EXTINF:-1 group-title="Кино и сериалы", Кино 1 International
 http://127.0.0.1:6878/ace/getstream?id=4b5723516bb2a8e45bfabc32a65e236cdfaed796&.mp4
@@ -1384,9 +1437,10 @@ http://127.0.0.1:6878/ace/getstream?id=21f0299cce733ec3a481135553de468440b3630f&
 #EXTINF:-1 group-title="Кинозалы",CineMan 
 http://127.0.0.1:6878/ace/getstream?id=00d0649880b17050d8a9ed559fc824f98fd578be&.mp4
 
-#EXTINF:-1 group-title="Кинозалы",CineMan РуКино 
+#EXTINF:-1 group-title="Кинозалы",CineMan РуКино
+http://127.0.0.1:6878/ace/getstream?id=51a8548ddcff18ba9f89c4c4cb6eb359fc24b30b&.mp4
 
-#EXTINF:-1 group-title="Кинозалы",Cineman
+#EXTINF:-1 group-title="Кинозалы",CineMan Kids 4K
 http://127.0.0.1:6878/ace/getstream?id=6f8797169698d515ad8e5c7dbe4160f039a15b3c&.mp4
 
 EXTINF:-1 group-title="Кинозалы",BCU Kids 4K 
@@ -1434,7 +1488,7 @@ http://127.0.0.1:6878/ace/getstream?id=21fcd8e73936b64435d07832c2d8382609f48d6d&
 #EXTINF:-1 group-title="Кинозалы",BCU Kinorating HD 
 http://127.0.0.1:6878/ace/getstream?id=57401c50a256f68da4bc9ebe9965e2f12a9d20e2&.mp4
 
-#EXTINF:-1 group-title="Кинозалы",BCU Kinozakaz HD 
+#EXTINF:-1 group-title="Кинозалы",BCU Kinozakaz HD
 http://127.0.0.1:6878/ace/getstream?id=9cd5a5ee3d83b36cd5dd36dbc912e37531df482b&.mp4
 
 #EXTINF:-1 group-title="Кинозалы",BCU Marvel HD 
@@ -1486,6 +1540,7 @@ http://127.0.0.1:6878/ace/getstream?id=62f68471bab075eb96e5db4559e7994427db111b&
 http://127.0.0.1:6878/ace/getstream?id=5cea434c891d27aa66d87d3b23d91ab74c1c72f8&.mp4
 
 #EXTINF:-1 group-title="Кинозалы",BCU Premiere Ultra 4K 
+http://127.0.0.1:6878/ace/getstream?id=30b1dba65edffa2c0c8ade75257508b00d8a61ea&.mp4
 
 #EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-1filmax.jpg?itok=cAN6QlYt" tvg-id="no_epg_cinema" group-title="Кинозалы", 1FILMAX
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -1553,27 +1608,15 @@ http://hls.goodgame.ru/hls/208358.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Film TV 3
 #EXTVLCOPT:http-user-agent=SmartTV
-http://hls.goodgame.ru/hls/209426.m3u8
+https://hls.goodgame.ru/hls/181039.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Film TV 4
 #EXTVLCOPT:http-user-agent=SmartTV
-https://hls.goodgame.ru/hls/181039.m3u8
+https://autopilot.catcast.tv/content/47689/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Film TV 5
 #EXTVLCOPT:http-user-agent=SmartTV
-https://autopilot.catcast.tv/content/47689/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Film TV 6
-#EXTVLCOPT:http-user-agent=SmartTV
 http://hls.goodgame.ru/hls/210275.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Film TV 7
-#EXTVLCOPT:http-user-agent=SmartTV
-http://hls.goodgame.ru:8080/hls/214536.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Кино Jam
-#EXTVLCOPT:http-user-agent=SmartTV
-http://hls.goodgame.ru/hls/210182.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Akudji TV
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -1602,10 +1645,6 @@ https://hls.goodgame.ru/hls/187741.m3u8
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Кошмар HD
 #EXTVLCOPT:http-user-agent=SmartTV
 http://hlss.goodgame.ru/hls/204709.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Всё ТВ
-#EXTVLCOPT:http-user-agent=SmartTV
-http://hls.goodgame.ru/hls/153640.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Fantom
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -1681,37 +1720,37 @@ https://fl1001.bozztv.com/ushba24/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 4
 https://fl1001.bozztv.com/ushba26/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 5
-https://fl1001.bozztv.com/ushba-films-b/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-b/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 6
-https://fl1001.bozztv.com/ushba-films-c/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-c/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 7
-https://fl1001.bozztv.com/ushba-films-d/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-d/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 8
-https://fl1001.bozztv.com/ushba-films-e/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-e/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 9
-https://fl1001.bozztv.com/ushba-films-f/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-f/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 10
-https://fl1001.bozztv.com/ushba-films-g/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-g/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 11
-https://fl1001.bozztv.com/ushba-films-h/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-h/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 12
-https://fl1001.bozztv.com/ushba-films-i/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-i/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 13
 https://fl1001.bozztv.com/ushba-films-j/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 14
-https://fl1001.bozztv.com/ushba-films-m/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-m/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 15
-https://fl1001.bozztv.com/ushba-films-p/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-p/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 16
-https://fl1001.bozztv.com/ushba-films-t/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-t/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 17
-https://fl1001.bozztv.com/ushba-films-yz/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-yz/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 18
-https://fl1001.bozztv.com/ushba-films-n/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-n/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 19
-https://fl1001.bozztv.com/ushba-films-qr/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-qr/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 20
-https://fl1001.bozztv.com/ushba-films-uv/playlist.m3u8
+https://fl1001.bozztv.com/ushba-films-uv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 21
 https://fl1001.bozztv.com/ushba-films-o/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 22
@@ -1719,29 +1758,29 @@ https://fl1001.bozztv.com/ushba-films-s/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 23
 https://fl1001.bozztv.com/ushba-films-w/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 24
-https://fl1001.bozztv.com/ushba-rfilrms-0/playlist.m3u8
+https://fl1001.bozztv.com/ushba-rfilrms-0/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 25
-https://fl1001.bozztv.com/ushba-rfilrms-a/playlist.m3u8
+https://fl1001.bozztv.com/ushba-rfilrms-a/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 26
 https://fl1001.bozztv.com/ushba-rfilrms-b/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 27
-https://fl1001.bozztv.com/ushba-rfilrms-c/playlist.m3u8
+https://fl1001.bozztv.com/ushba-rfilrms-c/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 28
-https://fl1001.bozztv.com/ushba-rfilrms-d/playlist.m3u8
+https://fl1001.bozztv.com/ushba-rfilrms-d/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 29
-https://fl1001.bozztv.com/ushba-rfilrms-e/playlist.m3u8
+https://fl1001.bozztv.com/ushba-rfilrms-e/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 30
-https://fl1001.bozztv.com/ushba-rfilrms-g/playlist.m3u8
+https://fl1001.bozztv.com/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 31
-https://fl1001.bozztv.com/ushba-rfilrms-i/playlist.m3u8
+https://fl1001.bozztv.com/ushba-rfilrms-i/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 32
 https://fl1001.bozztv.com/ushba-rfilrms-k/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 33
-https://fl1001.bozztv.com/ushba-rfilrms-p/playlist.m3u8
+https://fl1001.bozztv.com/ushba-rfilrms-p/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 34
-https://fl1001.bozztv.com/ushba-rfilrms-v/playlist.m3u8
+https://fl1001.bozztv.com/ushba-rfilrms-v/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 35
-https://fl1001.bozztv.com/ushba-rfilrms-z/playlist.m3u8
+https://fl1001.bozztv.com/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 36
 https://fl1001.bozztv.com/ushba64/index.m3u8
@@ -1754,6 +1793,84 @@ https://fl1001.bozztv.com/ushba31/playlist.m3u8
 
 #EXTINF:-1 tvg-id="no_epg" group-title="Кинозалы" tvg-logo="https://cdn.vox-cdn.com/thumbor/cKmWp_uKpELnAmMk4BEIdJShlrk=/0x0:960x540/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/34106623/gametrailers-logo_960.0.jpg", Gameplay трейлеры
 https://fl1001.bozztv.com/ushba44/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ИСТОРИЧЕСКИЙ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_20_hd
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", СОВЕТСКИЕ ФИЛЬМЫ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_23_sd
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ДЕТСКИЕ ПЕСЕНКИ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_22_sd
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ЛЕГЕНДЫ СПАРКА
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_21_sd
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", КОМЕДИИ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_12
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", БОЕВИКИ HD
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz_2
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", УЖАСЫ HD
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz_9
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", БОДО БОРОДО
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz_3
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ВЗВЕШЕННЫЕ ЛЮДИ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_1
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", СЛЕД
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_2
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", МЕНТОВСКИЕ ВОЙНЫ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_3
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", СОЛДАТЫ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_5
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ТРИ КОТА
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_7
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ВНЕ ЗАКОНА
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_8
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ТАКСИСТКА
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_6
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ПАУТИНА
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_9
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", СОВЕТСКИЕ МУЛЬТФИЛЬМЫ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_10
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", СМЕШАРИКИ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_11
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ГЛУХАРЬ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal24_SD
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ПЯТНИЦКИЙ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal25_SD
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", КАРПОВ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal26_SD
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", УЛИЦЫ РАЗБИТЫХ ФОНАРЕЙ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal27_SD
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", 6 КАДРОВ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal28_SD
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ЖЕНСКИЙ ДЕТЕКТИВ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal29_SD
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", АННА-ДЕТЕКТИВЪ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_9
+
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", МАЖОР
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal30_HD
 
 #EXTINF:-1 tvg-id="no_epg" group-title="Кинозал Top Gear" tvg-logo="https://vectorseek.com/wp-content/uploads/2023/08/Top-Gear-Logo-Vector.svg-.png",1x1
 https://s2.gencit.info/content/stream/films/top.gear.s01e01.rus.eng.alexfilm_74058/hls/480/index.m3u8
@@ -2901,6 +3018,9 @@ http://hz1.teleport.cc/HLS/HD.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные",Russian MusicBox HD
 http://127.0.0.1:6878/ace/getstream?id=a5149234466b95643eec346ffbd24bc71c64e3d6&.mp4
 
+#EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные",Russian Musicbox Gold
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Music_Box_GOLD
+
 #EXTINF:-1 tvg-id="tnt-music" group-title="Музыкальные",ТНТ Music HD
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdhigh.m3u8
 
@@ -2910,8 +3030,17 @@ http://127.0.0.1:6878/ace/getstream?id=c41b15ab711e836f210d1c5c1eb2bd999ee3e440&
 #EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные",Mezzo
 http://178.212.71.253:8002/play/a00n/index.m3u8
 
+#EXTINF:-1 tvg-id="ruskorabl" group-title="Музыкальные", Русский корабль
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=russian_ship_HD
+
 #EXTINF:-1 tvg-id="bridge-tv" group-title="Музыкальные", Bridge TV
-http://127.0.0.1:6878/ace/getstream?infohash=fc3313886a097755f897c9050a7ab0157cef4736
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Bridge
+
+#EXTINF:-1 tvg-id="bridge-tv-dance" group-title="Музыкальные", Bridge TV Hits
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Bridge_TV_Hits
+
+#EXTINF:-1 tvg-id="bridge-tv-classic" group-title="Музыкальные", Bridge TV Classic
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Bridge_tv_classic
 
 #EXTINF:-1 tvg-id="bridge-tv-rock" group-title="Музыкальные", Bridge TV Rock
 http://178.212.71.253:8000/play/101/index.m3u8
@@ -2923,7 +3052,7 @@ http://127.0.0.1:6878/ace/getstream?id=32c2ea9b766da382ee892dae57871b3dd1e8641b&
 http://178.212.71.253:8000/play/142/index.m3u8
 
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Музыкальные", Bridge TV Русский хит
-http://127.0.0.1:6878/ace/getstream?id=eb3add8d104fa237e14343f3236a932595023c9a&.mp4
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=BRIDGE_TV_Russkiy_hit
 
 #EXTINF:-1 tvg-id="now-rock" group-title="Музыкальные", Now Rock
 https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
