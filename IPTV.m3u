@@ -439,9 +439,6 @@ https://top2new.koskoros.ru/top2/premium400/mono.m3u8
 #EXTINF:-1 tvg-id="sky-sport-f1-de" group-title="Спортивные", Sky Sport F1 [DE]
 http://127.0.0.1:6878/ace/getstream?id=b04372b9543d763bd2dbd2a1842d9723fd080076&.mp4
 
-#EXTINF:-1 tvg-id="Fox Sports 1 HD" group-title="Спортивные", Fox Sports
-http://127.0.0.1:6878/ace/getstream?id=c9c062941fbecb16ce29437f346ea7177d720898&.mp4
-
 #EXTINF:-1 tvg-id="extreme-sports" group-title="Спортивные", Extreme sports
 http://127.0.0.1:6878/ace/getstream?id=73ff07648e367efebd94636047b07625f664a082&.mp4
 
@@ -3105,7 +3102,7 @@ http://kino-1.catcast.tv/content/37739/index.m3u8
 #EXTINF:-1 tvg-id="trace-urban" group-title="Музыкальные", Trace Urban
 http://127.0.0.1:6878/ace/getstream?id=afcccdafb739a8d9988c921be8c8fb345c101516&.mp4
 
-#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные",FS1
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/FS1-Logo-Claim-NEG-RGB-rund.png/800px-FS1-Logo-Claim-NEG-RGB-rund.png" tvg-id="no_epg_music" group-title="Музыкальные",FS1
 http://127.0.0.1:6878/ace/getstream?id=b127df86fa00b48fe2e52f38d69b71cc9176bc80&.mp4
 
 #EXTINF:-1 tvg-id="fashion-one-4k" group-title="Fashion",Fashion 4K
