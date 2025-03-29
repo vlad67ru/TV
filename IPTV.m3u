@@ -155,7 +155,7 @@ http://127.0.0.1:6878/ace/getstream?id=987a82a561ae7c382be4e5aa00a15b61f66d5cdf&
 #EXTINF:-1 tvg-id="rbk" group-title="Новости", РБК HD
 http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 
-#EXTINF:-1 tvg-id="ОБЩЕСТВЕННАЯ СЛУЖБА НОВОСТЕЙ" group-title="Новости", ОСН ТВ
+#EXTINF:-1 tvg-id="ОСН ТВ" group-title="Новости", ОСН ТВ
 http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
 
 #EXTINF:-1 group-title="Новости",Беларусь 24
@@ -371,6 +371,9 @@ http://127.0.0.1:6878/ace/getstream?id=f6d68cfa8694f814983f2a5757f4e0c4964b880c&
 http://127.0.0.1:6878/ace/getstream?id=b7e8c3bae5d98a4f842f334ff57604de9886f5c7&.mp4
 
 #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные",Viju+ Sport
+http://135.181.115.81:8000/play/a00f/index.m3u8?token=livetv
+
+#EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные",Viju+ Sport
 http://127.0.0.1:6878/ace/getstream?id=dec96c86080c26ddf667ea90adfb513a40007a0b&.mp4
 
 #EXTINF:-1 tvg-id="footbolny" group-title="Спортивные", Мяч
@@ -424,7 +427,7 @@ http://127.0.0.1:6878/ace/getstream?id=c4acde347445b0a07a9e8695b4254bee2b2df570&
 #EXTINF:-1 tvg-id="belarus5-inet" group-title="Спортивные",Беларусь 5 Интернет
 http://127.0.0.1:6878/ace/getstream?id=76d659bf884e764b5df338dedbc596d12c399d66&.mp4
 
-#EXTINF:-1 group-title="Спортивные" tvg-name="Первый_автомобильный" tvg-logo="Первый автомобильный.png",Первый автомобильный
+#EXTINF:-1 group-title="Спортивные" tvg-name="Первый_автомобильный" tvg-id="no_epg_sport" tvg-logo="Первый автомобильный.png",Первый автомобильный
 http://127.0.0.1:6878/ace/getstream?id=294d0726ec1df0a1b50069d813f60957d7c85cc0&.mp4
 
 #EXTINF:-1 tvg-id="trace-sport-stars" group-title="Спортивные", Trace Sport Stars
@@ -436,7 +439,7 @@ https://top2new.koskoros.ru/top2/premium400/mono.m3u8
 #EXTINF:-1 tvg-id="sky-sport-f1-de" group-title="Спортивные", Sky Sport F1 [DE]
 http://127.0.0.1:6878/ace/getstream?id=b04372b9543d763bd2dbd2a1842d9723fd080076&.mp4
 
-#EXTINF:-1 tvg-id="fox-sports1-mx" group-title="Спортивные", Fox Sports
+#EXTINF:-1 tvg-id="Fox Sports 1 HD" group-title="Спортивные", Fox Sports
 http://127.0.0.1:6878/ace/getstream?id=c9c062941fbecb16ce29437f346ea7177d720898&.mp4
 
 #EXTINF:-1 tvg-id="extreme-sports" group-title="Спортивные", Extreme sports
@@ -445,13 +448,13 @@ http://127.0.0.1:6878/ace/getstream?id=73ff07648e367efebd94636047b07625f664a082&
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://i.imgur.com/XO8u1V7.png" group-title="Спортивные", IMPACT Wrestling
 https://d2tuwvs0ja335j.cloudfront.net/hls/1080p/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.avm.gen.tr/resimler/network_kadin_1.jpg" tvg-id="no_epg_sport" group-title="Спортивные", A21 Network
+#EXTINF:-1 tvg-logo="https://www.avm.gen.tr/resimler/network_kadin_1.jpg" tvg-id="A21 NETWORK" group-title="Спортивные", A21 Network
 http://127.0.0.1:6878/ace/getstream?id=2b1052b84109cdc496e1b28ebf9266b73974a726&.mp4
 
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://photos.live-tv-channels.org/tv-logo/canal-motor-5880.webp" group-title="Спортивные", Canal Motor
 http://127.0.0.1:6878/ace/getstream?id=35e17cc84abc5e393b5acd688536a9681105f2d5&.mp4
 
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://logos-download.com/wp-content/uploads/2016/09/Red_Bull_TV_logo.png" group-title="Спортивные",Red Bull TV
+#EXTINF:-1 tvg-id="Red Bull HD" tvg-logo="https://logos-download.com/wp-content/uploads/2016/09/Red_Bull_TV_logo.png" group-title="Спортивные",Red Bull TV
 http://127.0.0.1:6878/ace/getstream?id=963d5f09983d6816022fc2c45dd4d974337adb09&.mp4
 
 #EXTINF:-1 tvg-id="supertennis" tvg-logo="https://epg.iptvx.one/picons/supertennis.png" group-title="Спортивные",SuperTennis HD
@@ -600,14 +603,11 @@ http://127.0.0.1:6878/ace/getstream?id=4dbe63b44fc4f439f5b634c0d2aa7e0cccad808a&
 #EXTINF:-1 tvg-id="eleven-sport6-pt" group-title="Спортивные",Eleven Sports 6 PT
 http://127.0.0.1:6878/ace/getstream?id=50b6d2b5fd59fefb9f4fd2176994d418f2b94a80&.mp4
 
-#EXTINF:-1 tvg-id="fox-sports1-mx" group-title="Спортивные",Fox Sports 1
+#EXTINF:-1 tvg-id="Fox Sports 1 HD" group-title="Спортивные",Fox Sports 1
 http://127.0.0.1:6878/ace/getstream?id=c9c062941fbecb16ce29437f346ea7177d720898&.mp4
 
-#EXTINF:-1 tvg-id="fox-sports2-mx" group-title="Спортивные",Fox Sports 2
+#EXTINF:-1 tvg-id="Fox Sports 2 HD" group-title="Спортивные",Fox Sports 2
 http://127.0.0.1:6878/ace/getstream?id=cba8d369eac629b577750edb90370cd1c5fb03b7&.mp4
-
-#EXTINF:-1 tvg-id="no_epg_sport" group-title="Спортивные",FS1
-http://127.0.0.1:6878/ace/getstream?id=b127df86fa00b48fe2e52f38d69b71cc9176bc80&.mp4
 
 #EXTINF:-1 tvg-id="m-plus-deport-es" group-title="Спортивные",M+ Deportes [ES]
 http://127.0.0.1:6878/ace/getstream?id=acb510858f34c3c6fd5f79395b031abd6885c2b3&.mp4
@@ -851,7 +851,7 @@ http://127.0.0.1:6878/ace/getstream?id=0b24228bb1c0d6340911b7536b52c5bd28af0721&
 #EXTVLCOPT:http-user-agent=SmartTV
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_TEOTV/variant.m3u8
 
-#EXTINF:-1 tvg-id="no_epg" tvg-logo="http://i122.fastpic.org/big/2023/0903/dd/885ed8503262c3f3db6024c1983246dd.png" group-title="Развлекательные", Кулинар ТВ
+#EXTINF:-1 tvg-id="Kulinar TV" tvg-logo="http://i122.fastpic.org/big/2023/0903/dd/885ed8503262c3f3db6024c1983246dd.png" group-title="Развлекательные", Кулинар ТВ
 https://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 
 #EXTINF:-1 tvg-id="eda" group-title="Развлекательные", Еда
@@ -881,7 +881,7 @@ http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg" tvg-logo="https://telegra.ph/file/dc69bed0897d479ddcbde.png" group-title="Развлекательные", Мой Мир
 https://moymir.ru/hls/onair.m3u8
 
-#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://jitv.ru/wp-content/uploads/2019/09/vitrinatv.png" group-title="Развлекательные", Витрина ТВ
+#EXTINF:-1 tvg-id="Витрина ТВ" tvg-logo="https://jitv.ru/wp-content/uploads/2019/09/vitrinatv.png" group-title="Развлекательные", Витрина ТВ
 https://v4.proofix.ru/vitrina-live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="shopping-live" group-title="Развлекательные",Shopping Live
@@ -890,7 +890,7 @@ http://shoppinglive.mediacdn.ru/cdn/shopping/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-id="domashny-magazin" group-title="Развлекательные",Leomax +
 https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 
-#EXTINF:-1 tvg-id="no_epg" tvg-logo="http://tochkatv.tv/wp-content/uploads/2023/11/magnat_live-1170x720.jpg" group-title="Развлекательные",Магнат
+#EXTINF:-1 tvg-id="МАГНАТ" tvg-logo="http://tochkatv.tv/wp-content/uploads/2023/11/magnat_live-1170x720.jpg" group-title="Развлекательные",Магнат
 https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8
 
 #EXTINF:-1 group-title="Познавательные",Viju History
@@ -1426,6 +1426,9 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Vremya
 
 #EXTINF:-1 group-title="Кино и сериалы", Кино 1 International
 http://127.0.0.1:6878/ace/getstream?id=4b5723516bb2a8e45bfabc32a65e236cdfaed796&.mp4
+
+#EXTINF:-1 group-title="Кино и сериалы", Viasat Kino World
+http://127.0.0.1:6878/ace/getstream?id=7d6cde4ca27c258d7bbdce777e303495b072517d&.mp4
 
 #EXTINF:-1 group-title="Кино и сериалы", О!Кино
 http://127.0.0.1:6878/ace/getstream?id=79fc325adef8b1977b790c8435ff868cb6f75794&.mp4
@@ -2861,7 +2864,7 @@ https://v.tom-dzherri.net/video/s/163.mp4
 #EXTVLCOPT:http-user-agent=SmartTV
 https://hls.goodgame.ru/hls/180805.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/685286c919ab8768f8a6f70eb5dc8171.webp" group-title="Музыкальные",K Pop
+#EXTINF:-1 tvg-id="K-POP" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/685286c919ab8768f8a6f70eb5dc8171.webp" group-title="Музыкальные",K Pop
 https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600001RQ_20240910T003714SQUARE.png" tvg-id="no_epg_music" group-title="Музыкальные", VEVO Country
@@ -2870,13 +2873,13 @@ https://d3u2u3qzvtw7w.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 #EXTINF:-1 tvg-id="zhara" tvg-logo="https://dvb.by/sources/logos/1092s.png" group-title="Музыкальные", Жара
 http://127.0.0.1:6878/ace/getstream?id=0f777acf2def9b2c0ae254041796fbae5ba60501&.mp4
 
-#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://tandemtools.ru/upload/material/untitled folder/untitled folder/Безымянный1.png" group-title="Музыкальные", Новое Радио
+#EXTINF:-1 tvg-id="Новое Радио" tvg-logo="https://tandemtools.ru/upload/material/untitled folder/untitled folder/Безымянный1.png" group-title="Музыкальные", Новое Радио
 http://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="nick-music" tvg-logo="https://iptvx.one/picons/nick-music.png" group-title="Музыкальные", Nick Music
 http://fl5.moveonjoy.com/NICK_MUSIC/index.m3u8
 
-#EXTINF:-1 tvg-logo="http://i122.fastpic.org/big/2023/0707/c7/976bd87b448c690e555f78b46e55b1c7.png" group-title="Музыкальные", NRG 91 TV HD
+#EXTINF:-1 tvg-id="NRG 91 TV HD" tvg-logo="http://i122.fastpic.org/big/2023/0707/c7/976bd87b448c690e555f78b46e55b1c7.png" group-title="Музыкальные", NRG 91 TV HD
 https://5c389faa13be3.streamlock.net:9553/onweb/live/chunklist_w2043948915.m3u8
 
 #EXTINF:-1 tvg-id="muzyka-pervogo" group-title="Музыкальные",Музыка Первого
@@ -2886,22 +2889,22 @@ http://127.0.0.1:6878/ace/getstream?id=4f2d81ed73736cf3adc44c8a6a24cda47fc1eef0&
 #EXTVLCOPT:http-user-agent=SmartTV
 https://stream.sunset-media.org:443/AfBrazXsUK/J9hGT3vYuv/2.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://avatars.mds.yandex.net/get-socsnippets/5326024/2a0000018c7f5b87c6fd60eaaf38c7fe4845/square_216" group-title="Музыкальные", TMF RUS
+#EXTINF:-1 tvg-id="TMF" tvg-logo="https://avatars.mds.yandex.net/get-socsnippets/5326024/2a0000018c7f5b87c6fd60eaaf38c7fe4845/square_216" group-title="Музыкальные", TMF RUS
 #EXTVLCOPT:http-user-agent=SmartTV
 https://hls.goodgame.ru/hls/201891.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://i1.sndcdn.com/artworks-000098219086-gthd6m-t500x500.jpg" group-title="Музыкальные", TECHNO DANCE MUSIC
+#EXTINF:-1 tvg-id="TechnoDanceMusic" group-title="Музыкальные", TECHNO DANCE MUSIC
 #EXTVLCOPT:http-user-agent=SmartTV
 http://hlss.goodgame.ru/hls/180509.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://content.foto.my.mail.ru/mail/maxraykov/_musicplaylistcover/i-14.jpg" group-title="Музыкальные", DanceHits 80'
+#EXTINF:-1 tvg-id="Dance Hits 80" group-title="Музыкальные", DanceHits 80'
 http://dancehits80.denvs.ru:8080/index.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://tvradioo.ru/wp-content/uploads/2021/01/2023-01-17_21-45-17.png" group-title="Музыкальные", MIXM TB
+#EXTINF:-1 tvg-id="MIXM TV" group-title="Музыкальные", MIXM TB
 #EXTVLCOPT:http-user-agent=SmartTV
 http://hlss.goodgame.ru/hls/181490.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://nm-tv.ru/wp-content/uploads/2022/08/site_obl.jpg" group-title="Музыкальные", NM Television 
+#EXTINF:-1 tvg-id="NM Television" group-title="Музыкальные", NM Television 
 #EXTVLCOPT:http-user-agent=SmartTV
 https://tv.a21network.ru/stream/40650/index.m3u8
 
@@ -2912,47 +2915,47 @@ https://cdnlive.myspirit.tv/LS-ATL-43240-2/playlist.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 https://hls.goodgame.ru/hls/191858.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://deluxemusic.de/wp-content/uploads/sites/4/2019/11/Deluxe-Musik-logo.png" group-title="Музыкальные",Deluxe Music TV
+#EXTINF:-1 tvg-id="DELUXE MUSIC" group-title="Музыкальные",Deluxe Music TV
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://photos.live-tv-channels.org/tv-logo/kaloopy-tv-3596.webp" group-title="Музыкальные",Kaloopy HD
-http://127.0.0.1:6878/ace/getstream?id=5f657a0b1e052f57ba0994a42c6afeed04febab1&.mp4
+#EXTINF:-1 tvg-id="Kaloopy" group-title="Музыкальные",Kaloopy HD
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/ebe730b7-f364-458e-82e0-2f49dfd9e6c4/0.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/7/74/CARAC1_logo_2023.svg/320px-CARAC1_logo_2023.svg.png" group-title="Музыкальные", CARAC1
 http://event.vedge.infomaniak.com/livecast/event.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tvplus/03232021/Loupe4K_190x190.png?raw=true" group-title="Музыкальные",Loupe 4k
+#EXTINF:-1 tvg-id="Loupe 4K" group-title="Музыкальные",Loupe 4k
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="https://i.postimg.cc/MHNdgRXj/photo-2024-01-14-15-42-03.jpg", CHD-TV Rock
 http://194.26.229.213/chdtv_rock/index.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="https://i.postimg.cc/3rkRjpjC/photo-2024-01-14-15-41-50.jpg", CHD-TV RU Rock HD
+#EXTINF:-1 tvg-id="CHD TV RU Rock" group-title="Музыкальные", CHD-TV RU Rock HD
 http://194.26.229.213/chdtv_ru_rock/index.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://cdn-profiles.tunein.com/s301079/images/logog.png?t=155672" group-title="Музыкальные", V2BEAT TV
+#EXTINF:-1 tvg-id="V2Beat HD" group-title="Музыкальные", V2BEAT TV
 https://abr.de1se01.v2beat.live/live/live6/chunks.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://p16.tiktokcdn.com/tos-maliva-avt-0068/f87b0d3e7af7c01858a4c1c845aeb2d8~c5_720x720.jpeg" group-title="Музыкальные", Kiss Kiss TV HD
+#EXTINF:-1 tvg-id="Kiss Kiss" group-title="Музыкальные", Kiss Kiss TV HD
 https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/4a/d1/92/4ad1928c-6e40-9506-df33-b37ad8343752/source/512x512bb.jpg" group-title="Музыкальные", radio m2o
+#EXTINF:-1 tvg-id="m2o TV" group-title="Музыкальные", radio m2o
 http://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b1728000.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE
+#EXTINF:-1 tvg-id="Xite" group-title="Музыкальные", XITE
 http://xite-samsung-de.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300006O3_20240716T002639SQUARE.png" group-title="Музыкальные", XITE Country
 https://d18gddrg3q1rlq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l4hn4yums84y5/XITE_Country_Today.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=USBD3300006O3
 
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://s.rbk.ru/v1_companies_s3/media/trademarks/fddbf2e9-f2e9-45f8-bf8a-83155889f423.jpg" group-title="Музыкальные", Dance TV
+#EXTINF:-1 tvg-id="Dance TV HD" group-title="Музыкальные", Dance TV
 https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://www.coolstreaming.us/img/ch/image18194248015.jpg" group-title="Музыкальные", Deep House District
 https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://www.freedownloadlogo.com/logos/d/dee-jay.svg" group-title="Музыкальные", DeeJay
+#EXTINF:-1 tvg-id="DeeJay TV" group-title="Музыкальные", DeeJay
 https://streamcdnb4-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 
 #EXTINF:-1 group-title="Музыкальные",Clubbing TV
@@ -2973,7 +2976,7 @@ http://127.0.0.1:6878/ace/getstream?id=2302f4b9327232b91a434658c24a506c88bc55f0&
 #EXTINF:-1 tvg-id="radio-strana-fm-tv" group-title="Музыкальные",Страна FM
 http://127.0.0.1:6878/ace/getstream?id=fbb84424b72936792cbb5a0b46eaeab69b96872c&.mp4
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="http://i114.fastpic.ru/big/2021/0209/e3/411906b8ef8f41c95f5ead2c793a02e3.png" group-title="Музыкальные",Kronehit HD
+#EXTINF:-1 tvg-id="Kronehit HD" group-title="Музыкальные",Kronehit HD
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1628000.m3u8
 
 #EXTINF:-1 tvg-id="mtv-europe" group-title="Музыкальные", MTV Europe
@@ -2985,7 +2988,7 @@ http://stream01.vnet.am/Channel_117/mono.m3u8
 #EXTINF:-1 tvg-logo="http://i115.fastpic.org/big/2021/0924/7f/135ee89ac0fa694f9eb1d5043fb27f7f.png" tvg-id="mtv-live-us" group-title="Музыкальные", MTV Live [US]
 http://fl2.moveonjoy.com/MTV_LIVE/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://res.cloudinary.com/clearlink/image/upload/v1589302537/Dish/images/isolated/~png-logo-exports-for-channel-page-hero/MTV_Classic-Default-Black_2x_ubqscy.png" tvg-id="no_epg_music" group-title="Музыкальные", MTV Classic
+#EXTINF:-1 tvg-id="MTV Classic US" group-title="Музыкальные", MTV Classic
 #EXTVLCOPT:http-user-agent=SmartTV
 http://fl5.moveonjoy.com/MTV_CLASSIC/index.m3u8
 
@@ -3078,32 +3081,32 @@ http://fs2.persik.by/LaMinor/index.m3u8
 #EXTINF:-1 tvg-id="zhar-ptica" group-title="Музыкальные",Жар-Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tmregister.ru/base/NEW/5103/510393/1.jpg" tvg-id="no_epg_music" group-title="Музыкальные",9 волна
+#EXTINF:-1 tvg-logo="https://kavkazmusic.tv/wp-content/uploads/2019/07/logo1.png" tvg-id="no_epg_music" group-title="Музыкальные",Kavkaz Music
 http://catchup.videoline.ru/asvtv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/19/91/d7/1991d7b82952f57c6a3231235d367a69.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Ocko Star
+#EXTINF:-1 tvg-id="ocko-star-cz" group-title="Музыкальные",Ocko Star
 http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/3d/b0/4f/3db04f7e5cf79872e7db59ab1cb3a50b.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Ocko TV
+#EXTINF:-1 tvg-id="ocko-cz" group-title="Музыкальные",Ocko TV
 http://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8
 
-#EXTINF:-1 tvg-logo="https://oklivetv.com/wp-content/uploads/media/2bbab18fa09352f91d2ecb59d6e17fdb.jpeg" tvg-id="no_epg_music" group-title="Музыкальные",Ocko Gold
-https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko_gold.stream.1.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://online-television.net/uploads/posts/2022-11/oko-expres.webp" tvg-id="no_epg_music" group-title="Музыкальные",Ocko Expres PM
+#EXTINF:-1 tvg-id="ocko-expres-cz" group-title="Музыкальные",Ocko Expres PM
 http://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn2.vectorstock.com/i/1000x1000/95/16/logo-music-vector-8129516.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Музыка 1 International
+#EXTINF:-1 tvg-id="Музыка 1" group-title="Музыкальные",Музыка 1 International
 http://kino-1.catcast.tv/content/37745/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn2.vectorstock.com/i/1000x1000/95/16/logo-music-vector-8129516.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Музыка 2 International
+#EXTINF:-1 tvg-id="Музыка 2" group-title="Музыкальные",Музыка 2 International
 http://kino-1.catcast.tv/content/37742/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://thumbs.dreamstime.com/b/фи-ьм-49148066.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Музыка Кино International
+#EXTINF:-1 tvg-id="Музыка Кино" group-title="Музыкальные",Музыка Кино International
 http://kino-1.catcast.tv/content/37739/index.m3u8
 
 #EXTINF:-1 tvg-id="trace-urban" group-title="Музыкальные", Trace Urban
 http://127.0.0.1:6878/ace/getstream?id=afcccdafb739a8d9988c921be8c8fb345c101516&.mp4
+
+#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные",FS1
+http://127.0.0.1:6878/ace/getstream?id=b127df86fa00b48fe2e52f38d69b71cc9176bc80&.mp4
 
 #EXTINF:-1 tvg-id="fashion-one-4k" group-title="Fashion",Fashion 4K
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
