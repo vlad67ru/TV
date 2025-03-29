@@ -1562,28 +1562,28 @@ https://stream.sunset-media.org/AfBrazXsUK/J9hGT3vYuv/8.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://stream.sunset-media.org/images/AfE0MpsGM8EECV5bHCwLz_hO0Eky53tVcwF7UW0yq1FemyPRUUdALepyYjcg38_D.png" ,Sunset Serial
 https://stream.sunset-media.org/AfBrazXsUK/J9hGT3vYuv/9.m3u8
 
-#EXTINF:-1 tvg-id="IPTVPLAY ФАНТАСТИКА" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Кинозалы", ФАНТАСТИКА HD
+#EXTINF:-1 tvg-id="IPTVPLAY ФАНТАСТИКА" group-title="Кинозалы", ФАНТАСТИКА HD
 http://92.53.64.197:5050/IPTVPLAYFANTASTIKA.tv/video.m3u8?token=m3VIth-Rou_bM1
 
-#EXTINF:-1 tvg-id="IPTVPLAY ВЕДЬМАК" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Кинозалы", Ведьмак HD
+#EXTINF:-1 tvg-id="IPTVPLAY ВЕДЬМАК" group-title="Кинозалы", Ведьмак HD
 http://92.53.64.197:5050/IPTVPLAYVEDMAK.tv/video.m3u8?token=m3VIth-Rou_bM1
 
-#EXTINF:-1 tvg-id="IPTVPLAY ДЕСЯТОЕ КОРОЛЕВСТВО" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Кинозалы", Десятое Королевство HD
+#EXTINF:-1 tvg-id="IPTVPLAY ДЕСЯТОЕ КОРОЛЕВСТВО" group-title="Кинозалы", Десятое Королевство HD
 http://92.53.64.197:5050/IPTVPLAY10KOROLEVSTVO.tv/video.m3u8?token=m3VIth-Rou_bM1
 
-#EXTINF:-1 tvg-id="IPTVPLAY ПАМЯТЬ" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Кинозалы", ПАМЯТЬ HD
+#EXTINF:-1 tvg-id="IPTVPLAY ПАМЯТЬ" group-title="Кинозалы", ПАМЯТЬ HD
 http://92.53.64.197:5050/IPTVPLAYPAMYAT.tv/video.m3u8?token=m3VIth-Rou_bM1
 
-#EXTINF:-1 tvg-id="IPTVPLAY УЖАСТИК" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Кинозалы", УЖАСТИК HD
+#EXTINF:-1 tvg-id="IPTVPLAY УЖАСТИК" group-title="Кинозалы", УЖАСТИК HD
 http://92.53.64.197:5050/IPTVPLAYUZHASTIK.tv/video.m3u8?token=m3VIth-Rou_bM1
 
-#EXTINF:-1 tvg-id="IPTVPLAY PROMO" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Кинозалы", PROMO HD
+#EXTINF:-1 tvg-id="IPTVPLAY PROMO" group-title="Кинозалы", PROMO HD
 http://92.53.64.197:5050/IPTVPLAYPROMO.tv/video.m3u8?token=m3VIth-Rou_bM1
 
-#EXTINF:-1 tvg-id="IPTVPLAY МультСказки" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Кинозалы", МультСказки HD
+#EXTINF:-1 tvg-id="IPTVPLAY МультСказки" group-title="Кинозалы", МультСказки HD
 http://92.53.64.197:5050/IPTVPLAYMultSkazki.tv/video.m3u8?token=m3VIth-Rou_bM1
 
-#EXTINF:-1 tvg-logo="https://adindex.ru/files2/photogallery/2020_11/photo2_286493_smotrim2.jpg.jpg" tvg-id="Кино и сериалы" group-title="Кинозалы", Смотрим Кино и сериалы
+#EXTINF:-1 tvg-id="Кино и сериалы" group-title="Кинозалы", Смотрим Кино и сериалы
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Alpha Cinema
@@ -1653,7 +1653,7 @@ http://hlss.goodgame.ru/hls/204722.m3u8
 #EXTINF:-1 tvg-id="strk" group-title="Кинозалы", СТРК HD
 http://sochinskayatrk.ru/hdtv/hls/CTPK_HD/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="SCR TV HD" group-title="Кинозалы", SCR TV HD
+#EXTINF:-1 tvg-id="SCR TV HD" group-title="Кинозалы", SCR TV HD
 #EXTVLCOPT:http-user-agent=SmartTV
 https://hls.goodgame.ru/hls/61358.m3u8
 
@@ -1661,7 +1661,7 @@ https://hls.goodgame.ru/hls/61358.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 https://hls.goodgame.ru/hls/199417.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="WWW" group-title="Кинозалы",TDM TV - WWW
+#EXTINF:-1 tvg-id="WWW" group-title="Кинозалы",TDM TV - WWW
 #EXTVLCOPT:http-user-agent=SmartTV
 http://hls.goodgame.ru:8080/hls/192005.m3u8
 
@@ -1815,7 +1815,7 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz_2
 #EXTINF:-1 tvg-id="Ужасы HD" group-title="Кинозалы 2", УЖАСЫ HD
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz_9
 
-#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы 2", БОДО БОРОДО
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", БОДО БОРОДО
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz_3
 
 #EXTINF:-1 tvg-id="zal-01-tricolor" group-title="Кинозалы 2", ВЗВЕШЕННЫЕ ЛЮДИ
@@ -1851,7 +1851,7 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_11
 #EXTINF:-1 tvg-id="Глухарь" group-title="Кинозалы 2", ГЛУХАРЬ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal24_SD
 
-#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы 2", ПЯТНИЦКИЙ
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ПЯТНИЦКИЙ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal25_SD
 
 #EXTINF:-1 tvg-id="Карпов" group-title="Кинозалы 2", КАРПОВ
@@ -1863,7 +1863,7 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal27_SD
 #EXTINF:-1 tvg-id="6 кадров" group-title="Кинозалы 2", 6 КАДРОВ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal28_SD
 
-#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы 2", ЖЕНСКИЙ ДЕТЕКТИВ
+#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ЖЕНСКИЙ ДЕТЕКТИВ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal29_SD
 
 #EXTINF:-1 tvg-id="Мажор" group-title="Кинозалы 2", МАЖОР
