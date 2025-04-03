@@ -1,0 +1,131 @@
+#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz"
+
+#EXTINF:-1 tvg-id="pervy" tvg-logo="http://i120.fastpic.org/big/2022/0731/5a/975757b7227dd15519c6a0e0d5f0065a.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Первый канал
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R03_1TV/variant.m3u8
+
+#EXTINF:-1 tvg-id="pervy" group-title="Эфирные",Первый канал HD
+https://edge2.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="http://i122.fastpic.org/big/2023/0705/17/1f78a821046a3a5dedc9b714a6e0b717.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Россия 1
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1/variant.m3u8
+
+#EXTINF:-1 tvg-id="rossia1" group-title="Эфирные",Россия 1 HD
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/smolensk/russia1-hd/index.m3u8
+
+#EXTINF:-1 tvg-id="match-tv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Матч! ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA2/variant.m3u8
+
+#EXTINF:-1 tvg-id="match-tv" group-title="Эфирные",Матч! HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=match
+
+#EXTINF:-1 tvg-id="ntv" tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/a/a6/NTV_12.03.2018-now.png/revision/latest?cb=20231022055053&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",НТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R03_NTV/variant.m3u8
+
+#EXTINF:-1 tvg-id="ntv" group-title="Эфирные",НТВ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+https://cdn.ntv.ru/ntv0_hd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="5kanal-ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Пятый канал
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8
+
+#EXTINF:-1 tvg-id="kultura" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Россия К
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIAK/variant.m3u8
+
+#EXTINF:-1 tvg-id="kultura" group-title="Эфирные", Россия К HD
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Россия 24
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Карусель
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL/variant.m3u8
+
+#EXTINF:-1 tvg-id="otr" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ОТР
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8
+
+#EXTINF:-1 tvg-id="tvcentr" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ТВ Центр
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_TVC/variant.m3u8
+
+#EXTINF:-1 tvg-id="tvcentr" group-title="Эфирные",ТВ Центр HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=TV_Center_HD
+
+#EXTINF:-1 tvg-id="rentv" tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/8/86/Ren_18.08.2017-09.02.2022.png/revision/latest?cb=20221106133819&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",РЕН ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_RENTV/variant.m3u8
+
+#EXTINF:-1 tvg-id="rentv" group-title="Эфирные",Рен ТВ HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=REN-TV_0_hd
+
+#EXTINF:-1 tvg-name="Спас ТВ" group-title="Эфирные",Спас
+https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",СТС
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_STS/variant.m3u8
+
+#EXTINF:-1 group-title="Эфирные",СТС HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=STS_0_hd
+
+#EXTINF:-1 tvg-id="domashny" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Домашний
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY/variant.m3u8
+
+#EXTINF:-1 tvg-id="domashny" group-title="Эфирные",Домашний HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=domashny
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ТВ-3
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_TV3/variant.m3u8
+
+#EXTINF:-1 tvg-id="tv3-ru" group-title="Эфирные",ТВ-3 HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=tv3_hd
+
+#EXTINF:-1 tvg-logo="https://i116.fastpic.org/big/2021/1107/d9/129dc2e5164bfcd303ad98fbde6e78d9.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Пятница
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8
+
+#EXTINF:-1 group-title="Эфирные",Пятница!
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=Friday_0_hd
+
+#EXTINF:-1 tvg-id="zvezda" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Звезда
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R03_ZVEZDA/variant.m3u8
+
+#EXTINF:-1 tvg-id="zvezda" group-title="Эфирные",Звезда HD
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+
+#EXTINF:-1 tvg-id="mir" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Мир
+#EXTVLCOPT:http-user-agent=SmartTV
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
+
+#EXTINF:-1 tvg-id="mir" group-title="Эфирные",Мир HD
+https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/1/10/TNT_01.06.2022-now.png/revision/latest?cb=20240209120609&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ТНТ
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_TNT/variant.m3u8
+
+#EXTINF:-1 group-title="Эфирные",ТНТ HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=tnt_hd
+
+#EXTINF:-1 tvg-id="muztv" group-title="Эфирные", Муз ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Че
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Ю
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R03_U/variant.m3u8
