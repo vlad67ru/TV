@@ -237,7 +237,7 @@ http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vmeste-rf" group-title="Новости",Вместе-РФ
-http://cdn-01.bonus-tv.ru:80/vmesterf/playlist.m3u8
+https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="krik-tv" group-title="Новости",Крик-ТВ
 http://hls-rictv.cdnvideo.ru/rictv/rictv-srt-stream/playlist.m3u8
@@ -439,9 +439,6 @@ http://127.0.0.1:6878/ace/getstream?id=294d0726ec1df0a1b50069d813f60957d7c85cc0&
 #EXTINF:-1 tvg-id="trace-sport-stars" group-title="Спортивные", Trace Sport Stars
 http://87.120.142.11:18000/Rossiya1
 
-#EXTINF:-1 tvg-id="digisport1" group-title="Спортивные", DIGI Sport 1
-https://top2new.koskoros.ru/top2/premium400/mono.m3u8
-
 #EXTINF:-1 tvg-id="sky-sport-f1-de" group-title="Спортивные", Sky Sport F1 [DE]
 http://127.0.0.1:6878/ace/getstream?id=b04372b9543d763bd2dbd2a1842d9723fd080076&.mp4
 
@@ -452,7 +449,7 @@ http://127.0.0.1:6878/ace/getstream?id=73ff07648e367efebd94636047b07625f664a082&
 https://d2tuwvs0ja335j.cloudfront.net/hls/1080p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="A21 NETWORK" group-title="Спортивные", A21 Network
-http://127.0.0.1:6878/ace/getstream?id=2b1052b84109cdc496e1b28ebf9266b73974a726&.mp4
+https://tv.a21network.ru/content/37909/index.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://photos.live-tv-channels.org/tv-logo/canal-motor-5880.webp" group-title="Спортивные", Canal Motor
 http://127.0.0.1:6878/ace/getstream?id=35e17cc84abc5e393b5acd688536a9681105f2d5&.mp4
@@ -750,7 +747,7 @@ https://stream-msk-11.ott.tricolor.tv:443/dtv/id878_MSKSG-PVR-1--Nash_sport29/03
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8
 
 #EXTINF:-1 group-title="Развлекательные",Пятница!
-https://salam-mskth-35.rutube.ru/dive/river-5-511.rutube.ru/ZMpjxV7aaeZ-FP3nAyB_cQ/stream/genetta-520.ost.rutube.ru/dAsr02PjQ6MPrkerTr1IMg/1743793287/9f87a9a0cecbe773be6fddcbd93585ac/1080p_stream.m3u8
+http://127.0.0.1:6878/ace/getstream?id=10d62d03d9fd2a9e84f639ed40a42e6a13940fce&.mp4
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",СТС
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -764,7 +761,7 @@ http://127.0.0.1:6878/ace/getstream?id=5e06a45d6939341fb7427189245380086c1d63c7&
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_TNT/variant.m3u8
 
 #EXTINF:-1 group-title="Развлекательные",ТНТ HD
-https://salam-mskm9-37.rutube.ru/dive/river-3-321.rutube.ru/XrUwZlTUgPfe1W7Ups-49g/stream/genetta-323.m9.rutube.ru/979Ig0gFb2h2xBRy4uREIQ/1743728091/546602986e6a424d74d594876ddb3f04/1080p_stream.m3u8
+http://127.0.0.1:6878/ace/getstream?id=caa3dad746d80a887e8a259f1c7c2eead749094b&.mp4
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",СТС Love
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -789,7 +786,7 @@ http://127.0.0.1:6878/ace/getstream?id=da27959a3e9ee97647df5aadd056021099e2d845&
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_TV3/variant.m3u8
 
 #EXTINF:-1 tvg-id="tv3-ru" group-title="Развлекательные",ТВ-3 HD
-https://salam-mskth-28.rutube.ru/dive/river-5-513.rutube.ru/qpoWw2cfw06P9iyTkNm2VQ/stream/musang-705.brz.rutube.ru/sdHeaQxPQvyjw6JCUmZoFA/1743727918/7bf12d9c050f9a7ef3728db5730432ae/1080p_stream.m3u8
+http://127.0.0.1:6878/ace/getstream?id=3b878b202b26e2b15bf7304e21a7d5283ebf236b&.mp4
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",Че
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -815,7 +812,7 @@ http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
 http://62.233.57.226:8001/play/a009
 
 #EXTINF:-1 group-title="Развлекательные",TVM Channel
-http://cdn-01.bonus-tv.ru:80/tvm_edge/index.m3u8
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=TVMChannel
 
 #EXTINF:-1 tvg-id="nostalgia" group-title="Развлекательные", Ностальгия
 http://127.0.0.1:6878/ace/getstream?id=4308d30a3e8a7bc83e1f081f565371120c3fb6b3&.mp4
@@ -842,12 +839,13 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Gagsnetwork
 http://62.233.57.226:8001/play/a008
 
 #EXTINF:-1 tvg-id="kaleydoskop-tv" group-title="Развлекательные", Калейдоскоп ТВ
-http://cdn-01.bonus-tv.ru:80/Kaleidoskop_edge/playlist.m3u8
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kaleydoskop
 
 #EXTINF:-1 tvg-id="kvn-tv" group-title="Развлекательные", КВН ТВ
 http://178.212.71.253:8000/play/119/index.m3u8
 
 #EXTINF:-1 tvg-id="kvn-tv" group-title="Развлекательные", КВН-ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
 http://65.21.85.175:8000/play/a013/index.m3u8?token=livetv
 
 #EXTINF:-1 tvg-id="teledom" group-title="Развлекательные",Теледом HD
@@ -858,6 +856,7 @@ http://127.0.0.1:6878/ace/getstream?id=0b24228bb1c0d6340911b7536b52c5bd28af0721&
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_TEOTV/variant.m3u8
 
 #EXTINF:-1 tvg-id="Kulinar TV" group-title="Развлекательные", Кулинар ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
 https://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 
 #EXTINF:-1 tvg-id="eda" group-title="Развлекательные", Еда
@@ -920,13 +919,11 @@ http://127.0.0.1:6878/ace/getstream?id=0d59f0292f9e5569f4dff50ac4c3c89913b32a7a&
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные",Terra HD
 http://130.193.73.10:8937/play/a01g
 
-#EXTINF:-1 group-title="Познавательные", Тайна
-https://river-5-541.rutube.ru/stream/genetta-324.m9.rutube.ru/n_VyuMWtvoaaV46YwfmDUg/1743961524/a11c890a0ec0730ad33bdaaf2d244e1a/576p_stream.m3u8
-
 #EXTINF:-1 tvg-id="ocean-tv" group-title="Познавательные", Ocean TV
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=OCEAN_TV
 
 #EXTINF:-1 tvg-id="galaxy-tv" group-title="Познавательные", Galaxy
+#EXTVLCOPT:http-user-agent=SmartTV
 http://65.21.85.175:8000/play/a01t/index.m3u8?token=livetv
 
 #EXTINF:-1 tvg-id="no_epg" group-title="Познавательные" tvg-logo="https://stream.sunset-media.org/images/AfE0MpsGM8EECV5bHCwLz2Ww6HKLGjpIu0Bh8fSLqASO42yT-qIyVZwTwBHtoEIH.png", Sunset Space
@@ -1214,9 +1211,6 @@ http://127.0.0.1:6878/ace/getstream?id=ae0d6d703ef80198263a1a868740cf059eac4e9e&
 #EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы",Viju TV1000 Action HD
 http://127.0.0.1:6878/ace/getstream?id=05a7dd3bf60e16ed1674cb437e1e00084392285e&.mp4
 
-#EXTINF:-1 tvg-id="kinowood" group-title="Кино и сериалы",Kinowood HD
-http://ott.server-iptv.live/1610/video.m3u8?token=S793FB1732
-
 #EXTINF:-1 tvg-id="cinema" group-title="Кино и сериалы",Cinema Космос ТВ
 http://178.124.152.238:8088/cinema
 
@@ -1334,6 +1328,7 @@ http://127.0.0.1:6878/ace/getstream?id=6f59144864d644ee3f53fddef7db2c2f69255c2e&
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinojam_2
 
 #EXTINF:-1 tvg-id="kinoliving" group-title="Кино и сериалы",KinoLiving HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://109.200.130.123:7537/play/a02k
 
 #EXTINF:-1 tvg-id="trashtv" group-title="Кино и сериалы", Trash TV
@@ -1356,6 +1351,7 @@ http://194.158.222.36:6086
 https://cdn2.skygo.mn/live/disk1/Telecafe/HLS-FTA/Telecafe.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы", Индия
+#EXTVLCOPT:http-user-agent=SmartTV
 http://65.21.85.175:8000/play/a01u/index.m3u8?token=livetv
 
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы", FOX
@@ -1416,7 +1412,7 @@ http://127.0.0.1:6878/ace/getstream?id=d47c7365f67b9b8169404e1c4d86fd698307fa15&
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Den_Pobedy
 
 #EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы",Победа
-https://streaming101.goodstream.cyou/live/43-req_offset_28000000-req_window_0-1k_v5.m3u8
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Pobeda
 
 #EXTINF:-1 tvg-id="paramount-comedy" group-title="Кино и сериалы", Comedy Central
 http://127.0.0.1:6878/ace/getstream?id=5680521f0e507f2c6f55f3de8dd79351615116c5&.mp4
@@ -1476,7 +1472,7 @@ http://127.0.0.1:6878/ace/getstream?id=ac8cbc3f2dc210bb0a3e80a7e9eb65afb3ae40f0&
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Vremya
 
 #EXTINF:-1 group-title="Кино и сериалы", Кино 1 International
-http://127.0.0.1:6878/ace/getstream?id=4b5723516bb2a8e45bfabc32a65e236cdfaed796&.mp4
+http://kino-1.catcast.tv/content/38617/index.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы", Viasat Kino World
 http://127.0.0.1:6878/ace/getstream?id=7d6cde4ca27c258d7bbdce777e303495b072517d&.mp4
@@ -1637,7 +1633,7 @@ http://92.53.64.197:5050/IPTVPLAYPROMO.tv/video.m3u8?token=m3VIth-Rou_bM1
 #EXTINF:-1 tvg-id="IPTVPLAY МультСказки" group-title="Кинозалы", МультСказки HD
 http://92.53.64.197:5050/IPTVPLAYMultSkazki.tv/video.m3u8?token=m3VIth-Rou_bM1
 
-#EXTINF:-1 tvg-id="Смотрим HD" group-title="Кинозалы", Смотрим Кино и сериалы
+#EXTINF:-1 tvg-id="Кино и сериалы" group-title="Кинозалы", Смотрим Кино и сериалы
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Alpha Cinema
