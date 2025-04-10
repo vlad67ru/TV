@@ -66,8 +66,9 @@ https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_RENTV/variant.m3u8
 #EXTINF:-1 tvg-id="rentv" group-title="Эфирные",Рен ТВ HD
 http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=REN-TV_0_hd
 
-#EXTINF:-1 tvg-name="Спас ТВ" group-title="Эфирные",Спас
-https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Спас
+#EXTVLCOPT:http-user-agent=SmartTV
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",СТС
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -118,7 +119,7 @@ https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_TNT/variant.m3u8
 #EXTINF:-1 group-title="Эфирные",ТНТ HD
 http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=tnt_hd
 
-#EXTINF:-1 tvg-id="muztv" group-title="Эфирные", Муз ТВ
+#EXTINF:-1 tvg-id="muztv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Муз ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 
@@ -136,3 +137,19 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
 
 #EXTINF:-1 tvg-id="tnt4" group-title="Эфирные",ТНТ4 HD
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=TNT4
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",2x2
+#EXTVLCOPT:http-user-agent=SmartTV
+https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",СТС Love
+#EXTVLCOPT:http-user-agent=SmartTV
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Солнце
+#EXTVLCOPT:http-user-agent=SmartTV
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Суббота
+#EXTVLCOPT:http-user-agent=SmartTV
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
