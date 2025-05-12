@@ -3525,7 +3525,7 @@ http://88.212.7.11/live/test_basbes_hd_hevc/playlist.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 http://88.212.7.11/live/test_leo_hd_hevc/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.goiptv.top/upload/REALITY-KINGS-TV-LOGO.png" tvg-id="no_epg_xxx" group-title="Взрослые [ВХОД СТРОГО 18+]", Reality Kings TV
+#EXTINF:-1 tvg-id="reality-kings" group-title="Взрослые [ВХОД СТРОГО 18+]", Reality Kings TV
 #EXTVLCOPT:http-user-agent=SmartTV
 http://88.212.7.11/live/test_realitykings_sd_hevc/playlist.m3u8
 
@@ -3535,12 +3535,6 @@ https://5f22d76e220e1.streamlock.net/canale9/canale9/playlist.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_xxx" tvg-logo="https://s.rbk.ru/v1_companies_s3/media/trademarks/0737acd5-1854-4f3c-9521-2b9d82c4d54e.jpg" group-title="Взрослые [ВХОД СТРОГО 18+]", Porn Classic
 http://200.194.238.229:8383/live/pornclassic/playlist.m3u8
-
-#EXTINF:-1 tvg-id="no_epg_xxx" tvg-logo="https://pic.rutubelist.ru/video/2d/87/2d87ffd826e10802520135f2034c40bb.png" group-title="Взрослые [ВХОД СТРОГО 18+]", Torn
-https://video1.tizam.cc/vk/Torn-Rus.mp4
-
-#EXTINF:-1 tvg-id="no_epg_xxx" tvg-logo="https://pic.rutubelist.ru/video/2d/87/2d87ffd826e10802520135f2034c40bb.png" group-title="Взрослые [ВХОД СТРОГО 18+]", Кульминация Апокалипсиса
-https://video1.tizam.cc/films/Apocalypse-Climax1.mp4
 
 #EXTINF:-1 tvg-id="no_epg_xxx" tvg-logo="http://1.bp.blogspot.com/-E-qvJLo_j1s/UB7Jd47Ro2I/AAAAAAAAATw/qQskQfN6tQ4/s1600/miami-tv-logo-gif2_design.png" group-title="Взрослые [ВХОД СТРОГО 18+]",Miami TV
 http://59ec5453559f0.streamlock.net:1935/Miamitv/smil:WEB4141/chuklist.m3u8
