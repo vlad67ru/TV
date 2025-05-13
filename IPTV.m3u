@@ -60,6 +60,9 @@ http://cdn.ntv.ru/th_style/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-mir" group-title="Эфирные", НТВ-Мир
 https://streaming.goodstream.cyou/live/213.m3u8
 
+#EXTINF:-1 tvg-id="ntv-belarus" group-title="Эфирные", НТВ-Беларусь HD
+http://87.252.254.168:4022/udp/233.81.116.205:1234
+
 #EXTINF:-1 tvg-id="tro" group-title="Эфирные", БелРос
 https://live.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
 
@@ -1678,9 +1681,6 @@ https://132544.edgevideo.ru/streams/132544_806129/playlist.m3u8
 
 #EXTINF:-1 tvg-id="horrortv" group-title="Кинозалы", ⱧØⱤⱤØⱤ ₮V
 https://132544.edgevideo.ru/streams/132544_847220/1325441080/index.m3u8
-
-#EXTINF:-1 tvg-id="Kinoteatr (UZ)" group-title="Кинозалы", Kinoteatr HD
-https://iptv.itv.uz/hls/live/t/-tfaD2NcwDuR28jpRQMwuA/e/1747076245/1009/index.m3u8
 
 #EXTINF:-1 tvg-id="IPTVPLAY ФАНТАСТИКА" group-title="Кинозалы", ФАНТАСТИКА HD
 http://92.53.64.197:5050/IPTVPLAYFANTASTIKA.tv/video.m3u8?token=m3VIth-Rou_bM1
