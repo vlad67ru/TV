@@ -1243,6 +1243,9 @@ https://retrtb.educom.ru/mosobrtv/tv2/index.m3u8
 #EXTINF:-1 tvg-id="nasha-sibir-4k" group-title="Познавательные", Наша Сибирь 4K
 http://127.0.0.1:6878/ace/getstream?id=4b7237f2e654d6c1e03ece1d2fffc249e0324ae6&.mp4
 
+#EXTINF:-1 tvg-id="ruskorabl" group-title="Познавательные", ПЛЮС/МИНУС 16
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=russian_ship_HD
+
 #EXTINF:-1 group-title="Кино и сериалы", VIJU+ PREMIERE HD
 http://127.0.0.1:6878/ace/getstream?id=dc939e7815f47c5db59bd3e9fe4bb61ddecc45a5&.mp4
 
@@ -2298,9 +2301,6 @@ http://127.0.0.1:6878/ace/getstream?id=c41b15ab711e836f210d1c5c1eb2bd999ee3e440&
 #EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные",Mezzo
 http://178.212.71.253:8002/play/a00n/index.m3u8
 
-#EXTINF:-1 tvg-id="ruskorabl" group-title="Музыкальные", Русский корабль
-http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=russian_ship_HD
-
 #EXTINF:-1 tvg-id="bridge-tv" group-title="Музыкальные", Bridge TV
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Bridge
 
@@ -2344,7 +2344,7 @@ http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 group-title="Музыкальные",Шансон-TB
 http://127.0.0.1:6878/ace/getstream?id=71506b08243e6b12e0e6e69c8582622a38009637&.mp4
 
-#EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные", Ля-минор
+#EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные", Музыка Live
 http://127.0.0.1:6878/ace/getstream?id=e72eb5bd621666fdcb1cf7689ce9a1f66fe20c22&.mp4
 
 #EXTINF:-1 tvg-id="zhar-ptica" group-title="Музыкальные",Жар-Птица
