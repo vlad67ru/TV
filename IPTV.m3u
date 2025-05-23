@@ -325,16 +325,13 @@ http://127.0.0.1:6878/ace/getstream?id=6176281b9c46a5621a0e88524f8dc621f173b8e0&
 http://127.0.0.1:6878/ace/getstream?id=4b129146077c1e357e4ab341448b9fb629f939dc&.mp4
 
 #EXTINF:-1 tvg-id="start-triumf" group-title="Спортивные",Старт Триумф HD
-http://127.0.0.1:6878/ace/getstream?id=77c4a879752e4a24e2e39bfcd58458eee24b58a0&.mp4
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Start_triumph
 
 #EXTINF:-1 tvg-id="tonus-tv" group-title="Спортивные",Тонус ТВ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Tonus
 
 #EXTINF:-1 group-title="Спортивные",Russian Extreme HD
 http://127.0.0.1:6878/ace/getstream?id=ed63659df12baa6febbe70f4125b6527aa1ae413&.mp4
-
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://mosi.ru/sites/default/files/conf/122013_Psihologia/sport-k_0.jpg" group-title="Спортивные",Спорт на Первом
-https://edge3.1internet.tv/dash-live2/streams/sport-1/sport-1.mpd
 
 #EXTINF:-1 tvg-id="match-tv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Спортивные",Матч! ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -927,7 +924,7 @@ http://178.212.71.253:8000/play/119/index.m3u8
 
 #EXTINF:-1 tvg-id="kvn-tv" group-title="Развлекательные", КВН-ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
-http://31.210.208.171:8080/kvn/index.m3u8?token=+W2MSER
+http://109.248.236.51/kvn_tv/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="teledom" group-title="Развлекательные",Теледом HD
 http://127.0.0.1:6878/ace/getstream?id=0b24228bb1c0d6340911b7536b52c5bd28af0721&.mp4
@@ -998,7 +995,7 @@ http://127.0.0.1:6878/ace/getstream?id=192ca66e1e39bec710e286780c49bcc432258636&
 http://127.0.0.1:6878/ace/getstream?id=0d59f0292f9e5569f4dff50ac4c3c89913b32a7a&.mp4
 
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные",Terra HD
-http://109.200.130.123:7537/play/a02i
+https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 
 #EXTINF:-1 tvg-id="ocean-tv" group-title="Познавательные", Ocean TV
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=OCEAN_TV
@@ -1082,10 +1079,10 @@ http://tv.streams.baikal-telecom.net:8080/Moya_Planeta/index.m3u8
 http://127.0.0.1:6878/ace/getstream?id=bc956bc36a6384474f1b613638c79291e0ee3c14&.mp4
 
 #EXTINF:-1 tvg-id="domashnie-zhivotnye" group-title="Познавательные", Домашние животные
-http://130.193.73.10:8937/play/a02d
+http://178.212.71.253:8000/play/95/index.m3u8
 
 #EXTINF:-1 tvg-id="morskoy" group-title="Познавательные", Моя стихия
-http://109.200.130.123:7537/play/a02f
+http://109.200.130.123:7537/play/a03f
 
 #EXTINF:-1 tvg-id="prosveschenie" group-title="Познавательные",Просвещение
 http://127.0.0.1:6878/ace/getstream?id=9c8853a9be82faa3a1877f1ce03cca28a75d7258&.mp4
@@ -1118,7 +1115,7 @@ http://178.212.71.253:8000/play/96/index.m3u8
 http://127.0.0.1:6878/ace/getstream?id=4326cb056ec172c0d9958cd44535045723b66068&.mp4
 
 #EXTINF:-1 tvg-id="big-planet" group-title="Познавательные", Big Planet
-http://109.200.130.123:7537/play/a02j
+http://31.173.165.29:8000/play/a01h/index.m3u8
 
 #EXTINF:-1 group-title="Познавательные", 365 ДНЕЙ
 http://178.212.71.253:8000/play/67/index.m3u8
@@ -1321,7 +1318,7 @@ https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8
 http://127.0.0.1:6878/ace/getstream?id=81f0887e26ba44b512ad12e8f126521aa358ccb9&.mp4
 
 #EXTINF:-1 tvg-id="retro-tv" group-title="Кино и сериалы", Ретро ТВ
-http://194.158.218.123:8880/Retrotv/index.m3u8
+http://178.212.71.253:8000/play/90/index.m3u8
 
 #EXTINF:-1 tvg-id="vhs-ka" group-title="Кино и сериалы", VHS-ка HD
 http://158.46.103.142:81/udp/239.255.42.88:1234
@@ -1409,7 +1406,7 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinojam_2
 
 #EXTINF:-1 tvg-id="kinoliving" group-title="Кино и сериалы",KinoLiving HD
 #EXTVLCOPT:http-user-agent=SmartTV
-http://109.200.130.123:7537/play/a02k
+http://109.200.130.123:7537/play/a03k
 
 #EXTINF:-1 tvg-id="trashtv" group-title="Кино и сериалы", Trash TV
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -1422,7 +1419,7 @@ http://127.0.0.1:6878/ace/getstream?id=b2314014f5b3c51ed75dc5066260b5134fa4d5a6&
 http://127.0.0.1:6878/ace/getstream?id=3eb0fde3eb9b432b6a978742e73dccf4ec0c5b5d&.mp4
 
 #EXTINF:-1 tvg-id="filmbox-ru" group-title="Кино и сериалы", FilmBox Russia
-http://130.193.73.10:8937/play/a03s 
+http://45.143.108.110:2200/FilmBOX
 
 #EXTINF:-1 tvg-id="timeless-dizi" group-title="Кино и сериалы", Timeless Dizi Channel
 http://194.158.222.36:6086
@@ -1546,6 +1543,9 @@ https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/chunklist_b5160000_slen
 
 #EXTINF:-1 tvg-id="bollywood-hd" group-title="Кино и сериалы",Bollywood
 http://127.0.0.1:6878/ace/getstream?id=ac8cbc3f2dc210bb0a3e80a7e9eb65afb3ae40f0&.mp4
+
+#EXTINF:-1 group-title="Кино и сериалы",Мир сериала
+http://109.248.236.51/mir_seriala/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы", Время
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Vremya
@@ -2045,7 +2045,7 @@ http://127.0.0.1:6878/ace/getstream?id=c0d8e40d726705eaa3c8e714e38babffd2dd18cb&
 https://livetv.mylifeisgood.net.ru/channels/babytime.m3u8
 
 #EXTINF:-1 group-title="Детские",В гостях у сказки
-http://109.200.130.123:7537/play/a02m
+http://127.0.0.1:6878/ace/getstream?id=77c4a879752e4a24e2e39bfcd58458eee24b58a0&.mp4
 
 #EXTINF:-1 group-title="Детские", Мульт
 http://stv.mediacdn.ru/live/cdn/mult/playlist_sdhigh.m3u8
@@ -2073,12 +2073,6 @@ http://127.0.0.1:6878/ace/getstream?id=6578fed493fdf327038e74d9d967888d3dbb9c2d&
 
 #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские", Nickelodeon
 http://127.0.0.1:6878/ace/getstream?id=f0d54f4dd24f898ab421add3217f51ee9c722915&.mp4
-
-#EXTINF:-1 tvg-id="nick-jr" group-title="Детские",Nick Jr
-http://de.online24.pm/play/240/AACDF424F824C27/video.m3u8
-
-#EXTINF:-1 tvg-id="nicktoons" group-title="Детские",Nicktoons
-http://de.online24.pm/play/515/AACDF424F824C27/video.m3u8
 
 #EXTINF:-1 group-title="Детские", TiJi
 http://127.0.0.1:6878/ace/getstream?id=4da0f57fb96330c7f6ad5f4bce0ba93038b628c3&.mp4
