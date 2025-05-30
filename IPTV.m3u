@@ -1947,7 +1947,7 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_6
 #EXTINF:-1 tvg-id="zal-07-tricolor" group-title="Кинозалы 2", ТРИ КОТА
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_7
 
-#EXTINF:-1 tvg-id="zal-08-tricolor" group-title="Кинозалы 2", ВНЕ ЗАКОНА
+#EXTINF:-1 tvg-id="zal-08-tricolor" group-title="Кинозалы 2", ДОКАЗАТЕЛЬСТВА ВИНЫ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_8
 
 #EXTINF:-1 tvg-id="zal-09-tricolor" group-title="Кинозалы 2", АННА-ДЕТЕКТИВЪ
@@ -1965,7 +1965,7 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_12
 #EXTINF:-1 tvg-id="Исторический HD" group-title="Кинозалы 2", ИСТОРИЧЕСКИЙ HD
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_20_hd
 
-#EXTINF:-1 tvg-id="Легенды Спарка" group-title="Кинозалы 2", ЛЕГЕНДЫ СПАРКА
+#EXTINF:-1 tvg-id="Легенды Спарка" group-title="Кинозалы 2", РОБОЗУНА
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_21_sd
 
 #EXTINF:-1 tvg-id="Детские песенки" group-title="Кинозалы 2", ДЕТСКИЕ ПЕСЕНКИ
@@ -1977,10 +1977,10 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=kinozal_23_sd
 #EXTINF:-1 tvg-id="Глухарь" group-title="Кинозалы 2", ГЛУХАРЬ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal24_SD
 
-#EXTINF:-1 tvg-logo="https://us.123rf.com/450wm/captainvector/captainvector2208/captainvector220809083/189746183-filmstrip-and-popcorn-design.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ПЯТНИЦКИЙ
+#EXTINF:-1 tvg-logo="https://static.kinoafisha.info/k/series_posters/480/upload/series/seasons/200161537992.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ГОРЮНОВ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal25_SD
 
-#EXTINF:-1 tvg-id="Карпов" group-title="Кинозалы 2", КАРПОВ
+#EXTINF:-1 tvg-id="Карпов" group-title="Кинозалы 2", БАЛАБОЛ
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal26_SD
 
 #EXTINF:-1 tvg-id="Улицы разбитых фонарей" group-title="Кинозалы 2", УЛИЦЫ РАЗБИТЫХ ФОНАРЕЙ
@@ -1994,6 +1994,15 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal29_SD
 
 #EXTINF:-1 tvg-id="Мажор" group-title="Кинозалы 2", МАЖОР
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal30_HD
+
+#EXTINF:-1 tvg-logo="https://avatars.mds.yandex.net/get-vthumb/4055865/9c599f4380c90cbbc8604c8fcbdd130a/564x318_1" tvg-id="no_epg" group-title="Кинозалы 2", ОСТОРОЖНО МОДЕРН
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_31
+
+#EXTINF:-1 tvg-logo="https://sun9-71.userapi.com/c4226/u16211411/121473247/x_fa9a2340.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", БАНДИТСКИЙ ПЕТЕРБУРГ
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_32
+
+#EXTINF:-1 tvg-logo="https://cdn.nur.kz/images/1120x630/pogudx2cojg2jtu6kg.jpeg" tvg-id="no_epg_cinema" group-title="Кинозалы 2", ВОСТОК-ЗАПАД
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinozal_33
 
 #EXTINF:-1 tvg-id="Боевики HD" group-title="Кинозалы 2", БОЕВИКИ HD
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Kinopokaz_2
