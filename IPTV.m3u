@@ -380,7 +380,7 @@ http://127.0.0.1:6878/ace/getstream?id=f6d68cfa8694f814983f2a5757f4e0c4964b880c&
 http://127.0.0.1:6878/ace/getstream?id=b7e8c3bae5d98a4f842f334ff57604de9886f5c7&.mp4
 
 #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные",Viju+ Sport
-http://135.181.115.81:8000/play/a00f/index.m3u8?token=livetv
+http://92.242.110.52:9835/udp/238.1.8.28:1234
 
 #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные",Viju+ Sport
 http://127.0.0.1:6878/ace/getstream?id=dec96c86080c26ddf667ea90adfb513a40007a0b&.mp4
@@ -903,7 +903,7 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=WomensMagazine_SD
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Rutube_HD
 
 #EXTINF:-1 tvg-id="tv-rus" group-title="Развлекательные", TV RUS
-http://217.79.179.127:8081/RuOIYxwHD7sQiL2MnAnBaWaJsoF2Q4f9m0D43wVo2Wso/live/tvrus/stream0.m3u8
+http://api.alpaca.t62a.com/hls/9121/stream0.m3u8
 
 #EXTINF:-1 tvg-id="7d7" group-title="Развлекательные", Just TV
 https://fenixstream2.online/memfs/0ac46a4f-71ea-4bf7-bb62-312df327b6c8.m3u8
@@ -1023,7 +1023,7 @@ https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=OCEAN_TV
 
 #EXTINF:-1 tvg-id="galaxy-tv" group-title="Познавательные", Galaxy
-https://s1.merlive.am/TainiGalaktiki/index.m3u8
+http://5.3.176.223:81/udp/235.10.10.152:1234
 
 #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные", Nat Geo Wild
 http://127.0.0.1:6878/ace/getstream?id=5347a5417c376ac10cdf9c1a3a26eadbe76c280a&.mp4
@@ -1215,7 +1215,7 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Rybalov
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Nasha_Tema
 
 #EXTINF:-1 tvg-id="kluch" group-title="Познавательные",Ключ
-http://s1.merlive.am/kluch/index.m3u8
+http://5.3.176.223:81/udp/235.10.10.128:1234
 
 #EXTINF:-1 group-title="Познавательные",В мире животных HD
 http://127.0.0.1:6878/ace/getstream?id=30ed25e99233ae63f7e10787c8806f74f52a437c&.mp4
@@ -1234,9 +1234,6 @@ http://127.0.0.1:6878/ace/getstream?id=48566a80593d54be5543583173fd520ce675d5b2&
 
 #EXTINF:-1 tvg-id="hd-life" group-title="Познавательные",Точка.РФ
 http://127.0.0.1:6878/ace/getstream?id=74a1634a8fe44e5058c865d4de63cde90b14f107&.mp4
-
-#EXTINF:-1 tvg-id="zoopark" group-title="Познавательные",ZooПарк
-http://s1.merlive.am/Zoopark/index.m3u8
 
 #EXTINF:-1 group-title="Познавательные",Живая Планета
 http://127.0.0.1:6878/ace/getstream?id=b0ecbeeb8ce7bb65cd3ee911b44084976b259549&.mp4
@@ -2173,9 +2170,6 @@ http://sirius.greenhosting.ru/MamontRu/playlist.m3u8
 
 #EXTINF:-1 tvg-id="multimania-lv" group-title="Детские", Детский телеканал Мультимания
 http://sirius.greenhosting.ru/MultimaniaRu/playlist.m3u8
-
-#EXTINF:-1 tvg-id="cartoon-classics" group-title="Детские", Cartoon Classics
-http://178.163.5.162:4022/udp/234.0.0.238:2000
 
 #EXTINF:-1 tvg-id="Мультсериал" group-title="Детские", Мультики и Сказки HD
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -3532,7 +3526,7 @@ http://127.0.0.1:6878/ace/getstream?id=a796a142aa62cfc4e0426dd17e6820976832b470&
 #EXTINF:-1 tvg-id="Радио Romantika" group-title="Радио", Радио Romantika
 http://127.0.0.1:6878/ace/getstream?id=4bf1e0656a74f65b2f413cff91d5334ef2970917&.mp4
 
-#EXTINF:-1 tvg-id="Радио для Двоих" group-title="Радио", FM Радио для Дв❤️их
+#EXTINF:-1 tvg-id="Радио для Двоих" group-title="Радио", FM Радио для Д❤️их
 http://127.0.0.1:6878/ace/getstream?id=9871db4dfe24e3fd4841b19f040ab5bf6d05d4d4&.mp4
 
 #EXTINF:-1 tvg-id="Детское радио" group-title="Радио", Детское Радио
