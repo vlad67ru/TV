@@ -924,7 +924,7 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=TVMChannel
 http://127.0.0.1:6878/ace/getstream?id=4308d30a3e8a7bc83e1f081f565371120c3fb6b3&.mp4
 
 #EXTINF:-1 tvg-id="tvoetv-humor" group-title="Развлекательные",Твоё ТВ HD Юмор
-http://127.0.0.1:6878/ace/getstream?id=ce11a69042e58a38dcc01c73ce8d356d8c28ea37&.mp4
+http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://i.pinimg.com/736x/10/d3/18/10d3184a659a909948733a2a68558529.jpg" group-title="Развлекательные", AFV Family
 https://futuretoday-afv-family-2-be.samsung.wurl.tv/playlist.m3u8
@@ -2147,9 +2147,6 @@ http://127.0.0.1:6878/ace/getstream?id=5bfc90fb33d6046da53943364b3d68d0e19e4464&
 #EXTINF:-1 group-title="Детские",Ani
 http://127.0.0.1:6878/ace/getstream?id=9eb31bd34245c4bbe60f0fe6081f854b7d1dde52&.mp4
 
-#EXTINF:-1 tvg-id="kinomult" group-title="Детские",Киномульт
-http://109.200.130.123:7537/play/a024
-
 #EXTINF:-1 group-title="Детские", Рыжий
 http://127.0.0.1:6878/ace/getstream?id=0ef17cf868ef54b443dd41516803276779b76aac&.mp4
 
@@ -2198,6 +2195,12 @@ https://d3u2u3qzvtw7w.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 #EXTINF:-1 tvg-logo="https://www.hedex.tv/uploads/images/clip_5757_1705741236_social.jpg" tvg-id="no_epg_music" group-title="Музыкальные", Oxygen Music 
 https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
 
+#EXTINF:-1 tvg-id="R-Music" group-title="Музыкальные", Rmusic
+https://otv.wotom.net/rmusic/stream.m3u8
+
+#EXTINF:-1 tvg-id="4fun" group-title="Музыкальные", 4fun.TV
+https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
+
 #EXTINF:-1 tvg-id="classic-music" group-title="Музыкальные", Classic Music HD
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Classic_Music_HD
 
@@ -2219,6 +2222,9 @@ http://127.0.0.1:6878/ace/getstream?id=4f2d81ed73736cf3adc44c8a6a24cda47fc1eef0&
 #EXTINF:-1 tvg-id="TMF" group-title="Музыкальные", TMF RUS
 #EXTVLCOPT:http-user-agent=SmartTV
 https://hls.goodgame.ru/hls/201891.m3u8
+
+#EXTINF:-1 tvg-id="Retro Plus TV" group-title="Музыкальные", RETRO PLUS
+https://scl.edge.grupoz.cl/retroplus16@grupoz.cl_retrolive/live/chunklist_w1122432165.m3u8
 
 #EXTINF:-1 tvg-id="TechnoDanceMusic" group-title="Музыкальные", TECHNO DANCE MUSIC
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -2284,12 +2290,38 @@ https://stream10.xdevel.com/video0s977971-2391/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="88 STEREO TV" group-title="Музыкальные", 88 Stereo
 http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Xite" group-title="Музыкальные", XITE
-http://xite-samsung-de.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE Celebrates
+https://dt1s4l2cmiyit.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fcwpee1h7t5cs/XITE_Celebrates.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300006O3_20240716T002639SQUARE.png" group-title="Музыкальные", XITE Country
-https://d18gddrg3q1rlq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l4hn4yums84y5/XITE_Country_Today.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=USBD3300006O3
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE 80s Flashback
+https://d1n314cytqn9r3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bklagqy82v0pr/XITE_80s_Flashback.m3u8
 
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE 90s Throwback
+https://d284aawtm5vi48.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fjdfi2br1jtq7/XITE_90s_Throwback.m3u8
+
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE Country`s Finest
+https://d2tcgvmxn0otsl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-vxf3mwifay8co/XITE_Countrys_Finest.m3u8
+
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE Country Today
+https://d18gddrg3q1rlq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l4hn4yums84y5/XITE_Country_Today.m3u8
+
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE Hits
+https://d726x48n2pd5h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-skxr1pazhltvp/XITE_Hits.m3u8
+
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE Just Chill
+https://dvnftgdlbnemm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-dh48uzd9o895t/XITE_Just_Chill.m3u8
+
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE Nuevo Latino
+https://d3bsgqzbpkrvbb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w288eaw03izg1/XITE_Nuevo_Latino.m3u8
+
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE Siempre Latino
+https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xplkt8i7m24dc/XITE_Siempre_Latino.m3u8
+
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE R&B Classic Jams
+https://d163j5tlekse0h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-133wbycdrwhvy/XITE_RnB_Classic_Jams.m3u8
+
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xite_Logo_New.jpg/640px-Xite_Logo_New.jpg" group-title="Музыкальные", XITE Rock x Metal
+https://d198ro05q94rc4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-c5xdq9qwilrd2/XITE_Rock_On.m3u8
 
 #EXTINF:-1 tvg-id="Dance TV HD" group-title="Музыкальные", Dance TV
 https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
@@ -2321,6 +2353,15 @@ http://127.0.0.1:6878/ace/getstream?id=fbb84424b72936792cbb5a0b46eaeab69b96872c&
 #EXTINF:-1 tvg-id="Kronehit HD" group-title="Музыкальные",Kronehit HD
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1628000.m3u8
 
+#EXTINF:-1 tvg-id="mtv-80s-uk" group-title="Музыкальные", MTV 80s
+http://213.169.39.30:5137
+
+#EXTINF:-1 tvg-id="mtv90s-uk" group-title="Музыкальные", MTV 90s
+http://213.169.39.30:5203
+
+#EXTINF:-1 tvg-id="mtv-hits" group-title="Музыкальные", MTV Hits
+http://213.169.39.30:5257
+
 #EXTINF:-1 tvg-id="mtv-europe" group-title="Музыкальные", MTV Europe
 http://fl5.moveonjoy.com/MTV/index.m3u8
 
@@ -2342,7 +2383,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 http://91.247.68.229:8000/play/eee/index.m3u8
 
 #EXTINF:-1 tvg-id="mcm-top" group-title="Музыкальные",MCM Top
-http://109.200.130.123:7537/play/a029
+http://92.242.110.52:9835/udp/238.1.9.9:1234
 
 #EXTINF:-1 group-title="Музыкальные",Первый музыкальный RU
 http://rtmp.one.by:2200
@@ -2377,6 +2418,9 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Bridge
 #EXTINF:-1 tvg-id="bridge-tv-dance" group-title="Музыкальные", Bridge TV Hits
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Bridge_TV_Hits
 
+#EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Музыкальные", Bridge TV Русский хит
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=BRIDGE_TV_Russkiy_hit
+
 #EXTINF:-1 tvg-id="bridge-tv-classic" group-title="Музыкальные", Bridge TV Classic
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Bridge_tv_classic
 
@@ -2386,11 +2430,14 @@ http://178.212.71.253:8000/play/101/index.m3u8
 #EXTINF:-1 tvg-id="bridge-hd" group-title="Музыкальные", Bridge TV Deluxe
 http://127.0.0.1:6878/ace/getstream?id=32c2ea9b766da382ee892dae57871b3dd1e8641b&.mp4
 
+#EXTINF:-1 tvg-id="bridge-tv-etno" group-title="Музыкальные", Bridge TV Этно
+http://tvip.btk.teleos.ru:8081/chid520/index.m3u8
+
 #EXTINF:-1 tvg-id="bridge-tv-shlager" group-title="Музыкальные", Bridge TV Шлягер
 http://178.212.71.253:8000/play/142/index.m3u8
 
-#EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Музыкальные", Bridge TV Русский хит
-http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=BRIDGE_TV_Russkiy_hit
+#EXTINF:-1 tvg-id="bridge-tv-fresh" group-title="Музыкальные", Bridge TV Фрэш
+http://31.130.19.207:4022/udp/239.1.12.13:1234
 
 #EXTINF:-1 tvg-id="now-rock" group-title="Музыкальные", Now Rock
 https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
@@ -2419,6 +2466,13 @@ http://127.0.0.1:6878/ace/getstream?id=e72eb5bd621666fdcb1cf7689ce9a1f66fe20c22&
 
 #EXTINF:-1 tvg-id="zhar-ptica" group-title="Музыкальные",Жар-Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="kuraj" group-title="Музыкальные", Курай
+http://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
+
+#EXTINF:-1 tvg-id="maydan" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные",Майдан
+#EXTVLCOPT:http-user-agent=SmartTV
+http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R05_MAIDAN/variant.m3u8
 
 #EXTINF:-1 tvg-id="ocko-star-cz" group-title="Музыкальные",Ocko Star
 http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
