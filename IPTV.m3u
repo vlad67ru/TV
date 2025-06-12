@@ -222,7 +222,7 @@ http://45.143.108.110:2203/RTVi
 https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
 
 #EXTINF:-1 tvg-id="rt-news" group-title="Новости",RT News HD
-http://cdn-01.bonus-tv.ru/RussiaToday/index.m3u8
+https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 
 #EXTINF:-1 tvg-id="360-news" group-title="Новости", 360 Новости
 http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/tracks-v5a1/mono.m3u8
