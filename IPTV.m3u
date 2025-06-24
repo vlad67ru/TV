@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz; http://gabbarit.drm-play.com/epg_1.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz; http://gabbarit.drm-play.com/epg_lite.xml.gz"
 
 #EXTINF:-1 tvg-id="pervy" tvg-logo="http://i120.fastpic.org/big/2022/0731/5a/975757b7227dd15519c6a0e0d5f0065a.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Первый канал
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -58,10 +58,7 @@ http://cdn.ntv.ru/th_serial/playlist.m3u8
 http://cdn.ntv.ru/th_style/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ntv-mir" group-title="Эфирные", НТВ-Мир
-https://streaming.goodstream.cyou/live/213.m3u8
-
-#EXTINF:-1 tvg-id="ntv-belarus" group-title="Эфирные", НТВ-Беларусь HD
-http://87.252.254.168:4022/udp/233.81.116.205:1234
+https://streaming.televizor-24-tochka.ru/live/213.m3u8
 
 #EXTINF:-1 tvg-id="tro" group-title="Эфирные", БелРос
 https://live.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
@@ -220,6 +217,9 @@ http://45.143.108.110:2203/RTVi
 
 #EXTINF:-1 tvg-id="rtd-ru" group-title="Новости",RT Д HD
 https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
+
+#EXTINF:-1 tvg-id="rt-news" group-title="Новости",RT News
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=RT
 
 #EXTINF:-1 tvg-id="rt-news" group-title="Новости",RT News HD
 https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
@@ -468,9 +468,6 @@ http://109.200.130.123:7537/play/a03p
 #EXTINF:-1 tvg-id="extreme-pl" group-title="Спортивные", Extreme Channel [PL]
 http://127.0.0.1:6878/ace/getstream?id=73ff07648e367efebd94636047b07625f664a082&.mp4
 
-#EXTINF:-1 tvg-id="idman" group-title="Спортивные", Idman TV
-https://str.yodacdn.net/idman/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/National_Olympic_Committee_of_Turkmenistan_logo.svg/1200px-National_Olympic_Committee_of_Turkmenistan_logo.svg.png" tvg-id="no_epg_sport" group-title="Спортивные", Turkmenistan Sport
 http://127.0.0.1:6878/ace/getstream?id=c3f5acd35086090c5fc815b961006630248b7dc0&.mp4
 
@@ -512,50 +509,6 @@ http://88.212.7.10/live/test_ctsport_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="cbs-sports-network-us" group-title="Спортивные", CBS Sports Network [US]
 http://127.0.0.1:6878/ace/getstream?id=bfc49b39eed44f5e3a5f4ad060d463901a049dd1&.mp4
 
-#EXTINF:-1  tvg-logo="https://donelfantastic.github.io/creativemedia/img/truevision-bein-sports1.png" group-title="Спортивные", TH:TRUE BEINSPORTS 1
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_epl1_720p/chunklist.m3u8
-
-#EXTINF:-1  tvg-logo="https://donelfantastic.github.io/creativemedia/img/truevision-bein-sports2.png" group-title="Спортивные", TH:TRUE BEINSPORTS 2
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_epl2_720p/chunklist.m3u8
-
-#EXTINF:-1  tvg-logo="https://truevisions.co.th/static/b5c591af-060c-48ea-91ec-e1a230818c27.png" group-title="Спортивные", TH:TRUE BEINSPORTS 3
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_epl2_720p/chunklist.m3u8
-
-#EXTINF:-1  tvg-logo="https://truevisions.co.th/static/ba1de35c-8a25-47de-a27c-5cd8f705a14f.png" group-title="Спортивные", TH:TRUE PREMIERE FOOTBALL 1
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_PremierHD1_720p/chunklist.m3u8
-
-#EXTINF:-1  tvg-logo="https://truevisions.co.th/static/f815743f-72e1-4dcc-ad17-925657183a24.png" group-title="Спортивные", TH:TRUE PREMIERE FOOTBALL 2
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_PremierHD2_720p/chunklist.m3u8
-
-#EXTINF:-1  tvg-logo="https://truevisions.co.th/static/1be50729-1560-4f16-88a8-6ac653afe8e1.png" group-title="Спортивные", TH:TRUE PREMIERE FOOTBALL 3
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_PremierHD3_720p/chunklist.m3u8
-
-#EXTINF:-1  tvg-logo="https://truevisions.co.th/static/1be50729-1560-4f16-88a8-6ac653afe8e1.png" group-title="Спортивные", TH:TRUE PREMIERE FOOTBALL 4
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_PremierHD4_720p/chunklist.m3u8
-
-#EXTINF:-1  tvg-logo="https://truevisions.co.th/static/1be50729-1560-4f16-88a8-6ac653afe8e1.png" group-title="Спортивные", TH:TRUE PREMIERE FOOTBALL 5
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_PremierHD5_720p/chunklist.m3u8
-
-#EXTINF:-1  tvg-logo="https://cms.dmpcdn.com/livetv/2024/01/16/cdd42d20-b44d-11ee-9687-e7ccd66e1ea3_webp_original.webp" group-title="Спортивные", TH:TRUE SPORT 1
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_2sporthd1_720p/chunklist.m3u8
-
-#EXTINF:-1  tvg-logo="https://cms.dmpcdn.com/livetv/2024/01/16/ce5c21d0-b44d-11ee-aa7d-afe908f95743_webp_original.webp" group-title="Спортивные", TH:TRUE SPORT 2
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_2sporthd2_720p/chunklist.m3u8
-
-#EXTINF:-1  tvg-logo="https://cms.dmpcdn.com/livetv/2024/01/16/ce9707f0-b44d-11ee-8e80-c3f417d0d932_webp_original.webp" group-title="Спортивные", TH:TRUE SPORT 3
-#EXTVLCOPT:http-user-agent=SmartTV
-https://www.livedoomovies.com:4432/02_2sporthd3_720p/chunklist.m3u8
-
 #EXTINF:-1 tvg-id="diema-sport-1" group-title="Спортивные", Diema Sport HD
 http://213.91.178.133:8000/play/a06q
 
@@ -570,9 +523,6 @@ http://213.91.178.133:8000/play/a0ar
 
 #EXTINF:-1 tvg-id="max-sport-4" group-title="Спортивные", MAX Sport 4 HD
 http://213.91.178.133:8000/play/a05n
-
-#EXTINF:-1 tvg-id="arena-sport-1-sk" group-title="Спортивные", Arena Sport 1 [SK]
-http://78.130.250.2:8023/play/a02o/index.m3u8
 
 #EXTINF:-1 tvg-id="bein-sports-xtra-us" group-title="Спортивные", beIN SPORTS XTRA
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
@@ -2154,7 +2104,7 @@ http://127.0.0.1:6878/ace/getstream?id=0ef17cf868ef54b443dd41516803276779b76aac&
 https://cqw2lystveu.a.trbcdn.net/livemaster/7ak8t_live-hv25n82a0l8.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Детские", Мульт и музыка
-http://stv.mediacdn.ru/live/cdn/multimuzika/playlist_sdhigher.m3u8
+http://stv.mediacdn.ru/live/cdn/multimuzika/playlist.m3u8
 
 #EXTINF:-1 tvg-id="kernel-chipndale" group-title="Детские", Чип и Дейл
 http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
@@ -2332,9 +2282,6 @@ https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
 #EXTINF:-1 tvg-id="DeeJay TV" group-title="Музыкальные", DeeJay
 https://streamcdnb4-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 
-#EXTINF:-1 group-title="Музыкальные",Clubbing TV
-https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
-
 #EXTINF:-1 tvg-id="song-tv-ru" group-title="Музыкальные", Song TV Россия
 https://songtv.hls.iptvdc.com/web-russia/index.m3u8
 
@@ -2379,11 +2326,11 @@ http://fl5.moveonjoy.com/MTV_CLASSIC/index.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 
+#EXTINF:-1 tvg-id="muztv" group-title="Музыкальные", Муз ТВ HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=mus-tv
+
 #EXTINF:-1 tvg-id="1hd" group-title="Музыкальные",1HD Music
 http://91.247.68.229:8000/play/eee/index.m3u8
-
-#EXTINF:-1 tvg-id="mcm-top" group-title="Музыкальные",MCM Top
-http://92.242.110.52:9835/udp/238.1.9.9:1234
 
 #EXTINF:-1 group-title="Музыкальные",Первый музыкальный RU
 http://rtmp.one.by:2200
