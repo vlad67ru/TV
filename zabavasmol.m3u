@@ -126,7 +126,7 @@ http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=tnt_hd
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 
-#EXTINF:-1 tvg-id="muztv" group-title="Музыкальные", Муз ТВ HD
+#EXTINF:-1 tvg-id="muztv" group-title="Эфирные", Муз ТВ HD
 http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=mus-tv
 
 #EXTINF:-1 tvg-id="region67" group-title="Эфирные", Регион 67
