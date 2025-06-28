@@ -29,9 +29,12 @@ https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R03_NTV/variant.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 https://cdn.ntv.ru/ntv0_hd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="5kanal-ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Пятый канал
+#EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/6/65/Пятый_канал_2023.png/revision/latest?cb=20231128063749&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Пятый канал
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8
+
+#EXTINF:-1 tvg-id="5kanal-ru" group-title="Эфирные", Пятый канал HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=5_kanal
 
 #EXTINF:-1 tvg-id="kultura" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Россия К
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -52,7 +55,7 @@ https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL/variant.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8
 
-#EXTINF:-1 tvg-id="tvcentr" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ТВ Центр
+#EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/0/08/TVC_2013-now.png/revision/latest?cb=20220510170504&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ТВ Центр
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_TVC/variant.m3u8
 
@@ -95,7 +98,7 @@ http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=tv3_hd
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8
 
-#EXTINF:-1 group-title="Эфирные",Пятница!
+#EXTINF:-1 group-title="Эфирные",Пятница HD
 http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=Friday_0_hd
 
 #EXTINF:-1 tvg-id="zvezda" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Звезда
@@ -122,6 +125,9 @@ http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=tnt_hd
 #EXTINF:-1 tvg-id="muztv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Муз ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
+
+#EXTINF:-1 tvg-id="muztv" group-title="Музыкальные", Муз ТВ HD
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=mus-tv
 
 #EXTINF:-1 tvg-id="region67" group-title="Эфирные", Регион 67
 http://212.3.155.126:8181/udp/233.67.67.177:5510
