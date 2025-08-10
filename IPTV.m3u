@@ -226,7 +226,7 @@ http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 https://ldocctvwbcdcnchw.v.cdn20.com/ldocctvwbcd/cdrmldcctveurope_1_720P/playlist.m3u8
 
 #EXTINF:-1 tvg-id="cgtn" group-title="Новости", CGTN
-https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 
 #EXTINF:-1 tvg-id="rzhd-tv" group-title="Новости",РЖД HD
 http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
@@ -807,8 +807,7 @@ http://127.0.0.1:6878/ace/getstream?id=0b24228bb1c0d6340911b7536b52c5bd28af0721&
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_TEOTV/variant.m3u8
 
 #EXTINF:-1 tvg-id="Kulinar TV" group-title="Развлекательные", Кулинар ТВ
-#EXTVLCOPT:http-user-agent=SmartTV
-https://api.alpaca.t62a.com/hls/9110/stream0.m3u8
+http://127.0.0.1:6878/ace/getstream?id=7e2f8e0d1e508437eb92f3579fb67c14c74a7269&.mp4
 
 #EXTINF:-1 tvg-id="eda-hd" group-title="Развлекательные", FoodTime
 http://127.0.0.1:6878/ace/getstream?id=42f32ae94fa97417ddd6f2b6f141bca76f56a299&.mp4
@@ -1136,6 +1135,9 @@ http://127.0.0.1:6878/ace/getstream?id=ae0d6d703ef80198263a1a868740cf059eac4e9e&
 
 #EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы",Viju TV1000 Action HD
 http://127.0.0.1:6878/ace/getstream?id=05a7dd3bf60e16ed1674cb437e1e00084392285e&.mp4
+
+#EXTINF:-1 tvg-id="tv1000-worldkino" group-title="Кино и сериалы",Viasat Kino World
+http://127.0.0.1:6878/ace/getstream?id=f8d38c09a74612b9fabf0206cbd28bc11d6bc27d&.mp4
 
 #EXTINF:-1 tvg-id="cinema" group-title="Кино и сериалы",Cinema Космос ТВ
 http://178.124.152.238:8088/cinema
@@ -1749,7 +1751,7 @@ http://77.235.1.19:8000/play/a030/index.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 
-#EXTINF:-1 tvg-id="da-vinci" group-title="Детские", Да Винчи
+#EXTINF:-1 tvg-id="da-vinci" group-title="Детские", Da Vinci
 http://127.0.0.1:6878/ace/getstream?id=1daa76849a31201ea22c3c4cbdd4b4afc1c45f14&.mp4
 
 #EXTINF:-1 group-title="Детские",Мультиландия
@@ -1836,8 +1838,7 @@ http://autopilot.catcast.tv/content/38720/index.m3u8
 
 
 #EXTINF:-1 tvg-id="viva-rus" group-title="Музыкальные",VIVA TV Russia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://132544.edgevideo.ru/streams/132544_713325/1325441080/index.m3u8
+http://127.0.0.1:6878/ace/getstream?id=aaf3060a96b04f621643e031eb61137722981595&.mp4
 
 #EXTINF:-1 tvg-id="aiva" group-title="Музыкальные", AIVA
 http://158.160.149.81:8080/4642/index.m3u8
@@ -1853,6 +1854,12 @@ https://otv.wotom.net/rmusic/stream.m3u8
 
 #EXTINF:-1 tvg-id="4fun" group-title="Музыкальные", 4fun.TV
 https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
+
+#EXTINF:-1 tvg-id="classic-music" group-title="Музыкальные", Classic Music HD
+http://127.0.0.1:6878/ace/getstream?id=635159bee85b23dd079e505fe5842b34eb124203&.mp4
+
+#EXTINF:-1 tvg-id="iconcerts" group-title="Музыкальные", iConcerts
+http://127.0.0.1:6878/ace/getstream?id=f0757d4131090cf4b0652e9a427c350c651e597a&.mp4
 
 #EXTINF:-1 tvg-id="zhara" group-title="Музыкальные", Жара
 http://127.0.0.1:6878/ace/getstream?id=0f777acf2def9b2c0ae254041796fbae5ba60501&.mp4
@@ -2008,7 +2015,7 @@ http://fl5.moveonjoy.com/MTV_CLASSIC/index.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 
 #EXTINF:-1 tvg-id="1hd" group-title="Музыкальные",1HD Music
-http://91.247.68.229:8000/play/eee/index.m3u8
+http://127.0.0.1:6878/ace/getstream?id=29dc5b990bbcf66b7466a7a7a13df3bf7e29c30a&.mp4
 
 #EXTINF:-1 group-title="Музыкальные",Первый музыкальный RU
 http://rtmp.one.by:2200
@@ -2121,6 +2128,13 @@ http://127.0.0.1:6878/ace/getstream?id=afcccdafb739a8d9988c921be8c8fb345c101516&
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/FS1-Logo-Claim-NEG-RGB-rund.png/800px-FS1-Logo-Claim-NEG-RGB-rund.png" tvg-id="no_epg_music" group-title="Музыкальные",FS1
 http://127.0.0.1:6878/ace/getstream?id=b127df86fa00b48fe2e52f38d69b71cc9176bc80&.mp4
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gNWg9tl.png" tvg-id="no_epg_music" group-title="Музыкальные",30A Music
+http://127.0.0.1:6878/ace/getstream?id=c259ea0ed19869921364923ada94abf5f9c5a244&.mp4
+
+#EXTINF:-1 tvg-logo="https://tvapp.host/images/logo-channel/mntv-music.png" tvg-id="no_epg_music" group-title="Музыкальные",MNTV Music
+http://127.0.0.1:6878/ace/getstream?id=2120873b147646690845aa0736fe119410f0225b&.mp4
+
 
 #EXTINF:-1 tvg-id="fashion-one-4k" group-title="Fashion",Fashion 4K
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
@@ -3288,7 +3302,7 @@ http://200.194.238.229:8383/live/pornclassic/playlist.m3u8
 http://59ec5453559f0.streamlock.net:1935/Miamitv/smil:WEB4141/chuklist.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_xxx" tvg-logo="http://i123.fastpic.org/big/2024/0716/50/20497257390becd38ff0f6f5e282c550.png" group-title="Взрослые [ВХОД СТРОГО 18+]",Eropuls DE 18+
-https://api.alpaca.t62a.com/hls/9108/stream0.m3u8
+http://127.0.0.1:6878/ace/getstream?id=1649a50ddf1bd0916942f0917fffc477c92c809f&.mp4
 
 #EXTINF:-1 tvg-logo="http://i123.fastpic.org/big/2024/0716/50/20497257390becd38ff0f6f5e282c550.png" tvg-id="no_epg_xxx" group-title="Взрослые [ВХОД СТРОГО 18+]",Rough
 http://cdn.adultiptv.net/rough.m3u8
