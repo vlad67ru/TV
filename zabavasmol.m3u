@@ -19,7 +19,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/smolensk/russia1-hd/index.m3u8
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA2/variant.m3u8
 
 #EXTINF:-1 tvg-id="match-tv" group-title="Эфирные",Матч! HD
-http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=match
+https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
 
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/a/a6/NTV_12.03.2018-now.png/revision/latest?cb=20231022055053&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",НТВ
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -32,9 +32,6 @@ https://cdn.ntv.ru/ntv0_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/6/65/Пятый_канал_2023.png/revision/latest?cb=20231128063749&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Пятый канал
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8
-
-#EXTINF:-1 tvg-id="5kanal-ru" group-title="Эфирные", Пятый канал HD
-http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=5_kanal
 
 #EXTINF:-1 tvg-id="kultura" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Россия К
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -59,15 +56,12 @@ https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_TVC/variant.m3u8
 
-#EXTINF:-1 tvg-id="tvcentr" group-title="Эфирные",ТВ Центр HD
-http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=TV_Center_HD
-
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/8/86/Ren_18.08.2017-09.02.2022.png/revision/latest?cb=20221106133819&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",РЕН ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_RENTV/variant.m3u8
 
 #EXTINF:-1 tvg-id="rentv" group-title="Эфирные",Рен ТВ HD
-http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=REN-TV_0_hd
+http://178.217.72.66:8080/REN_TV/index.m3u8
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Спас
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -78,28 +72,28 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_STS/variant.m3u8
 
 #EXTINF:-1 group-title="Эфирные",СТС HD
-http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=STS_0_hd
+https://45.159.74.22/CTC/mono.m3u8
 
 #EXTINF:-1 tvg-id="domashny" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Домашний
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY/variant.m3u8
 
 #EXTINF:-1 tvg-id="domashny" group-title="Эфирные",Домашний HD
-http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=domashny
+http://178.217.72.66:8080/Domashniy/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/1/10/ТВ-3_2023.png/revision/latest?cb=20240724105701&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ТВ-3
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_TV3/variant.m3u8
 
 #EXTINF:-1 tvg-id="tv3-ru" group-title="Эфирные",ТВ-3 HD
-http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=tv3_hd
+http://178.217.72.66:8080/TV3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i116.fastpic.org/big/2021/1107/d9/129dc2e5164bfcd303ad98fbde6e78d9.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Пятница
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8
 
 #EXTINF:-1 group-title="Эфирные",Пятница HD
-http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=Friday_0_hd
+http://178.217.72.66:8080/Pyatnitsa/index.m3u8
 
 #EXTINF:-1 tvg-id="zvezda" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Звезда
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -120,14 +114,14 @@ https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_TNT/variant.m3u8
 
 #EXTINF:-1 group-title="Эфирные",ТНТ HD
-http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=tnt_hd
+http://178.217.72.66:8080/TNT_HD/index.m3u8
 
 #EXTINF:-1 tvg-id="muztv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Муз ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 
 #EXTINF:-1 tvg-id="muztv" group-title="Эфирные", Муз ТВ HD
-http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=mus-tv
+http://radio.tvs.by:8088/MuzTV/index.m3u8
 
 #EXTINF:-1 tvg-id="region67" group-title="Эфирные", Регион 67
 http://212.3.155.126:8181/udp/233.67.67.177:5510
@@ -143,9 +137,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ТНТ4
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
-
-#EXTINF:-1 tvg-id="tnt4" group-title="Эфирные",ТНТ4 HD
-http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=TNT4
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",2x2
 #EXTVLCOPT:http-user-agent=SmartTV
