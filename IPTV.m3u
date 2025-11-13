@@ -70,9 +70,6 @@ http://rusbrics.mediacdn.ru/cdn/brics/russian/chunklist.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_RENTV/variant.m3u8
 
-#EXTINF:-1 tvg-id="rentv" group-title="Эфирные",Рен ТВ HD
-http://178.217.72.72/REN_TV/index.m3u8
-
 #EXTINF:-1 tvg-id="rentv-int" group-title="Эфирные", Рен ТВ International
 http://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 
@@ -883,9 +880,6 @@ http://127.0.0.1:6878/ace/getstream?id=3a08c5a973e162429910f441bf8aa45b24d667e0&
 #EXTINF:-1 tvg-id="discovery-channel" group-title="Познавательные", Discovery HD
 http://127.0.0.1:6878/ace/getstream?id=09f099db0453cf7517e133533aadfd5136eca771&.mp4
 
-#EXTINF:-1 tvg-id="discovery-science-pl" group-title="Познавательные", Discovery Science
-http://46.8.46.14/DiscoveryScience/index.m3u8
-
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные", ID Investigation Discovery Европа
 http://46.8.46.14/InvestigationDiscovery/index.m3u8
 
@@ -1139,7 +1133,7 @@ http://127.0.0.1:6878/ace/getstream?id=505d4c6259acfea0ee5d9b1f26f7badd447f69f6&
 http://127.0.0.1:6878/ace/getstream?id=6c6849a17243f967d0c6f04323af9dfde161c3f2&.mp4
 
 #EXTINF:-1 tvg-id="sapfir" group-title="Кино и сериалы", Сапфир HD
-http://iptv46.mcx-ix.ru:8077/fox_life_hd/index.m3u8
+http://91.207.115.228:5000/c90
 
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы",Viju TV1000 Русское HD
 http://127.0.0.1:6878/ace/getstream?id=af4baf7f76a3057eeea815c90747860e9fec488a&.mp4
