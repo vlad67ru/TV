@@ -17,22 +17,6 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/smolensk/russia1-hd/index.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-eu" group-title="Эфирные", РТР-Планета Европа
 http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
 
-#EXTINF:-1 tvg-id="pervy-info-by" group-title="Эфирные", Первый информационный Беларусь
-https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w499524774_b5160000_sleng.m3u8
-
-#EXTINF:-1 tvg-id="belarus1" group-title="Эфирные", Беларусь 1 HD
-https://edge50.dc.beltelecom.by/ngtrk/smil:belarus1.smil/chunklist_b5160000_sleng.m3u8
-
-#EXTINF:-1 tvg-id="neizvestnaya-rosia" group-title="Эфирные", Неизвестная россия HD
-#EXTVLCOPT:http-user-agent=SmartTV
-https://cdn.ntv.ru/unknown_russia/playlist.m3u8
-
-#EXTINF:-1 tvg-id="prnk-tv" group-title="Эфирные", Первый Российский Национальный канал
-https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8
-
-#EXTINF:-1 tvg-id="kongresstv" group-title="Эфирные", Конгресс ТВ
-http://live-3.otcnet.ru/congresstv/index.m3u8
-
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/a/a6/NTV_12.03.2018-now.png/revision/latest?cb=20231022055053&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",НТВ
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R03_NTV/variant.m3u8
@@ -59,12 +43,6 @@ http://cdn.ntv.ru/th_style/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ntv-mir" group-title="Эфирные", НТВ-Мир
 https://streaming.televizor-24-tochka.ru/live/213.m3u8
-
-#EXTINF:-1 tvg-id="tro" group-title="Эфирные", БелРос
-https://live.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
-
-#EXTINF:-1 tvg-id="tv-brics" group-title="Эфирные", TV BRICS
-http://rusbrics.mediacdn.ru/cdn/brics/russian/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/8/86/Ren_18.08.2017-09.02.2022.png/revision/latest?cb=20221106133819&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",РЕН ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -112,8 +90,34 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="zvezda-plus" group-title="Эфирные",Звезда Плюс HD
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/mono.ts.m3u8
 
+#EXTINF:-1 tvg-id="otr" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ОТР
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8
+
 #EXTINF:-1 tvg-id="region67" group-title="Эфирные", Регион 67
 http://212.3.155.126:8181/udp/233.67.67.177:5510
+
+#EXTINF:-1 tvg-id="pervy-info-by" group-title="Эфирные", Первый информационный Беларусь
+https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w499524774_b5160000_sleng.m3u8
+
+#EXTINF:-1 tvg-id="belarus1" group-title="Эфирные", Беларусь 1 HD
+https://edge50.dc.beltelecom.by/ngtrk/smil:belarus1.smil/chunklist_b5160000_sleng.m3u8
+
+#EXTINF:-1 tvg-id="neizvestnaya-rosia" group-title="Эфирные", Неизвестная россия HD
+#EXTVLCOPT:http-user-agent=SmartTV
+https://cdn.ntv.ru/unknown_russia/playlist.m3u8
+
+#EXTINF:-1 tvg-id="prnk-tv" group-title="Эфирные", Первый Российский Национальный канал
+https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8
+
+#EXTINF:-1 tvg-id="kongresstv" group-title="Эфирные", Конгресс ТВ
+http://live-3.otcnet.ru/congresstv/index.m3u8
+
+#EXTINF:-1 tvg-id="tro" group-title="Эфирные", БелРос
+https://live.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
+
+#EXTINF:-1 tvg-id="tv-brics" group-title="Эфирные", TV BRICS
+https://rusbrics.mediacdn.ru/cdn/brics/russian/mono.ts.m3u8
 
 #EXTINF:-1 group-title="Эфирные",Первый Крымский
 http://live1.trkcrimea.ru/1tvcrimea.m3u8
@@ -124,10 +128,6 @@ http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 
 #EXTINF:-1 group-title="Эфирные",CGTN-Русский
 http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
-
-#EXTINF:-1 tvg-id="otr" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ОТР
-#EXTVLCOPT:http-user-agent=SmartTV
-https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Москва. Доверие
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -190,13 +190,16 @@ http://127.0.0.1:6878/ace/getstream?id=837edb9f5dab770965ddbd1b1f9f1ef55305d10d&
 http://127.0.0.1:6878/ace/getstream?id=4b91bbf01a5574583e7e4af5b258de3e454d83e4&.mp4
 
 #EXTINF:-1 tvg-id="dozhd" group-title="Новости", Дождь HD [СМИ иногент]
-https://m3u8.ott.blue/watch/7319/video.m3u8?geo=auto&token=94450098895765784220366841698509
+https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
 
 #EXTINF:-1 tvg-id="nastoyaschee-vremia" group-title="Новости",Настоящее время HD [СМИ иногент]
 https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
 
+#EXTINF:-1 tvg-id="nastoyaschee-vremia" group-title="Новости",Настоящее время [СМИ иногент]
+http://2.57.217.85:8000/play/a04k/index.m3u8
+
 #EXTINF:-1 tvg-id="al-jazeera-int" group-title="Новости", Al Jazeera
-http://m3u8.ott.blue/watch/92/video.m3u8?geo=auto&token=94450098895765784220366841698509
+https://live-hls-web-aje-gcp.thehlive.com/AJE/01.m3u8
 
 #EXTINF:-1 tvg-id="rtvi" group-title="Новости", RTVi
 http://178.134.1.158:8081/rtvi/index.m3u8
@@ -232,7 +235,7 @@ https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/play
 http://hls-rictv.cdnvideo.ru/rictv/rictv-srt-stream/playlist.m3u8
 
 #EXTINF:-1 group-title="Новости", Москва 24
-http://178.217.72.72/Moskva_24/index.m3u8
+https://player.smotrim.ru/iframe/stream/live_id/efab3cbe-a29c-45f0-9596-5cb4f1ce7fbe
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Новости",Россия 24
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -247,14 +250,9 @@ http://live24.trkcrimea.ru/24tvcrimea.m3u8
 #EXTINF:-1 tvg-id="legendarny24" group-title="Новости", Легендарный 24 HD
 https://sevas.1tvcrimea.ru/legendarniy24.m3u8
 
-#EXTINF:-1 tvg-id="Среда (Дагестан)" tvg-logo="http://i120.fastpic.org/big/2022/1129/a3/e14bf519c90b3f8cb5fc4aea77209aa3.png" group-title="Новости",СРЕДА
-http://iptv46.mcx-ix.ru:8077/sreda/index.m3u8
 
 #EXTINF:-1 tvg-id="ufc" group-title="Спортивные",Удар
 http://127.0.0.1:6878/ace/getstream?id=d2374e2375a4275738e0dbed2f47d0114ad1cb64&.mp4
-
-#EXTINF:-1 tvg-id="UFC Network" group-title="Спортивные", UFC Network
-https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.cnn.sherdog.com/image_crop/300/300/_images/organizations/20221021093354_United_Fight_Alliance.JPG" tvg-id="no_epg_sport" group-title="Спортивные", UFA TV HD
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/united-fight-alliance/master.m3u8
@@ -267,18 +265,6 @@ http://127.0.0.1:6878/ace/getstream?id=c811cde690d467a2e45d3c263c4f0960a3933d18&
 
 #EXTINF:-1 tvg-id="fightbox-hd" group-title="Спортивные",FightBox HD
 http://127.0.0.1:6878/ace/getstream?id=49b734a5a3365674480089264be00ae28fabb640&.mp4
-
-#EXTINF:-1 tvg-logo="https://www.ediscom.it/img/clienti/loghi/dazn.svg" tvg-id="no_epg_sport" group-title="Спортивные", DAZN Combat
-https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://sun9-41.userapi.com/Ek4K0P7a3IKapjSOkoZgX8AtFwhk1oeFNzrACg/NmkYA3KKOU8.jpg" tvg-id="no_epg_sport" group-title="Спортивные", Glory Kickboxing
-https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
-
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://swerveplay.com/cdn/shop/files/logo-large_d7d2e650-ea68-4bff-9905-91a253de0e4e_130x@2x.png?v=1663096800" group-title="Спортивные",Swerve Sports
-https://linear-253.frequency.stream/dist/xumo/253/hls/master/playlist.m3u8
-
-#EXTINF:-1 tvg-id="box-tv" group-title="Спортивные", БОКС ТВ
-http://91.194.191.241:8081/chid460/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="box-tv" group-title="Спортивные", БОКС ТВ HD
 http://127.0.0.1:6878/ace/getstream?id=1acaf203502983cd2993c6835bf0cbde8d016c3d&.mp4
@@ -294,9 +280,6 @@ http://127.0.0.1:6878/ace/getstream?id=6176281b9c46a5621a0e88524f8dc621f173b8e0&
 
 #EXTINF:-1 tvg-id="start" group-title="Спортивные",Старт HD
 http://127.0.0.1:6878/ace/getstream?id=4b129146077c1e357e4ab341448b9fb629f939dc&.mp4
-
-#EXTINF:-1 tvg-id="tonus-tv" group-title="Спортивные",Тонус ТВ
-http://178.217.72.72/tonus/index.m3u8
 
 #EXTINF:-1 group-title="Спортивные",Russian Extreme HD
 http://127.0.0.1:6878/ace/getstream?id=ed63659df12baa6febbe70f4125b6527aa1ae413&.mp4
@@ -341,17 +324,11 @@ http://127.0.0.1:6878/ace/getstream?id=42fe2ce3ef6b92653a74d85b6e98c2ba0abee707&
 #EXTINF:-1 tvg-id="setanta2-kz" group-title="Спортивные", Сетанта Спорт 2 HD
 http://127.0.0.1:6878/ace/getstream?id=f6d68cfa8694f814983f2a5757f4e0c4964b880c&.mp4
 
-#EXTINF:-1 tvg-id="okko-sport-2" group-title="Спортивные", Окко.Прайм Спорт
-http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
-
 #EXTINF:-1 tvg-id="inter-it" group-title="Спортивные", Inter TV
 https://ilglobotv-live.akamaized.net/channels/InterTV/Live.m3u8
 
 #EXTINF:-1 tvg-id="real-madrid-tv" group-title="Спортивные", Real Madrid TV
 https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/I/710ZHvpAKUL._AC_UL800_QL65_.png" tvg-id="no_epg_sport" group-title="Спортивные", FIFA+
-https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
 
 #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные",Viju+ Sport
 http://178.134.1.158:8081/viasatsport/index.m3u8
@@ -365,9 +342,6 @@ http://127.0.0.1:6878/ace/getstream?id=92f8939c7bff6bcb7e6da39379bb3d7a6a76693f&
 #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные", Футбол
 http://127.0.0.1:6878/ace/getstream?id=fce354f24fe26ca527e2c38b14eb7b0c81f756dd&.mp4
 
-#EXTINF:-1 tvg-id="voleybol" group-title="Спортивные", Волейбол HD
-http://50.7.28.226/9192/index.m3u8
-
 #EXTINF:-1 tvg-id="nba-tv" group-title="Спортивные", NBA TV
 http://127.0.0.1:6878/ace/getstream?id=e72d03fb9694164317260f684470be9ab781ed95&.mp4
 
@@ -380,14 +354,8 @@ http://127.0.0.1:6878/ace/getstream?id=dcda9de85f7d662c5c3c2efd74eca0fb5c6aab3b&
 #EXTINF:-1 group-title="Спортивные",Хоккей ТВ
 http://127.0.0.1:6878/ace/getstream?id=99f0646986e9266836dd79047dedecb04e243857&.mp4
 
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://bonus-betting.ru/wp-content/uploads/2021/10/nhl-logo.png" group-title="Спортивные", NHL (Интересные моменты)
-https://nhl-firetv.amagi.tv/playlist.m3u8
-
 #EXTINF:-1 group-title="Спортивные",Конный мир HD
 http://127.0.0.1:6878/ace/getstream?id=96951e5de62a3e7095a1ed8a191817c8935e7017&.mp4
-
-#EXTINF:-1 tvg-logo="https://nederland.broadbandtvnews.com/wp-content/uploads/2012/06/horse-and-country.jpg" tvg-id="no_epg_sport" group-title="Спортивные", Horse and Country
-https://hnc-free-viewlift.amagi.tv/playlist720_lp.m3u8
 
 #EXTINF:-1 tvg-id="belarus5" group-title="Спортивные", Беларусь 5 HD
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus5.smil/chunklist_b2660000_sleng.m3u8
@@ -444,9 +412,6 @@ http://88.212.7.10/live/test_ctsport_25p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="cbs-sports-network-us" group-title="Спортивные", CBS Sports Network [US]
 http://127.0.0.1:6878/ace/getstream?id=bfc49b39eed44f5e3a5f4ad060d463901a049dd1&.mp4
-
-#EXTINF:-1 tvg-id="bein-sports-xtra-us" group-title="Спортивные", beIN SPORTS XTRA
-https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 
 #EXTINF:-1 group-title="Спортивные", Eleven Sports 1 [PL]
 http://127.0.0.1:6878/ace/getstream?id=14407b00d454cb7dc0d70aa26e8bbc554f457f00&.mp4
@@ -756,9 +721,6 @@ https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
 
-#EXTINF:-1 tvg-id="otv-lv" group-title="Развлекательные", OTV (Латвия)
-http://84.245.224.71/OTV/mono.m3u8
-
 #EXTINF:-1 tvg-id="art-tv" group-title="Развлекательные", Арт
 http://95.47.156.60:8000/play/a011/index.m3u8
 
@@ -771,23 +733,14 @@ https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b5160000_slen
 #EXTINF:-1 tvg-id="svetloe-tv" group-title="Развлекательные", Светлое ТВ
 http://176.107.219.20:9000/play/a009/index.m3u8
 
-#EXTINF:-1 tvg-id="skif-vitebsk" group-title="Развлекательные",СкиФ
-http://95.46.208.8:24432/skif
-
 #EXTINF:-1 tvg-id="prodvizhenie" group-title="Развлекательные", Продвижение
 http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
-
-#EXTINF:-1 tvg-id="teatr" group-title="Развлекательные",Театр
-http://tvip.btk.teleos.ru:8081/chid235/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="nostalgia" group-title="Развлекательные", Ностальгия
 http://127.0.0.1:6878/ace/getstream?id=4308d30a3e8a7bc83e1f081f565371120c3fb6b3&.mp4
 
 #EXTINF:-1 tvg-id="tvoetv-humor" group-title="Развлекательные",Твоё ТВ HD Юмор
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
-
-#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://cdn.mos.cms.futurecdn.net/xvPiVbHBDvsz3HXWJzenxE-1200-80.jpg" group-title="Развлекательные", The Pet Collective
-https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="perec-int" group-title="Развлекательные",Перец
 http://158.101.222.193:88/georgia_play.php?id=perec
@@ -799,7 +752,7 @@ http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
 http://178.212.71.253:8000/play/119/index.m3u8
 
 #EXTINF:-1 tvg-id="kvn-tv" group-title="Развлекательные", КВН-ТВ
-http://46.8.46.14/kvn/index.m3u8
+http://95.66.188.74/KVN-TV/mono.m3u8
 
 #EXTINF:-1 tvg-id="teledom" group-title="Развлекательные",Теледом HD
 http://127.0.0.1:6878/ace/getstream?id=0b24228bb1c0d6340911b7536b52c5bd28af0721&.mp4
@@ -817,9 +770,6 @@ http://127.0.0.1:6878/ace/getstream?id=42f32ae94fa97417ddd6f2b6f141bca76f56a299&
 #EXTINF:-1 tvg-id="kuxnia-tv" group-title="Развлекательные", КУХНЯ-ТВ
 http://127.0.0.1:6878/ace/getstream?id=a90a4172c6e146c87a92e32b5a8ed6af12ba0237&.mp4
 
-#EXTINF:-1 tvg-id="food-network" group-title="Развлекательные", Food Network
-http://178.217.72.72/food_network/index.m3u8
-
 #EXTINF:-1 group-title="Развлекательные",Анекдот ТВ
 http://146.120.14.239:3001/play/a08p
 
@@ -827,7 +777,7 @@ http://146.120.14.239:3001/play/a08p
 http://127.0.0.1:6878/ace/getstream?infohash=18875e086412c2ed551e03a0b176f9b2861c5e6a
 
 #EXTINF:-1 tvg-id="zhivi" group-title="Развлекательные", Живи
-http://46.8.46.14/zhivi/index.m3u8
+http://31.148.48.15:80/Zhivi/index.m3u8
 
 #EXTINF:-1 tvg-id="yuvelirochka" group-title="Развлекательные",Ювелирочка
 http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
@@ -856,9 +806,6 @@ http://127.0.0.1:6878/ace/getstream?id=2128074a1ebba9d320b148d25001b356f1057dda&
 #EXTINF:-1 group-title="Познавательные",Viju Explore
 http://127.0.0.1:6878/ace/getstream?id=192ca66e1e39bec710e286780c49bcc432258636&.mp4
 
-#EXTINF:-1 tvg-id="history-viasat-en" group-title="Познавательные",Viasat History
-http://94.232.127.28:8080/viasathistory/index.m3u8
-
 #EXTINF:-1 group-title="Познавательные", Viju+ Planet HD
 http://127.0.0.1:6878/ace/getstream?id=0d59f0292f9e5569f4dff50ac4c3c89913b32a7a&.mp4
 
@@ -866,10 +813,10 @@ http://127.0.0.1:6878/ace/getstream?id=0d59f0292f9e5569f4dff50ac4c3c89913b32a7a&
 https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 
 #EXTINF:-1 tvg-id="ocean-tv" group-title="Познавательные", Ocean TV
-http://178.217.72.72/Ocean_TV/index.m3u8
+http://195.158.223.132:8009/Ocean_HD
 
 #EXTINF:-1 tvg-id="galaxy-tv" group-title="Познавательные", Galaxy
-http://178.217.72.72/galaxyhd/index.m3u8
+http://45.145.32.13:20440/outdoor_channel/index.m3u8?token=test
 
 #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные", Nat Geo Wild
 http://127.0.0.1:6878/ace/getstream?id=5347a5417c376ac10cdf9c1a3a26eadbe76c280a&.mp4
@@ -879,12 +826,6 @@ http://127.0.0.1:6878/ace/getstream?id=3a08c5a973e162429910f441bf8aa45b24d667e0&
 
 #EXTINF:-1 tvg-id="discovery-channel" group-title="Познавательные", Discovery HD
 http://127.0.0.1:6878/ace/getstream?id=09f099db0453cf7517e133533aadfd5136eca771&.mp4
-
-#EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные", ID Investigation Discovery Европа
-http://46.8.46.14/InvestigationDiscovery/index.m3u8
-
-#EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные", ID Xtra Европа
-http://94.232.127.28:8080/idxtra/index.m3u8
 
 #EXTINF:-1 tvg-id="history" group-title="Познавательные", History
 http://127.0.0.1:6878/ace/getstream?id=b5e4d600404702a7d50e01e64f82ea1d26b68f63&.mp4
@@ -898,29 +839,26 @@ http://109.75.59.241:8017/TLC/index.m3u8
 #EXTINF:-1 tvg-id="tlc" group-title="Познавательные", TLC HD
 http://5.188.159.128:8070/TLC/index.m3u8
 
-#EXTINF:-1 tvg-id="tlc" group-title="Познавательные", TLC Россия HD
-http://94.232.127.28:8080/tlc/index.m3u8
-
 #EXTINF:-1 tvg-id="hgtv" group-title="Познавательные", HGTV HD
 http://127.0.0.1:6878/ace/getstream?id=9b4590ba1f27532eba6d53383e89dace8e8d6ba3&.mp4
 
 #EXTINF:-1 tvg-id="docubox-hd" group-title="Познавательные", DocuBox HD
-http://188.190.222.53/DocuBOX/index.m3u8
+http://193.25.8.59:8000/24Doc
 
 #EXTINF:-1 tvg-id="voprosy-i-otvety" group-title="Познавательные", Вопросы и ответы
 http://178.212.71.253:8000/play/97/index.m3u8
 
 #EXTINF:-1 tvg-id="uspex" group-title="Познавательные", Успех ТВ
-http://46.8.46.14/uspeh/index.m3u8
+http://2.57.217.85:8000/play/a08p/index.m3u8
 
 #EXTINF:-1 tvg-id="tivisi-hd" group-title="Познавательные", ТиВиСи HD
-http://91.194.191.241:8081/chid290/tracks-v1a1/mono.m3u8
+https://zrnr369ssda.a.trbcdn.net/livemaster/rpwpuqsjap_tvstv/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="Познавательные",Поехали!
 http://127.0.0.1:6878/ace/getstream?id=c5841f89c3ae2e6745948308be283a904bf96adb&.mp4
 
 #EXTINF:-1 tvg-id="bobior" group-title="Познавательные",Бобёр
-http://178.217.72.72/Bober/index.m3u8
+https://pkvc-hls7.cdnvideo.ru/pkvc/bober/mono.ts.m3u8
 
 #EXTINF:-1 group-title="Познавательные",Открытый мир
 http://v4.proofix.ru/0mir/index.m3u8
@@ -986,7 +924,7 @@ http://178.212.71.253:8000/play/96/index.m3u8
 http://127.0.0.1:6878/ace/getstream?id=4326cb056ec172c0d9958cd44535045723b66068&.mp4
 
 #EXTINF:-1 tvg-id="big-planet" group-title="Познавательные", Big Planet
-http://178.217.72.72/big_planet/index.m3u8
+http://45.145.32.13:20440/bigplanet/index.m3u8?token=test
 
 #EXTINF:-1 group-title="Познавательные", 365 ДНЕЙ
 http://178.212.71.253:8000/play/67/index.m3u8
@@ -1049,10 +987,10 @@ http://178.212.71.253:8000/play/73/index.m3u8
 http://127.0.0.1:6878/ace/getstream?id=30ed25e99233ae63f7e10787c8806f74f52a437c&.mp4
 
 #EXTINF:-1 tvg-id="lapki-live" group-title="Познавательные",Лапки Live
-http://tvip.btk.teleos.ru:8081/chid514/index.m3u8
+http://45.145.32.13:20440/unikum/index.m3u8?token=test
 
 #EXTINF:-1 group-title="Познавательные",Телепутешествия
-http://178.217.72.72/teleputeshestviya/index.m3u8
+http://31.148.48.15:80/Teleputeshestviya/index.m3u8
 
 #EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные", Travel+Adventure
 http://127.0.0.1:6878/ace/getstream?id=6975d82ffdae1186dcc78506011550a81e0c9cb9&.mp4
@@ -1067,7 +1005,7 @@ http://127.0.0.1:6878/ace/getstream?id=74a1634a8fe44e5058c865d4de63cde90b14f107&
 http://127.0.0.1:6878/ace/getstream?id=b0ecbeeb8ce7bb65cd3ee911b44084976b259549&.mp4
 
 #EXTINF:-1 group-title="Познавательные",История
-http://50.7.28.226/8082/index.m3u8
+http://hls127.freeott.top:8080/Istoriya/mono.m3u8
 
 #EXTINF:-1 tvg-id="tochka-otryva" group-title="Познавательные", Точка отрыва
 http://127.0.0.1:6878/ace/getstream?id=ee5cd7316e917f156bf8d176a11da98fe403b0b2&.mp4
@@ -1086,9 +1024,6 @@ https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="univer-tv" group-title="Познавательные", Univer TV
 http://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="ege-tv" group-title="Познавательные", ЕГЭ
-http://91.194.191.241:8081/chid138/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="doktor" group-title="Познавательные", Доктор
 http://127.0.0.1:6878/ace/getstream?id=327cc1410c2e7af8fca0925f7a003ffdba6cdb2a&.mp4
@@ -1133,7 +1068,7 @@ http://127.0.0.1:6878/ace/getstream?id=505d4c6259acfea0ee5d9b1f26f7badd447f69f6&
 http://127.0.0.1:6878/ace/getstream?id=6c6849a17243f967d0c6f04323af9dfde161c3f2&.mp4
 
 #EXTINF:-1 tvg-id="sapfir" group-title="Кино и сериалы", Сапфир HD
-http://91.207.115.228:5000/c90
+http://31.148.48.15/Sapfir/index.m3u8
 
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы",Viju TV1000 Русское HD
 http://127.0.0.1:6878/ace/getstream?id=af4baf7f76a3057eeea815c90747860e9fec488a&.mp4
@@ -1179,23 +1114,14 @@ https://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8
 
-#EXTINF:-1 tvg-id="star-cinema" group-title="Кино и сериалы", Star Cinema HD
-http://84.245.224.71/StarCinemaHD/mono.m3u8
-
-#EXTINF:-1 tvg-id="star-family" group-title="Кино и сериалы", Star Family HD
-http://84.245.224.71/StarFamilyHD/mono.m3u8
-
 #EXTINF:-1 tvg-id="retro-tv" group-title="Кино и сериалы", Ретро ТВ
 http://178.212.71.253:8000/play/90/index.m3u8
 
 #EXTINF:-1 tvg-id="vhs-ka" group-title="Кино и сериалы", VHS-ка HD
 http://95.66.188.74/VHS/index.m3u8
 
-#EXTINF:-1 tvg-id="saga-tv" group-title="Кино и сериалы", Saga TV
-http://95.85.109.219:7000/play/a05w
-
 #EXTINF:-1 tvg-id="bolt-ru" group-title="Кино и сериалы", Bolt Россия HD
-http://178.217.72.72/bolt/index.m3u8
+http://hls127.freeott.top:8080/Bolt/mono.m3u8
 
 #EXTINF:-1 tvg-id="patriot" group-title="Кино и сериалы", Патриот
 http://catchup.videoline.ru/asvtv/index.m3u8
@@ -1231,7 +1157,7 @@ http://127.0.0.1:6878/ace/getstream?id=4f40b12ad32618adf3262143db8cc80ae686a5f0&
 http://127.0.0.1:6878/ace/getstream?id=646e1bd5cccfef3d0926eee34eb3fd7e01430507&.mp4
 
 #EXTINF:-1 group-title="Кино и сериалы", Кинопоказ
-http://iptv46.mcx-ix.ru:8077/kinopokaz/index.m3u8
+http://89.232.68.194:8080/kinopokaz/tracks-v3a1/index.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы", Кинопоказ HD
 http://127.0.0.1:6878/ace/getstream?id=682b445d50584498d63230dd10d05c793779ad9d&.mp4
@@ -1260,9 +1186,6 @@ http://127.0.0.1:6878/ace/getstream?id=aeb66589dcdbf45061b76eb52ed29ea8297e8e21&
 #EXTINF:-1 tvg-id="kinojam1" group-title="Кино и сериалы",Kinojam 1 HD
 http://127.0.0.1:6878/ace/getstream?id=6f59144864d644ee3f53fddef7db2c2f69255c2e&.mp4
 
-#EXTINF:-1 tvg-id="kinoliving" group-title="Кино и сериалы",KinoLiving HD
-http://95.85.109.219:7000/play/a05x
-
 #EXTINF:-1 tvg-id="trashtv" group-title="Кино и сериалы", Trash TV
 #EXTVLCOPT:http-user-agent=SmartTV
 https://livetv.mylifeisgood.net.ru/channels/trash.m3u8
@@ -1274,7 +1197,7 @@ http://127.0.0.1:6878/ace/getstream?id=b2314014f5b3c51ed75dc5066260b5134fa4d5a6&
 http://127.0.0.1:6878/ace/getstream?id=3eb0fde3eb9b432b6a978742e73dccf4ec0c5b5d&.mp4
 
 #EXTINF:-1 tvg-id="filmbox-ru" group-title="Кино и сериалы", FilmBox Russia
-http://188.190.222.53/FilmBOX/index.m3u8
+http://193.25.8.59:8000/FilmBOX
 
 #EXTINF:-1 tvg-id="timeless-dizi" group-title="Кино и сериалы", Timeless Dizi Channel
 http://194.158.222.36:6086
@@ -1340,13 +1263,10 @@ http://127.0.0.1:6878/ace/getstream?id=038d0b88c99d988b0b91af57ef142f563a90d200&
 http://127.0.0.1:6878/ace/getstream?id=d47c7365f67b9b8169404e1c4d86fd698307fa15&.mp4
 
 #EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы",Победа
-http://178.217.72.72/pobeda/index.m3u8
+https://pkvc-hls7.cdnvideo.ru/pkvc/pobeda/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="paramount-comedy" group-title="Кино и сериалы", Comedy Central
 http://127.0.0.1:6878/ace/getstream?id=5680521f0e507f2c6f55f3de8dd79351615116c5&.mp4
-
-#EXTINF:-1 tvg-id="shot-tv" group-title="Кино и сериалы", Shot TV
-http://50.7.28.226/8358/index.m3u8
 
 #EXTINF:-1 tvg-id="tvoyo-tv-hd" group-title="Кино и сериалы",Твоё ТВ HD
 http://tvoetv.space:8080/tvoetv/index.m3u8
@@ -1394,10 +1314,10 @@ https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/chunklist_b5160000_slen
 http://127.0.0.1:6878/ace/getstream?id=ac8cbc3f2dc210bb0a3e80a7e9eb65afb3ae40f0&.mp4
 
 #EXTINF:-1 group-title="Кино и сериалы",Мир сериала
-http://87.246.54.249:8085/MirSeriala/index.m3u8
+http://45.145.32.13:20440/ctc_kids_hd/index.m3u8?token=test
 
 #EXTINF:-1 group-title="Кино и сериалы", Время
-http://178.217.72.72/Vremya/index.m3u8
+http://31.148.48.15:80/Vremya/index.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы", Кино 1 International
 http://kino-1.catcast.tv/content/38617/index.m3u8
@@ -1804,7 +1724,7 @@ http://127.0.0.1:6878/ace/getstream?id=f629f91eaeee18118080c0211516469495af04f2&
 http://127.0.0.1:6878/ace/getstream?id=dc5cf63b879b13f10c439d90b82bd91a5ba957ee&.mp4
 
 #EXTINF:-1 group-title="Детские",Детский Мир
-http://46.8.46.14/detmir/index.m3u8
+http://178.212.71.253:8000/play/52/index.m3u8
 
 #EXTINF:-1 group-title="Детские",Gulli Girl
 http://127.0.0.1:6878/ace/getstream?id=be2e64fec17ec07a561dbd87cad2ae0fc4b7df5a&.mp4
@@ -1851,9 +1771,6 @@ http://sirius.greenhosting.ru/MamontRu/playlist.m3u8
 #EXTINF:-1 tvg-id="multimania-lv" group-title="Детские", Детский телеканал Мультимания
 http://sirius.greenhosting.ru/MultimaniaRu/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Мультсериал" group-title="Детские", Мультики и Сказки HD
-https://132544.edgevideo.ru/streams/132544_931352/132544720/index.m3u8
-
 #EXTINF:-1 tvg-id="Ералаш" group-title="Детские", Ералаш
 https://fl1001.bozztv.com/ushba8/playlist.m3u8
 
@@ -1864,17 +1781,11 @@ http://autopilot.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 tvg-id="viva-rus" group-title="Музыкальные",VIVA TV Russia
 http://127.0.0.1:6878/ace/getstream?id=aaf3060a96b04f621643e031eb61137722981595&.mp4
 
-#EXTINF:-1 tvg-id="aiva" group-title="Музыкальные", AIVA
-http://158.160.149.81:8080/4642/index.m3u8
-
 #EXTINF:-1 tvg-id="K-POP" group-title="Музыкальные",K Pop
 https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.hedex.tv/uploads/images/clip_5757_1705741236_social.jpg" tvg-id="no_epg_music" group-title="Музыкальные", Oxygen Music 
 https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
-
-#EXTINF:-1 tvg-id="R-Music" group-title="Музыкальные", Rmusic
-https://otv.wotom.net/rmusic/stream.m3u8
 
 #EXTINF:-1 tvg-id="4fun" group-title="Музыкальные", 4fun.TV
 https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
@@ -1891,14 +1802,8 @@ http://127.0.0.1:6878/ace/getstream?id=0f777acf2def9b2c0ae254041796fbae5ba60501&
 #EXTINF:-1 tvg-id="Новое Радио" group-title="Музыкальные", Новое Радио
 http://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="nick-music" group-title="Музыкальные", Nick Music
-http://fl5.moveonjoy.com/NICK_MUSIC/index.m3u8
-
 #EXTINF:-1 tvg-id="muzyka-pervogo" group-title="Музыкальные",Музыка Первого
 http://127.0.0.1:6878/ace/getstream?id=4f2d81ed73736cf3adc44c8a6a24cda47fc1eef0&.mp4
-
-#EXTINF:-1 tvg-id="TechnoDanceMusic" group-title="Музыкальные", TECHNO DANCE MUSIC
-https://132544.edgevideo.ru/streams/132544_931193/1325441080/index.m3u8
 
 #EXTINF:-1 tvg-id="Dance Hits 80" group-title="Музыкальные", DanceHits 80'
 http://dancehits80.denvs.ru:8080/index.m3u8
@@ -1995,10 +1900,10 @@ https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
 https://streamcdnb4-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 
 #EXTINF:-1 tvg-id="song-tv-ru" group-title="Музыкальные", Song TV Россия
-https://songtv.hls.iptvdc.com/web-russia/index.m3u8
+https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8
 
 #EXTINF:-1 tvg-id="song-tv" group-title="Музыкальные", Song TV Армения
-https://songtv.hls.iptvdc.com/web-armenia/index.m3u8
+https://songtv.hls.iptvdc.com/web-armenia/playlist.m3u8
 
 #EXTINF:-1 group-title="Музыкальные",Europa Plus TV
 http://127.0.0.1:6878/ace/getstream?id=755483260c00e095f825286bc8b3562966814022&.mp4
@@ -2021,18 +1926,8 @@ http://213.169.39.30:5203
 #EXTINF:-1 tvg-id="mtv-hits" group-title="Музыкальные", MTV Hits
 http://213.169.39.30:5257
 
-#EXTINF:-1 tvg-id="mtv-europe" group-title="Музыкальные", MTV Europe
-http://fl5.moveonjoy.com/MTV/index.m3u8
-
 #EXTINF:-1 tvg-id="mtv-live-hd" group-title="Музыкальные", MTV Live HD
 http://127.0.0.1:6878/ace/getstream?id=5a08cc63a0aef61f2f659efae6f7b9c2b584c0b2&.mp4
-
-#EXTINF:-1 tvg-id="mtv-live-us" group-title="Музыкальные", MTV Live [US]
-http://fl3.moveonjoy.com/MTV_LIVE/index.m3u8
-
-#EXTINF:-1 tvg-id="MTV Classic US" group-title="Музыкальные", MTV Classic
-#EXTVLCOPT:http-user-agent=SmartTV
-http://fl5.moveonjoy.com/MTV_CLASSIC/index.m3u8
 
 #EXTINF:-1 tvg-id="muztv" group-title="Музыкальные", Муз ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -2040,12 +1935,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 
 #EXTINF:-1 tvg-id="1hd" group-title="Музыкальные",1HD Music
 http://127.0.0.1:6878/ace/getstream?id=29dc5b990bbcf66b7466a7a7a13df3bf7e29c30a&.mp4
-
-#EXTINF:-1 group-title="Музыкальные",Первый музыкальный RU
-http://rtmp.one.by:2200
-
-#EXTINF:-1 group-title="Музыкальные",Первый музыкальный HD RU
-http://rtmp.one.by:2300
 
 #EXTINF:-1 group-title="Музыкальные",Первый музыкальный
 http://hz1.teleport.cc/HLS/SD.m3u8
@@ -2057,19 +1946,19 @@ http://hz1.teleport.cc/HLS/HD.m3u8
 http://127.0.0.1:6878/ace/getstream?id=a5149234466b95643eec346ffbd24bc71c64e3d6&.mp4
 
 #EXTINF:-1 tvg-id="tnt-music" group-title="Музыкальные",ТНТ Music HD
-http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdhigh.m3u8
+http://cdn-01.bonus-tv.ru/tntmusic/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tvradioo.ru/wp-content/uploads/2021/01/o2tv.png" tvg-id="no_epg_music" group-title="Музыкальные", O!2
 http://127.0.0.1:6878/ace/getstream?id=c41b15ab711e836f210d1c5c1eb2bd999ee3e440&.mp4
 
 #EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные",Mezzo
-http://178.217.72.66:8080/Mezzo/index.m3u8
+http://45.145.32.13:20440/mezzo/index.m3u8?token=test
 
 #EXTINF:-1 tvg-id="mezzo-live-hd" group-title="Музыкальные",Mezzo Live
-http://178.217.72.66:8080/Mezzo_Live_HD/index.m3u8
+http://45.145.32.13:20440/mezzo_live_hd/index.m3u8?token=test
 
 #EXTINF:-1 tvg-id="bridge-tv" group-title="Музыкальные", Bridge TV
-http://195.26.83.96:7007/play/a00m/index.m3u8
+http://45.145.32.13:20440/bridge_tv/index.m3u8?token=test
 
 #EXTINF:-1 tvg-id="bridge-tv-dance" group-title="Музыкальные", Bridge TV Hits
 http://178.212.71.253:8000/play/134/index.m3u8
@@ -2078,7 +1967,7 @@ http://178.212.71.253:8000/play/134/index.m3u8
 http://127.0.0.1:6878/ace/getstream?id=eb3add8d104fa237e14343f3236a932595023c9a&.mp4
 
 #EXTINF:-1 tvg-id="bridge-tv-classic" group-title="Музыкальные", Bridge TV Classic
-http://77.235.1.19:8000/play/a04e/index.m3u8
+http://178.212.71.253:8000/play/135/index.m3u8
 
 #EXTINF:-1 tvg-id="bridge-tv-rock" group-title="Музыкальные", Bridge TV Rock
 http://178.212.71.253:8000/play/101/index.m3u8
@@ -2087,13 +1976,13 @@ http://178.212.71.253:8000/play/101/index.m3u8
 http://127.0.0.1:6878/ace/getstream?id=32c2ea9b766da382ee892dae57871b3dd1e8641b&.mp4
 
 #EXTINF:-1 tvg-id="bridge-tv-etno" group-title="Музыкальные", Bridge TV Этно
-http://tvip.btk.teleos.ru:8081/chid520/index.m3u8
+http://178.212.71.253:8000/play/65/index.m3u8
 
 #EXTINF:-1 tvg-id="bridge-tv-shlager" group-title="Музыкальные", Bridge TV Шлягер
 http://178.212.71.253:8000/play/142/index.m3u8
 
 #EXTINF:-1 tvg-id="bridge-tv-fresh" group-title="Музыкальные", Bridge TV Фрэш
-http://31.130.19.207:4022/udp/239.1.12.13:1234
+http://178.212.71.253:8000/play/101/index.m3u8
 
 #EXTINF:-1 tvg-id="now-rock" group-title="Музыкальные", Now Rock
 https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
@@ -2106,9 +1995,6 @@ https://lightning-now80s-samsungnz.amagi.tv/playlist720p.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://i.imgur.com/y4kNV3Q.png" group-title="Музыкальные", 70-80 TV
 https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8
-
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://thumbs.dreamstime.com/b/retro-musiklogo-des-festivals-einfache-graue-art-101973093.jpg" group-title="Музыкальные", Retro Music
-https://132544.edgevideo.ru/streams/132544_931325/1325441080/index.m3u8
 
 #EXTINF:-1 tvg-id="retro-music-cz" group-title="Музыкальные", Retro Music TV
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
@@ -2205,78 +2091,14 @@ https://fl1001.bozztv.com/ushba-m9/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg" group-title="Fashion" tvg-logo="https://iptvx.one/picons/fashion-tv.png" ,Мода 6
 https://fl1001.bozztv.com/ushba-m1/playlist.m3u8
 
-#EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/2na2-pl2.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",2x2 (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8
-#EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/2na2-pl4.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",2x2 (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
-#EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/2na2-pl7.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",2x2 (+7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Домашний +2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_2/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Домашний +4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Домашний +7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8
-#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/zvezda_telekanal2.jpeg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Звезда (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8
-#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/zvezda_telekanal2.jpeg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Звезда (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8
-#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/zvezda_telekanal2.jpeg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Звезда (+7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Карусель +2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Карусель +4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Карусель +7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Мир (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Мир (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Мир (+7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
-#EXTINF:-1 catchup="append" tvg-logo="http://only4.tv/ch/1313.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Муз ТВ (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8
-#EXTINF:-1 catchup="append" tvg-logo="http://only4.tv/ch/1313.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Муз ТВ (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
-#EXTINF:-1 catchup="append" tvg-logo="http://only4.tv/ch/1313.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Муз ТВ (+7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_NTV/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (-1)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_1TV_KLNG/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+1)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_2/variant.m3u8
@@ -2289,54 +2111,30 @@ https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/va
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/variant.m3u8
 
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="pervy-pl4" group-title="Федеральные плюс", Первый HD (+4)
-http://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс", Первый канал (+5)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_5/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+6)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_6/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+7)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_1TV/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+8)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_8/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+9)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятница +2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятница +4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA_4/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятница +7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://a3569456000-zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятый канал +2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятый канал +4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятый канал +7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Рен ТВ +2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Рен ТВ +4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Рен ТВ +7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
+
 #EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_1.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия 1 (-1)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_KLGR_ROSSIA1/variant.m3u8
+
 #EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_1.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия 1 (+1)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8
@@ -2400,60 +2198,57 @@ https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_ROSSIA1/variant.m3u8
 #EXTINF:-1 group-title="Федеральные плюс",Россия 1 HD (+9)
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/9/russia1-hd/index.m3u8
 
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_NTV/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятый канал +2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятый канал +4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятый канал +7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8
+
 #EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_kultura.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия К (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_2/variant.m3u8
+
 #EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_kultura.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия К (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8
+
 #EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_kultura.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия К (+7)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_7/variant.m3u8
-#EXTINF:-1 tvg-id="solnce-pl2" catchup="append" tvg-logo="https://i.ibb.co/jZ1xyDx/Solnce-220x220.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Солнце (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8
-#EXTINF:-1 tvg-id="solnce-pl4" catchup="append" tvg-logo="https://i.ibb.co/jZ1xyDx/Solnce-220x220.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Солнце (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8
-#EXTINF:-1 tvg-id="solnce-pl7" catchup="append" tvg-logo="https://i.ibb.co/jZ1xyDx/Solnce-220x220.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Солнце (+7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС (+7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
-#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС Love (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8
-#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС Love (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Супер (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Супер (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Супер (+7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8
 
-#EXTINF:-1 tvg-id="tv3-ru-pl2" catchup="append" tvg-logo="https://iptvx.one/picons/tv3-ru-pl2.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ3 (+2)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Карусель +2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8
 
-#EXTINF:-1 tvg-id="tv3-ru-pl4" catchup="append" tvg-logo="https://iptvx.one/picons/tv3-ru-pl4.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ3 (+4)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Карусель +4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8
 
-#EXTINF:-1 tvg-id="tv3-ru-pl7" catchup="append" tvg-logo="https://iptvx.one/picons/tv3-ru-pl7.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ3 (+7)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Карусель +7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8
 
 #EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/tvcentr-pl2.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ Центр +2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
@@ -2467,6 +2262,90 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
 
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Рен ТВ +2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Рен ТВ +4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Рен ТВ +7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Домашний +2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Домашний +4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Домашний +7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8
+
+#EXTINF:-1 tvg-id="tv3-ru-pl2" catchup="append" tvg-logo="https://iptvx.one/picons/tv3-ru-pl2.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ3 (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
+
+#EXTINF:-1 tvg-id="tv3-ru-pl4" catchup="append" tvg-logo="https://iptvx.one/picons/tv3-ru-pl4.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ3 (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
+
+#EXTINF:-1 tvg-id="tv3-ru-pl7" catchup="append" tvg-logo="https://iptvx.one/picons/tv3-ru-pl7.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ3 (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятница +2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятница +4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятница +7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://a3569456000-zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/zvezda_telekanal2.jpeg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Звезда (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/zvezda_telekanal2.jpeg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Звезда (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/zvezda_telekanal2.jpeg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Звезда (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Мир (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Мир (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Мир (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
@@ -2474,9 +2353,66 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+7)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="http://only4.tv/ch/1313.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Муз ТВ (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="http://only4.tv/ch/1313.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Муз ТВ (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="http://only4.tv/ch/1313.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Муз ТВ (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/2na2-pl2.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",2x2 (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/2na2-pl4.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",2x2 (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/2na2-pl7.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",2x2 (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8
+
+#EXTINF:-1 tvg-id="solnce-pl2" catchup="append" tvg-logo="https://i.ibb.co/jZ1xyDx/Solnce-220x220.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Солнце (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8
+
+#EXTINF:-1 tvg-id="solnce-pl4" catchup="append" tvg-logo="https://i.ibb.co/jZ1xyDx/Solnce-220x220.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Солнце (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8
+
+#EXTINF:-1 tvg-id="solnce-pl7" catchup="append" tvg-logo="https://i.ibb.co/jZ1xyDx/Solnce-220x220.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Солнце (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС Love (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС Love (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Супер (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Супер (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Супер (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
@@ -2485,21 +2421,31 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Че! (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_2/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Че! (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Че! (+7)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Ю (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Ю (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Ю (+7)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
@@ -3168,8 +3114,9 @@ http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.
 #EXTINF:-1 tvg-name="Союз" group-title="Религиозные",Союз
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Спас ТВ" group-title="Религиозные",Спас
-https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
+#EXTINF:-1 tvg-name="Спас ТВ" group-title="Религиозные" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Спас
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
 
 #EXTINF:-1 tvg-id="tri-angela" group-title="Религиозные",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
