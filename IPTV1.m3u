@@ -906,7 +906,7 @@ https://stream.smotrim.ru/hls/fasttv05/playlist.m3u8?sign=15d3448fcfcc3ecfe0820e
 https://stream.smotrim.ru/hls/fasttv06/playlist.m3u8?sign=8b67f4e76186a0ac9f0ed37a13e33047
 
 #EXTINF:-0 group-title="Кинозалы", Честный детектив
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/mono.ts.m3u
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 
 #EXTINF:-0 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/skoraya_pom_llive.jpg", Скорая помощь
 https://cdn-dvr.ntv.ru/Skoraja_pomosh/playlist.m3u8
