@@ -152,7 +152,7 @@ https://edge53.dc.beltelecom.by/ont/_definst_/ont/chunklist_w741300442.m3u8
 http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости", Соловьев.Live HD
-http://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1.m3u8
+https://stream.smotrim.ru/hls/solovievlive/playlist.m3u8?sign=83652f1317ad220efe74a7606d9a7f37
 
 #EXTINF:-1 tvg-id="dumatv" group-title="Новости", Дума ТВ
 http://tv.ttk.mx:9190
@@ -223,12 +223,11 @@ http://hls-rictv.cdnvideo.ru/rictv/rictv-srt-stream/playlist.m3u8
 #EXTINF:-1 group-title="Новости", Москва 24
 https://player.smotrim.ru/iframe/stream/live_id/efab3cbe-a29c-45f0-9596-5cb4f1ce7fbe
 
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Новости",Россия 24
-#EXTVLCOPT:http-user-agent=SmartTV
-https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24/variant.m3u8
+#EXTINF:-1 group-title="Новости",Россия 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
 
 #EXTINF:-1 tvg-id="rossia-24" group-title="Новости", Россия-24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/smolensk/russia24-sd/track_102_636a160e/chunklist.m3u8
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/smolensk/russia24-sd/index.m3u8
 
 #EXTINF:-1 tvg-id="krym24" group-title="Новости", Крым 24
 http://live24.trkcrimea.ru/24tvcrimea.m3u8
@@ -888,6 +887,27 @@ http://31.148.48.15:80/Vremya/index.m3u8
 http://kino-1.catcast.tv/content/38617/index.m3u8
 
 
+#EXTINF:-0 group-title="Кинозалы", Смотрим 100% Любовь
+https://stream.smotrim.ru/hls/fasttv01/playlist.m3u8?sign=8d27660c83e1ee2fbafc2bf583d9db19
+
+#EXTINF:-0 group-title="Кинозалы", Смотрим 100% Мужское
+https://stream.smotrim.ru/hls/fasttv02/playlist.m3u8?sign=d96ec17ae7449ded5243d34a3129789e
+
+#EXTINF:-0 group-title="Кинозалы", Смотрим 100% Классика
+https://stream.smotrim.ru/hls/fasttv03/playlist.m3u8?sign=7959b1dcefc9acaeb375c8c3407cc006
+
+#EXTINF:-0 group-title="Кинозалы", Смотрим 100% Праздник
+https://stream.smotrim.ru/hls/fasttv04/playlist.m3u8?sign=203e4685e26a67be1c5159c58d21b912
+
+#EXTINF:-0 group-title="Кинозалы", Смотрим 100% Детское
+https://stream.smotrim.ru/hls/fasttv05/playlist.m3u8?sign=15d3448fcfcc3ecfe0820e1a2c0b6943
+
+#EXTINF:-0 group-title="Кинозалы", Смотрим 100% Факты
+https://stream.smotrim.ru/hls/fasttv06/playlist.m3u8?sign=8b67f4e76186a0ac9f0ed37a13e33047
+
+#EXTINF:-0 group-title="Кинозалы", Честный детектив
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/mono.ts.m3u
+
 #EXTINF:-0 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/skoraya_pom_llive.jpg", Скорая помощь
 https://cdn-dvr.ntv.ru/Skoraja_pomosh/playlist.m3u8
 
@@ -917,9 +937,6 @@ https://cdn-dvr.ntv.ru/Pes/playlist.m3u8
 
 #EXTINF:-0 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/ti_super_llive.jpg", Ты супер!
 https://cdn-dvr.ntv.ru/Super/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://adindex.ru/files2/photogallery/2020_11/photo2_286493_smotrim2.jpg.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы", Смотрим Кино и сериалы
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="strk" group-title="Кинозалы", СТРК HD
 http://sochinskayatrk.ru/hdtv/hls/CTPK_400/playlist.m3u8
