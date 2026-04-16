@@ -100,6 +100,9 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="belarus1" group-title="Эфирные", Беларусь 1 HD
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="Эфирные", Беларусь 4 Витебск
+https://live.dc.beltelecom.by/vtv/bt4.stream/playlist.m3u8
+
 #EXTINF:-1 tvg-id="neizvestnaya-rosia" group-title="Эфирные", Неизвестная россия HD
 #EXTVLCOPT:http-user-agent=SmartTV
 https://cdn.ntv.ru/unknown_russia/playlist.m3u8
@@ -156,7 +159,7 @@ https://stream.smotrim.ru/hls/solovievlive/playlist_6.m3u8
 #EXTINF:-1 tvg-id="dumatv" group-title="Новости", Дума ТВ
 https://dumatv.iptv2022.com/mono.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/TASS_Logo_Cyrillic.svg/1280px-TASS_Logo_Cyrillic.svg.png" group-title="Новости", ТАСС
+#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://paralymp.ru/upload/iblock/3a2/7pa1m0h83dcfwwtmg5v3h0c8b7a34tep.png" group-title="Новости", ТАСС
 https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="pro-business" group-title="Новости", Про бизнес
@@ -463,7 +466,7 @@ https://nonmirya7cc.a.trbcdn.net/livemaster/tzrz5_sazlypl5ot.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="domashny-magazin" group-title="Развлекательные",Leomax +
 https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 
-#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://i.ytimg.com/vi/iRSuQuAu5XM/maxresdefault.jpg" group-title="Развлекательные",Магнат
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://s.rbk.ru/v1_companies_s3/media/trademarks/fdaf8090-36a1-41f8-9255-6f93e4bd45fa.jpg" group-title="Развлекательные",Магнат
 https://s1.tv-nano.com/Magnat/index.fmp4.m3u8
 
 
@@ -519,7 +522,7 @@ https://zrnr369ssda.a.trbcdn.net/livemaster/rpwpuqsjap_tvstv/playlist.m3u8
 https://fs.uplink.kz/poehali/mono.ts.m3u8?token=onlinetv
 
 #EXTINF:-1 tvg-id="bobior" group-title="Познавательные",Бобёр
-https://pkvc-hls7.cdnvideo.ru/pkvc/bober/mono.ts.m3u8
+https://fs.uplink.kz/bober/mono.ts.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Познавательные",Открытый мир
 http://v4.proofix.ru/0mir/index.m3u8
@@ -666,7 +669,7 @@ http://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 https://stream8.cinerama.uz/1409/mono.m3u8
 
 #EXTINF:-1 tvg-id="silkway" group-title="Познавательные", Silk Way
-https://ikomg-kazakh.akamaized.net/kazakh/kazakh.m3u8
+https://hlspackager.akamaized.net/live/DB/SILKWAY/SILKWAY/SILKWAY.m3u8
 
 #EXTINF:-1 tvg-id="no_epg" tvg-logo="https://www.rsl.ru/photo/!_ORS/documents/dostoevsky-banner.jpeg" group-title="Познавательные", лекторий DОСТОЕВСКИЙ
 https://fl1001.bozztv.com/ushba3/playlist.m3u8
@@ -1457,7 +1460,7 @@ http://hz1.teleport.cc/HLS/HD.m3u8
 https://a3569457567-s70378.cdn.ngenix.net/mezzo/index.m3u8
 
 #EXTINF:-1 tvg-id="bridge-tv" group-title="Музыкальные", Bridge TV
-http://5.188.159.128:8070/bridgetv/playlist.m3u8
+http://46.32.176.50/bridgetv/index.m3u8
 
 #EXTINF:-1 tvg-id="bridge-tv-dance" group-title="Музыкальные", Bridge TV Hits
 http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8
