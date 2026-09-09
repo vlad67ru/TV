@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz; http://gabbarit.drm-play.com/epg_lite.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz"
 
 #EXTINF:-1 tvg-id="pervy" tvg-logo="http://i120.fastpic.org/big/2022/0731/5a/975757b7227dd15519c6a0e0d5f0065a.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Первый канал
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -12,7 +12,7 @@ https://edge2.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1/variant.m3u8
 
 #EXTINF:-1 tvg-id="rossia1" group-title="Эфирные",Россия 1 HD
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/smolensk/russia1-hd/index.m3u8
+https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="rtr-planeta-eu" group-title="Эфирные", РТР-Планета Европа
 https://stream.smotrim.ru/hls/planeta_rtr_euro/playlist.m3u8?entity=channel&id=510&sign=5c0ac65d75140fac2fd938d77c92138d
@@ -72,7 +72,7 @@ https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY/variant.m3u8
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIAK/variant.m3u8
 
 #EXTINF:-1 tvg-id="kultura" group-title="Эфирные", Россия К HD
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
+https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="zvezda" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Звезда
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -124,7 +124,7 @@ http://live1.trkcrimea.ru/1tvcrimea.m3u8
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 
 #EXTINF:-1 group-title="Эфирные",CGTN-Русский
-http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+https://russian-liveali-h5.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8?wsSecret=e1b7fc85794022d2d1ac4cb6edcdbb44&wsTime=1788966445
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Москва. Доверие
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -216,11 +216,12 @@ http://hls-rictv.cdnvideo.ru/rictv/rictv-srt-stream/playlist.m3u8
 #EXTINF:-1 group-title="Новости", Москва 24
 https://stream.smotrim.ru/hls/moscow_24/playlist.m3u8?entity=channel&id=76&sign=e8e1bc15ce94ee7718ef8948500e5d21
 
-#EXTINF:-1 group-title="Новости",Россия 24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Новости",Россия 24
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24/variant.m3u8
 
 #EXTINF:-1 tvg-id="rossia-24" group-title="Новости", Россия-24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/smolensk/russia24-sd/index.m3u8
+https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="krym24" group-title="Новости", Крым 24
 https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
@@ -230,10 +231,10 @@ https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 http://5.188.159.128:8070/udar/index.m3u8
 
 #EXTINF:-1 tvg-id="box-tv" group-title="Спортивные", БОКС ТВ
-http://tinyurl.com/TvZaTak65?id=boxtv
+http://185.46.16.239:8000/Eurosport_1
 
 #EXTINF:-1 tvg-id="m1global" group-title="Спортивные",MMA-TV
-https://s70378.cdn.ngenix.net/m1_global/index.m3u8
+https://stream1.cinerama.uz/1226/mono.m3u8
 
 #EXTINF:-1 tvg-id="start" group-title="Спортивные",Старт HD
 https://bl.webcaster.pro/media/start/api_free_fd14ed34164a52d1090e4cb9db93683f/4_79276517/d33bbf3e6ac7c41524eae5d1c3d9258d/4873167902.m3u8
@@ -243,6 +244,18 @@ https://bl.webcaster.pro/media/start/api_free_7a969b0b45345fee050c07e7ab14f52e/3
 
 #EXTINF:-1 group-title="Спортивные",Старт Баскет
 https://bl.webcaster.pro/media/start/free_621d169e5c631c638136df3cb136c5c9/33_68881676/b32eaae5fbf1d2b8211543566a1d9a78/4914392769.m3u8
+
+#EXTINF:-1 group-title="Спортивные",Eurosport 1 HD
+https://stream1.cinerama.uz/1439/mono.m3u8
+
+#EXTINF:-1 group-title="Спортивные",Eurosport 2 HD
+https://stream1.cinerama.uz/1452/mono.m3u8
+
+#EXTINF:-1 group-title="Спортивные",Uzreport HD
+https://stream1.cinerama.uz/1015/mono.m3u8
+
+#EXTINF:-1 group-title="Спортивные",UzSport
+https://stream1.cinerama.uz/1004/mono.m3u8
 
 #EXTINF:-1 tvg-id="match-tv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Спортивные",Матч! ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -376,19 +389,19 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
 
 #EXTINF:-1 tvg-id="nostalgia" group-title="Развлекательные", Ностальгия
-https://s70378.cdn.ngenix.net/nostalgia/index.m3u8
+https://fs.uplink.kz/nostalgia/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 tvg-id="tvoetv-humor" group-title="Развлекательные",Твоё ТВ HD Юмор
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:-1 tvg-id="perec-int" group-title="Развлекательные",Перец
-http://tinyurl.com/TvZaTak65?id=perec
+https://fs.uplink.kz/perec/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 tvg-id="kaleydoskop-tv" group-title="Развлекательные", Калейдоскоп ТВ
 http://cdn-01.bonus-tv.ru:80/Kaleidoskop_edge/index.m3u8
 
 #EXTINF:-1 tvg-id="kvn-tv" group-title="Развлекательные", КВН ТВ
-http://tinyurl.com/TvZaTak65?id=kvntv
+https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 tvg-id="kvn-tv" group-title="Развлекательные", КВН-ТВ
 http://31.210.208.171:8080/kvn_tv/index.m3u8?token=+W2MSER
@@ -399,9 +412,6 @@ https://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",Тео-ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_TEOTV/variant.m3u8
-
-#EXTINF:-1 tvg-id="eda-hd" group-title="Развлекательные", FoodTime
-http://31.148.48.15:80/Eda_Premium_HD/index.m3u8
 
 #EXTINF:-1 tvg-id="kuxnia-tv" group-title="Развлекательные", КУХНЯ-ТВ
 https://stream1.cinerama.uz/1236/playlist.m3u8
@@ -450,7 +460,7 @@ https://stream1.cinerama.uz/1228/mono.m3u8
 https://stream1.cinerama.uz/1045/mono.m3u8
 
 #EXTINF:-1 tvg-id="galaxy-tv" group-title="Познавательные", Galaxy
-https://s70378.cdn.ngenix.net/galaxy/index.m3u8
+http://tv.ttk.mx:9071
 
 #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные", Nat Geo Wild
 https://stream1.cinerama.uz/1042/playlist.m3u8
@@ -460,12 +470,6 @@ https://stream1.cinerama.uz/1041/playlist.m3u8
 
 #EXTINF:-1 tvg-id="discovery-channel" group-title="Познавательные", Discovery HD
 http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
-
-#EXTINF:-1 tvg-id="history" group-title="Познавательные", History
-https://s70378.cdn.ngenix.net/history/index.m3u8
-
-#EXTINF:-1 group-title="Познавательные", H2
-https://s70378.cdn.ngenix.net/history_2/index.m3u8
 
 #EXTINF:-1 tvg-id="voprosy-i-otvety" group-title="Познавательные", Вопросы и ответы
 https://stream1.cinerama.uz/1429/mono.m3u8
@@ -486,7 +490,7 @@ http://v4.proofix.ru/0mir/index.m3u8
 https://stream1.cinerama.uz/1428/mono.m3u8
 
 #EXTINF:-1 group-title="Познавательные",Приключения HD
-https://stream1.cinerama.uz/1420/playlist.m3u88
+https://stream1.cinerama.uz/1420/playlist.m3u8
 
 #EXTINF:-1 group-title="Познавательные", Драйв
 https://stream1.cinerama.uz/1421/mono.m3u8
@@ -531,7 +535,7 @@ http://stream1.cinerama.uz/1044/mono.m3u8
 http://31.210.208.171:8080/psihologiya/index.m3u8?token=+W2MSER
 
 #EXTINF:-1 tvg-id="big-planet" group-title="Познавательные", Big Planet
-http://31.210.208.171:8080/big_planet/index.m3u8?token=+W2MSER
+https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Познавательные", 365 ДНЕЙ
 https://stream1.cinerama.uz/1242/playlist.m3u8
@@ -549,19 +553,19 @@ http://serv30.vintera.tv:8081/sochi/sochi_stream/chunks.m3u8
 https://stream1.cinerama.uz/1423/mono.m3u8
 
 #EXTINF:-1 group-title="Познавательные",Оружие
-http://tinyurl.com/TvZaTak65?id=oruzhie
+https://fs.uplink.kz/oruzhie/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 tvg-id="arsenaltv" group-title="Познавательные", Арсенал HD
 https://stream1.cinerama.uz/1414/playlist.m3u8
 
 #EXTINF:-1 tvg-id="muzhskoy" group-title="Познавательные", Мужской
-http://tinyurl.com/TvZaTak65?id=muzhskoy
+https://flussonic.mkpnet.ru/tv-55c94e838b306657/video.m3u8
 
 #EXTINF:-1 tvg-id="dikiy" group-title="Познавательные", Дикий
-https://s70378.cdn.ngenix.net/dikiy/index.m3u8
+https://stream1.cinerama.uz/1230/mono.m3u8
 
 #EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Познавательные", Дикая охота HD
-http://stream.mcquack.net/274/index.m3u8
+https://stream1.cinerama.uz/1412/mono.m3u8
 
 #EXTINF:-1 tvg-id="oxota-i-rybalka" group-title="Познавательные",Охота и рыбалка
 https://stream1.cinerama.uz/1038/mono.m3u8
@@ -578,11 +582,8 @@ http://live-3.otcnet.ru/nashatema/index.m3u8
 #EXTINF:-1 group-title="Познавательные",В мире животных HD
 https://stream1.cinerama.uz/1404/playlist.m3u8
 
-#EXTINF:-1 group-title="Познавательные",Телепутешествия
-http://31.148.48.15:80/Teleputeshestviya/index.m3u8
-
 #EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные", Travel+Adventure
-http://77.232.131.211/TravelAdventureHD/index.m3u8
+http://45.145.32.13:20440/travel_adventure/index.m3u8?token=test
 
 #EXTINF:-1 tvg-id="hd-life" group-title="Познавательные",Точка.РФ
 https://stream1.cinerama.uz/1222/mono.m3u8
@@ -599,8 +600,8 @@ https://stream1.cinerama.uz/1031/mono.m3u8
 #EXTINF:-1 tvg-id="nauka-20" group-title="Познавательные",Наука 2.0 HD
 https://stream1.cinerama.uz/1248/playlist.m3u8
 
-#EXTINF:-1 tvg-id="zootv" group-title="Познавательные",Зоо ТВ
-http://31.148.48.15/Zoo_TV/index.m3u8
+#EXTINF:-1 group-title="Познавательные",Зоопарк
+https://stream1.cinerama.uz/1417/mono.m3u8
 
 #EXTINF:-1 group-title="Познавательные", Большая Азия
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
@@ -640,16 +641,16 @@ https://bl.webcaster.pro/media/start/free_f9c6a1a1e99b509f40dffa168c2023d5/33_71
 
 
 #EXTINF:-1 group-title="Кино и сериалы", VIJU+ Premiere HD
-https://s70378.cdn.ngenix.net/vip_premiere/index.m3u8
+https://stream1.cinerama.uz/1056/mono.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы",VIJU+ Megahit HD
-https://s70378.cdn.ngenix.net/vip_megahit/index.m3u8
+https://flussonic.mkpnet.ru/tv-3d1cedf99303d057/video.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы", VIJU+ Comedy HD
-https://s70378.cdn.ngenix.net/vip_comedy/index.m3u8
+https://stream1.cinerama.uz/1061/mono.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы", VIJU+ Serial HD
-https://s70378.cdn.ngenix.net/vip_serial/index.m3u8
+https://stream1.cinerama.uz/1224/mono.m3u8
 
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы",Феникс+Кино
 https://bl.webcaster.pro/media/start/free_50b533f8a075d1f30085ff37836bd975/33_97240202/180ad85890c5525765eadcc0fa71076a/4883112762.m3u8
@@ -670,16 +671,16 @@ https://stream1.cinerama.uz/1058/mono.m3u8
 https://stream1.cinerama.uz/1225/mono.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы", Amedia 1
-https://s70378.cdn.ngenix.net/amedia_1/index.m3u8
+https://fs.uplink.kz/amedia_1/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Кино и сериалы",Amedia 2
-https://s70378.cdn.ngenix.net/amedia_2/index.m3u8
+https://flussonic.mkpnet.ru/tv-cad19a32f4a82824/video.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы",Amedia Hit
-https://s70378.cdn.ngenix.net/amedia_hit/index.m3u8
+https://fs.uplink.kz/amedia_hit_hd/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Кино и сериалы",Amedia Premium HD
-https://s70378.cdn.ngenix.net/amedia_premium_hd/index.m3u8
+https://fs.uplink.kz/amedia_premium_hd/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Кино и сериалы",.black
 https://bl.webcaster.pro/media/start/free_8328ca8c5d82b79344e1a510f7919c55/33_89463196/88cdca4fb24788492c7588878e22c14a/4883009899.m3u8
@@ -691,7 +692,7 @@ https://bl.webcaster.pro/media/start/free_486d64db20b115c7b92f70a8001483a1/33_81
 https://bl.webcaster.pro/media/start/free_2616141073cc572ab5d87e49917c566e/33_92933720/de64dca8c24ead2b8bd3d9d03d903598/4883017400.m3u8
 
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы", TV21
-https://s70378.cdn.ngenix.net/tv_xxi/index.m3u8
+http://tv.ttk.mx:9067
 
 #EXTINF:-1 group-title="Кино и сериалы",Star Family
 https://bl.webcaster.pro/media/start/free_5bb158e028c52af26044fd1645b15a16/33_82694037/82fec9707186474e6988a1bac1fe82c4/4881298142.m3u8
@@ -715,7 +716,7 @@ https://stream1.cinerama.uz/1057/mono.m3u8
 https://stream1.cinerama.uz/1273/playlist.m3u8
 
 #EXTINF:-1 tvg-id="rus-hualiang-tv" group-title="Кино и сериалы", Китай ТВ
-https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/playlist.m3u8
+https://amvdu0novnt.a.trbcdn.net/livemaster/75pcv_slwd3z4c91.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="kino-tv" group-title="Кино и сериалы", Кино ТВ HD
 http://vod.tuva.ru/kinotv/index.m3u8
@@ -726,20 +727,11 @@ http://5.188.159.128:8070/Trash_HD/playlist.m3u8
 #EXTINF:-1 tvg-id="kinosat" group-title="Кино и сериалы", Киносат
 https://flussonic.mkpnet.ru/tv-e055808223a74709/video.m3u8
 
-#EXTINF:-1 tvg-id="filmbox-ru" group-title="Кино и сериалы", FilmBox Russia
-https://s70378.cdn.ngenix.net/filmbox/index.m3u8
-
-#EXTINF:-1 group-title="Кино и сериалы", Filmbox Arthouse
-https://s70378.cdn.ngenix.net/filmbox_arthouse/index.m3u8
-
 #EXTINF:-1 group-title="Кино и сериалы",Телекафе
-https://s70378.cdn.ngenix.net/telecafe/index.m3u8
+https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Кино и сериалы", Индия
-https://s70378.cdn.ngenix.net/zee_tv/index.m3u8
-
-#EXTINF:-1 tvg-id="fox-life" group-title="Кино и сериалы", Fox Life
-https://s70378.cdn.ngenix.net/fox_life/index.m3u8
+https://fs.uplink.kz/india/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 tvg-id="lubimoe-kino" group-title="Кино и сериалы", Любимое кино
 http://176.118.197.101/LubimoeKino/index.m3u8
@@ -763,7 +755,7 @@ https://stream1.cinerama.uz/1233/playlist.m3u8
 https://stream1.cinerama.uz/1235/mono.m3u8
 
 #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы", Киноужас
-https://s70378.cdn.ngenix.net/kinouzhas/index.m3u8
+https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 tvg-id="nashe-novoe-kino" group-title="Кино и сериалы",Наше новое кино
 https://stream1.cinerama.uz/1051/mono.m3u8
@@ -778,7 +770,7 @@ https://stream1.cinerama.uz/1060/mono.m3u8
 https://stream1.cinerama.uz/1052/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы",Мужское Кино
-http://tinyurl.com/TvZaTak65?id=interesnoetv
+https://stream1.cinerama.uz/1237/mono.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы",Настоящее страшное ТВ
 http://vod.tuva.ru/nst/index.m3u8
@@ -790,7 +782,7 @@ https://streaming.thestream.cyou/live/43.m3u8
 http://tvoetv.space:8080/tvoetv/index.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы",Hollywood HD
-https://s70378.cdn.ngenix.net/amc/index.m3u8
+https://stream1.cinerama.uz/1443/mono.m3u8
 
 #EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы",Cinema
 https://stream1.cinerama.uz/1227/mono.m3u8
@@ -799,7 +791,7 @@ https://stream1.cinerama.uz/1227/mono.m3u8
 https://stream1.cinerama.uz/1054/mono.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы", Дом Кино Премиум HD
-https://s70378.cdn.ngenix.net/dom_kino_premium_hd/index.m3u8
+https://fs.uplink.kz/dom_kino_premium/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 tvg-id="russky-detektiv" group-title="Кино и сериалы", Русский детектив
 https://flussonic.mkpnet.ru/tv-2997fed720614567/video.m3u8
@@ -814,16 +806,16 @@ https://flussonic.mkpnet.ru/tv-c90a71c34cc779ac/video.m3u8
 https://fs.uplink.kz/russkiy_illusion/mono.ts.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Кино и сериалы",Иллюзион +
-https://s70378.cdn.ngenix.net/illusion_plus/index.m3u8
+http://195.64.140.147:10090/90
 
 #EXTINF:-1 tvg-id="mosfilm" group-title="Кино и сериалы", Мосфильм. Золотая коллекция HD
-http://stream.mcquack.net/369/index.m3u8
+https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Кино и сериалы", FAN HD
 http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER
 
 #EXTINF:-1 group-title="Кино и сериалы",Еврокино
-https://s70378.cdn.ngenix.net/evrokino/index.m3u8
+https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Кино и сериалы",Беларусь 3 HD
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
@@ -832,32 +824,32 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 https://stream1.cinerama.uz/1444/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы",Мир сериала
-https://s70378.cdn.ngenix.net/mir_seriala/index.m3u8
+http://195.64.140.147:10089/89
 
 #EXTINF:-1 group-title="Кино и сериалы", Время
-https://s70378.cdn.ngenix.net/vremia/index.m3u8
+https://fs.uplink.kz/vremya/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Кино и сериалы", Кино 1 International
 http://kino-1.catcast.tv/content/38617/index.m3u8
 
 
 #EXTINF:-0 group-title="Кинозалы", Смотрим 100% Любовь
-https://stream.smotrim.ru/hls/fasttv01/playlist_3.m3u8
+https://stream.smotrim.ru/hls3/fasttv01/playlist_3.m3u8
 
 #EXTINF:-0 group-title="Кинозалы", Смотрим 100% Мужское
-https://stream.smotrim.ru/hls/fasttv02/playlist_3.m3u8
+https://stream.smotrim.ru/hls3/fasttv02/playlist_3.m3u8
 
 #EXTINF:-0 group-title="Кинозалы", Смотрим 100% Классика
-https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
+https://stream.smotrim.ru/hls3/fasttv03/playlist_3.m3u8
 
 #EXTINF:-0 group-title="Кинозалы", Смотрим 100% Праздник
-https://stream.smotrim.ru/hls/fasttv04/playlist_3.m3u8
+https://stream.smotrim.ru/hls3/fasttv04/playlist_3.m3u8
 
 #EXTINF:-0 group-title="Кинозалы", Смотрим 100% Детское
-https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8
+https://stream.smotrim.ru/hls3/fasttv05/playlist_3.m3u8
 
 #EXTINF:-0 group-title="Кинозалы", Смотрим 100% Факты
-https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8
+https://stream.smotrim.ru/hls3/fasttv06/playlist_3.m3u8
 
 #EXTINF:-0 group-title="Кинозалы", Честный детектив
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
@@ -1194,22 +1186,25 @@ http://fs.uplink.kz/o/mono.ts.m3u8?token=onlinetv
 https://stream1.cinerama.uz/1033/mono.m3u8
 
 #EXTINF:-1 group-title="Детские",Детский Мир
-https://s70378.cdn.ngenix.net/detskij_mir/index.m3u8
+http://tv.ttk.mx:9063
 
 #EXTINF:-1 group-title="Детские",Gulli Girl
-https://s70378.cdn.ngenix.net/gulli/index.m3u8
+https://stream1.cinerama.uz/1445/mono.m3u8
 
 #EXTINF:-1 tvg-id="cartoon-network" group-title="Детские",Cartoon Network HD
 http://45.132.87.69:8080/cartoon_network/index.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские", Nickelodeon
-https://s70378.cdn.ngenix.net/nickelodeon/index.m3u8
+https://stream1.cinerama.uz/1500/mono.m3u8
+
+#EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские", Nick Jr
+https://stream1.cinerama.uz/1501/mono.m3u8
 
 #EXTINF:-1 group-title="Детские", TiJi
-https://s70378.cdn.ngenix.net/tiji/index.m3u8
+https://stream1.cinerama.uz/1441/mono.m3u8
 
 #EXTINF:-1 group-title="Детские",Малыш
-https://s70378.cdn.ngenix.net/malish/index.m3u8
+https://flussonic.mkpnet.ru/tv-66968914d630446e/video.m3u8
 
 #EXTINF:-1 group-title="Детские", КАПИТАН ФАНТАСТИКА HD
 https://stream1.cinerama.uz/1406/playlist.m3u8
@@ -1273,9 +1268,6 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-id="1hd" group-title="Музыкальные",1HD Music
 http://176.118.197.101/1HD/index.m3u8
-
-#EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные",Mezzo
-https://s70378.cdn.ngenix.net/mezzo/index.m3u8
 
 #EXTINF:-1 tvg-id="bridge-tv" group-title="Музыкальные", Bridge TV
 http://stream.mcquack.net/318/index.m3u8
